@@ -1,0 +1,692 @@
+{
+  "sects": [
+    {
+      "id": "s_none",
+      "name": "无所属",
+      "desc": "没有归属，也没有约束。",
+      "skills": [],
+      "shop": []
+    },
+    {
+      "id": "s_koutou",
+      "name": "咒术高专·东京校",
+      "align": "正",
+      "color": "#7fa0c0",
+      "desc": "山里的那所学校。收的都是能看见咒灵的孩子。",
+      "req": {
+        "realm": 1
+      },
+      "master": "高专校长",
+      "hidden": false,
+      "skills": [
+        "k_sense",
+        "k_flow",
+        "sk_kt_barrier",
+        "sk_kt_regulate"
+      ],
+      "shop": [
+        [
+          "food_mint",
+          1
+        ],
+        [
+          "pill_mini",
+          20
+        ],
+        [
+          "k_sense",
+          60
+        ],
+        [
+          "bk_curse",
+          90
+        ],
+        [
+          "ar_uniform",
+          110
+        ],
+        [
+          "k_flow",
+          200
+        ],
+        [
+          "cg_blade",
+          320
+        ],
+        [
+          "sk_kt_barrier",
+          150
+        ],
+        [
+          "sk_kt_regulate",
+          210
+        ],
+        [
+          "bt_cloth",
+          20
+        ],
+        [
+          "k_barrier",
+          180
+        ],
+        [
+          "ar_uniform2",
+          150
+        ],
+        [
+          "ar_uniform3",
+          420
+        ],
+        [
+          "bk_step",
+          200
+        ]
+      ],
+      "daily": "校务、结界维护、带一年级做基础训练，得贡献 6。"
+    },
+    {
+      "id": "s_kyoto",
+      "name": "咒术高专·京都校",
+      "align": "正",
+      "color": "#c0a86a",
+      "desc": "另一所高专。规矩比东京校多，人也比东京校少。",
+      "req": {
+        "realm": 2
+      },
+      "master": "京都校校长",
+      "hidden": false,
+      "skills": [
+        "k_strike",
+        "k_armor",
+        "sk_ky_flame",
+        "sk_ky_ward"
+      ],
+      "shop": [
+        [
+          "food_mint",
+          1
+        ],
+        [
+          "pill_calm",
+          25
+        ],
+        [
+          "k_strike",
+          70
+        ],
+        [
+          "ar_kasaya",
+          140
+        ],
+        [
+          "mat_steel",
+          40
+        ],
+        [
+          "k_armor",
+          220
+        ],
+        [
+          "cg_chain",
+          380
+        ],
+        [
+          "sk_ky_flame",
+          170
+        ],
+        [
+          "sk_ky_ward",
+          220
+        ]
+      ],
+      "daily": "古街巡逻、神社法事协助，得贡献 7。"
+    },
+    {
+      "id": "s_kamo",
+      "name": "加茂家",
+      "align": "中",
+      "color": "#b06060",
+      "desc": "御三家之一。家传的操血之法，讲究的是一脉相承。",
+      "req": {
+        "insight": 55,
+        "realm": 2
+      },
+      "master": "加茂家当主",
+      "hidden": false,
+      "skills": [
+        "k_blast",
+        "sk_bl_blade",
+        "sk_kamo_bolt",
+        "sk_kamo_seal"
+      ],
+      "shop": [
+        [
+          "food_mint",
+          1
+        ],
+        [
+          "mat_flesh",
+          30
+        ],
+        [
+          "k_blast",
+          80
+        ],
+        [
+          "mat_venom",
+          50
+        ],
+        [
+          "sk_bl_blade",
+          260
+        ],
+        [
+          "cg_fan",
+          300
+        ],
+        [
+          "sk_kamo_bolt",
+          240
+        ],
+        [
+          "sk_kamo_seal",
+          300
+        ],
+        [
+          "pill_flesh",
+          160
+        ]
+      ],
+      "daily": "血样整理、家传术式演练，得贡献 8。"
+    },
+    {
+      "id": "s_zenin",
+      "name": "禅院家",
+      "align": "中",
+      "color": "#6f8f6a",
+      "desc": "御三家之一。重术式，更重能不能用出来。",
+      "req": {
+        "root": 60,
+        "realm": 2
+      },
+      "master": "禅院家当主",
+      "hidden": false,
+      "skills": [
+        "k_punch",
+        "sk_ts_dog",
+        "sk_zn_shadow",
+        "sk_zn_gate"
+      ],
+      "shop": [
+        [
+          "food_mint",
+          1
+        ],
+        [
+          "mat_bone",
+          25
+        ],
+        [
+          "k_punch",
+          60
+        ],
+        [
+          "mat_core",
+          120
+        ],
+        [
+          "sk_ts_dog",
+          260
+        ],
+        [
+          "cg_knife",
+          340
+        ],
+        [
+          "sk_zn_shadow",
+          230
+        ],
+        [
+          "sk_zn_gate",
+          280
+        ]
+      ],
+      "daily": "演武、咒具库清点，得贡献 8。"
+    },
+    {
+      "id": "s_gojo",
+      "name": "五条家",
+      "align": "中",
+      "color": "#8f9fd0",
+      "desc": "御三家之一。这一代只剩一个能用术式的人，于是整个家都安静了。",
+      "req": {
+        "insight": 65,
+        "realm": 3
+      },
+      "master": "五条家当主",
+      "hidden": false,
+      "skills": [
+        "k_sense",
+        "k_step",
+        "sk_gj_amp",
+        "sk_gj_veil"
+      ],
+      "shop": [
+        [
+          "food_mint",
+          1
+        ],
+        [
+          "pill_eye",
+          120
+        ],
+        [
+          "k_sense",
+          70
+        ],
+        [
+          "k_step",
+          150
+        ],
+        [
+          "sk_mk_blue",
+          320
+        ],
+        [
+          "ch_lens",
+          260
+        ],
+        [
+          "sk_gj_amp",
+          340
+        ],
+        [
+          "sk_gj_veil",
+          380
+        ]
+      ],
+      "daily": "抄录家传术式、巡护本家结界，得贡献 9。"
+    },
+    {
+      "id": "s_temple",
+      "name": "寺社势力",
+      "align": "正",
+      "color": "#a8936a",
+      "desc": "山门与神社结成的旧同盟。管的是结界，不是人。",
+      "req": {
+        "realm": 2
+      },
+      "master": "山门座主",
+      "hidden": false,
+      "skills": [
+        "k_armor",
+        "k_vow",
+        "sk_ji_purify",
+        "sk_ji_rosary"
+      ],
+      "shop": [
+        [
+          "food_mint",
+          1
+        ],
+        [
+          "mat_paper",
+          15
+        ],
+        [
+          "ch_talisman",
+          50
+        ],
+        [
+          "k_armor",
+          200
+        ],
+        [
+          "ch_bind",
+          240
+        ],
+        [
+          "k_vow",
+          260
+        ],
+        [
+          "sk_ji_purify",
+          180
+        ],
+        [
+          "sk_ji_rosary",
+          230
+        ],
+        [
+          "pill_bind",
+          60
+        ]
+      ],
+      "daily": "扫阶、补结界、抄经，得贡献 6。"
+    },
+    {
+      "id": "s_medical",
+      "name": "反转医会",
+      "align": "正",
+      "color": "#9ab8a8",
+      "desc": "一群只会治不会打的术师。战场上，他们活得最久。",
+      "req": {
+        "insight": 50,
+        "realm": 2
+      },
+      "master": "医会长老",
+      "hidden": false,
+      "skills": [
+        "k_reverse",
+        "sk_hg_suture",
+        "sk_hg_pulse"
+      ],
+      "shop": [
+        [
+          "food_mint",
+          1
+        ],
+        [
+          "pill_heal",
+          25
+        ],
+        [
+          "pill_heal2",
+          80
+        ],
+        [
+          "k_reverse",
+          300
+        ],
+        [
+          "pill_full",
+          260
+        ],
+        [
+          "pill_clean",
+          120
+        ],
+        [
+          "sk_hg_suture",
+          200
+        ],
+        [
+          "sk_hg_pulse",
+          300
+        ]
+      ],
+      "daily": "值班、配药、处理外伤，得贡献 7。"
+    },
+    {
+      "id": "s_hunter",
+      "name": "咒具猎人",
+      "align": "中",
+      "color": "#8f7f6a",
+      "desc": "专门回收流落在外面的咒具，不问来路，只问去处。",
+      "req": {
+        "root": 50,
+        "realm": 2
+      },
+      "master": "猎人把头",
+      "hidden": false,
+      "skills": [
+        "k_weapon",
+        "sk_lr_shot",
+        "sk_lr_track"
+      ],
+      "shop": [
+        [
+          "food_mint",
+          1
+        ],
+        [
+          "mat_steel",
+          35
+        ],
+        [
+          "k_weapon",
+          200
+        ],
+        [
+          "cg_knife",
+          280
+        ],
+        [
+          "mat_shard",
+          90
+        ],
+        [
+          "ch_omamori",
+          160
+        ],
+        [
+          "sk_lr_shot",
+          190
+        ],
+        [
+          "sk_lr_track",
+          240
+        ]
+      ],
+      "daily": "回收咒具、清点货单，得贡献 8。"
+    },
+    {
+      "id": "s_police",
+      "name": "民间协力课",
+      "align": "正",
+      "color": "#7f8f9f",
+      "desc": "挂着民间团体的牌子，做的都是不该摆到台面上的事。",
+      "req": {
+        "realm": 1
+      },
+      "master": "课长",
+      "hidden": false,
+      "skills": [
+        "k_sense",
+        "sk_mj_baton",
+        "sk_mj_intel"
+      ],
+      "shop": [
+        [
+          "food_mint",
+          1
+        ],
+        [
+          "food_ration",
+          10
+        ],
+        [
+          "k_sense",
+          60
+        ],
+        [
+          "bk_sense",
+          120
+        ],
+        [
+          "dr_strong",
+          30
+        ],
+        [
+          "ar_jacket",
+          90
+        ],
+        [
+          "sk_mj_baton",
+          140
+        ],
+        [
+          "sk_mj_intel",
+          180
+        ]
+      ],
+      "daily": "巡街、登记异常事件，得贡献 6。"
+    },
+    {
+      "id": "s_blackmarket",
+      "name": "黑市商会",
+      "align": "中",
+      "color": "#7a7f9c",
+      "desc": "什么都卖，连「不该存在的摊位」也卖。",
+      "req": {
+        "flag": "knows_market"
+      },
+      "master": "商会掌事",
+      "hidden": true,
+      "skills": [
+        "k_weapon",
+        "sk_hm_bid",
+        "sk_hm_fence"
+      ],
+      "shop": [
+        [
+          "food_mint",
+          1
+        ],
+        [
+          "mat_shard",
+          80
+        ],
+        [
+          "mat_core",
+          110
+        ],
+        [
+          "cg_chain",
+          300
+        ],
+        [
+          "ch_lens",
+          240
+        ],
+        [
+          "k_weapon",
+          220
+        ],
+        [
+          "bk_weapon",
+          260
+        ],
+        [
+          "sk_hm_bid",
+          330
+        ],
+        [
+          "sk_hm_fence",
+          280
+        ]
+      ],
+      "daily": "看场子、押货、谈价，得贡献 9。"
+    },
+    {
+      "id": "s_curse",
+      "name": "诅咒师同盟",
+      "align": "邪",
+      "color": "#a0708f",
+      "desc": "不承认咒术界的规矩，也不承认咒术界。",
+      "req": {
+        "flag": "knows_curse"
+      },
+      "master": "同盟主持",
+      "hidden": true,
+      "skills": [
+        "k_vow",
+        "sk_zs_rites",
+        "sk_zs_offer"
+      ],
+      "shop": [
+        [
+          "food_mint",
+          1
+        ],
+        [
+          "pill_rage",
+          70
+        ],
+        [
+          "mat_venom",
+          60
+        ],
+        [
+          "k_vow",
+          240
+        ],
+        [
+          "cg_staff",
+          320
+        ],
+        [
+          "ch_bind",
+          200
+        ],
+        [
+          "sk_zs_rites",
+          320
+        ],
+        [
+          "sk_zs_offer",
+          300
+        ]
+      ],
+      "daily": "接私活、处理麻烦，得贡献 9。"
+    }
+  ],
+  "members": {
+    "s_koutou": [
+      "npc_gatekeeper",
+      "npc_teacher",
+      "npc_librarian",
+      "npc_senpai",
+      "npc_cook"
+    ],
+    "s_kyoto": [
+      "npc_kyostudent",
+      "npc_monk",
+      "npc_oldshop"
+    ],
+    "s_kamo": [
+      "npc_kamo_ke",
+      "npc_kamo_gi",
+      "npc_kamo_syu",
+      "npc_kamo_so"
+    ],
+    "s_zenin": [
+      "npc_zenin_gi",
+      "npc_zenin_shu",
+      "npc_zenin_mon",
+      "npc_zenin_syu"
+    ],
+    "s_gojo": [
+      "npc_gojo_gi",
+      "npc_gojo_syu",
+      "npc_gojo_ki",
+      "npc_gojo_shu"
+    ],
+    "s_temple": [
+      "npc_priest",
+      "npc_ascetic"
+    ],
+    "s_medical": [
+      "npc_nurse",
+      "npc_doctor",
+      "npc_mort"
+    ],
+    "s_hunter": [
+      "npc_hunter",
+      "npc_woodman",
+      "npc_armsmith"
+    ],
+    "s_police": [
+      "npc_info"
+    ],
+    "s_blackmarket": [
+      "npc_broker",
+      "npc_auctioneer"
+    ],
+    "s_curse": [
+      "npc_hermit",
+      "npc_echo"
+    ]
+  },
+  "sparNames": {}
+}

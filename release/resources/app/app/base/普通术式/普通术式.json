@@ -1,0 +1,1394 @@
+[
+  {
+    "id": "k_punch",
+    "name": "咒力缠绕",
+    "kind": "atk",
+    "q": 1,
+    "common": true,
+    "atkType": "phy",
+    "cost": 0,
+    "mult": 1.15,
+    "hits": 1,
+    "cri": 2,
+    "desc": "把咒力裹在拳头上。打咒灵时，物理攻击也算数。"
+  },
+  {
+    "id": "k_blast",
+    "name": "咒力放出",
+    "kind": "atk",
+    "q": 2,
+    "common": true,
+    "atkType": "cur",
+    "cost": 10,
+    "mult": 1.3,
+    "hits": 1,
+    "cri": 3,
+    "desc": "最基础的一手：把咒力从掌心推出去。"
+  },
+  {
+    "id": "k_strike",
+    "name": "崩拳",
+    "kind": "atk",
+    "q": 3,
+    "common": true,
+    "atkType": "phy",
+    "cost": 12,
+    "mult": 1.9,
+    "hits": 1,
+    "cri": 6,
+    "desc": "把咒力压进肘底，一次只打一个点。肉身流的看家本领。"
+  },
+  {
+    "id": "k_vow",
+    "name": "束缚·誓约",
+    "kind": "atk",
+    "q": 6,
+    "common": true,
+    "atkType": "cur",
+    "cost": 0,
+    "mult": 2.4,
+    "hits": 1,
+    "cri": 10,
+    "eff": {
+      "recoil": 0.1
+    },
+    "rare": true,
+    "desc": "以自身为代价立誓，换一次超出一击。发誓的人，先付账。"
+  },
+  {
+    "id": "k_black",
+    "name": "黒閃",
+    "kind": "passive",
+    "q": 5,
+    "common": true,
+    "rare": true,
+    "desc": "被动，不能主动打出：偶尔会撞上那一瞬，那一击会重得多。",
+    "passive": "触发后会挂上一段时间的增益：心性大涨，咒力与物理都重得多；可以叠起来，每层各自计时。只有某种特殊出身能靠自身把这一手练上去，其余出身全凭运气。"
+  },
+  {
+    "id": "k_flow",
+    "name": "咒力循环",
+    "kind": "nei",
+    "q": 2,
+    "common": true,
+    "nei": {
+      "curMax": 0.1,
+      "ceEff": 0.02
+    },
+    "desc": "把咒力在体内盘成环，越盘越厚。"
+  },
+  {
+    "id": "k_armor",
+    "name": "咒力护体",
+    "kind": "nei",
+    "q": 2,
+    "common": true,
+    "nei": {
+      "def": 7,
+      "hp": 50
+    },
+    "desc": "常时张开的一层薄膜，看不见，但挡得住。"
+  },
+  {
+    "id": "k_reverse",
+    "name": "反转术式",
+    "kind": "nei",
+    "q": 5,
+    "common": true,
+    "rare": true,
+    "nei": {
+      "heal": 0.035
+    },
+    "desc": "把咒力反向运转，把「破坏」变成「再生」。极难，但值得。"
+  },
+  {
+    "id": "k_weapon",
+    "name": "咒具精通",
+    "kind": "qing",
+    "q": 2,
+    "common": true,
+    "qing": {
+      "phyAtk": 10
+    },
+    "desc": "咒具在会用人手里，比术式更省咒力。"
+  },
+  {
+    "id": "k_barrier",
+    "name": "结界术",
+    "kind": "nei",
+    "q": 3,
+    "common": true,
+    "maxLv": 3,
+    "nei": {
+      "barrier": 0.08
+    },
+    "desc": "把一片地圈起来，谁的退路都在你手里。练得越深，越压得住想跑的人。"
+  },
+  {
+    "id": "k_step",
+    "name": "瞬步",
+    "kind": "qing",
+    "q": 2,
+    "common": true,
+    "qing": {
+      "dodge": 10,
+      "esc": 0.3
+    },
+    "desc": "脚下一错，人就到了三步之外。"
+  },
+  {
+    "id": "k_sense",
+    "name": "咒力感知",
+    "kind": "qing",
+    "q": 3,
+    "common": true,
+    "qing": {
+      "crit": 6,
+      "ceCtl": 0.03
+    },
+    "desc": "看得见流向，就找得到破口。"
+  },
+  {
+    "id": "sk_mk_limitless",
+    "name": "无下限",
+    "kind": "nei",
+    "q": 6,
+    "innate": "t_mukagen",
+    "lv": 1,
+    "nei": {
+      "def": 10,
+      "hp": 60
+    },
+    "desc": "把「无穷」摊在身前的一层。攻击不是被挡下，是永远走不完那段距离。"
+  },
+  {
+    "id": "sk_mk_blue",
+    "name": "苍",
+    "kind": "atk",
+    "q": 5,
+    "innate": "t_mukagen",
+    "lv": 3,
+    "atkType": "cur",
+    "cost": 20,
+    "mult": 1.95,
+    "hits": 1,
+    "cri": 5,
+    "desc": "把无穷压成一点，向前推出。"
+  },
+  {
+    "id": "sk_mk_red",
+    "name": "赫",
+    "kind": "atk",
+    "q": 6,
+    "innate": "t_mukagen",
+    "lv": 5,
+    "atkType": "cur",
+    "cost": 30,
+    "mult": 2.55,
+    "hits": 1,
+    "cri": 8,
+    "desc": "反向的一击。推的是「正」，落的是「反」。"
+  },
+  {
+    "id": "sk_mk_move",
+    "name": "瞬移",
+    "kind": "qing",
+    "q": 5,
+    "innate": "t_mukagen",
+    "lv": 5,
+    "qing": {
+      "dodge": 26,
+      "esc": 0.65,
+      "ceCtl": 0.04
+    },
+    "desc": "把两点之间那段路收起来。"
+  },
+  {
+    "id": "sk_mk_purple",
+    "name": "茈",
+    "kind": "atk",
+    "q": 7,
+    "innate": "t_mukagen",
+    "lv": 7,
+    "atkType": "cur",
+    "cost": 60,
+    "mult": 4.05,
+    "hits": 1,
+    "cri": 12,
+    "desc": "苍与赫叠在一起，中间那块地方，什么也不剩。"
+  },
+  {
+    "id": "dom_mukagen",
+    "name": "领域展开·无量空处",
+    "kind": "atk",
+    "q": 7,
+    "innate": "t_mukagen",
+    "lv": 8,
+    "domain": true,
+    "domKind": "infoOverload",
+    "atkType": "cur",
+    "cost": 130,
+    "mult": 5,
+    "hits": 1,
+    "cri": 20,
+    "eff": {
+      "stun": 2,
+      "trueDamage": 0.25
+    },
+    "desc": "一切被拽进来的人，都要接受无穷次的「做得到」：永远做不完，也永远停不下。"
+  },
+  {
+    "id": "sk_jj_stop",
+    "name": "咒言·止",
+    "kind": "atk",
+    "q": 4,
+    "innate": "t_juju",
+    "lv": 1,
+    "atkType": "cur",
+    "cost": 12,
+    "mult": 1.1,
+    "hits": 1,
+    "cri": 2,
+    "eff": {
+      "stun": 1
+    },
+    "desc": "一句话，把对方的动作钉在原地。"
+  },
+  {
+    "id": "sk_jj_break",
+    "name": "咒言·碎",
+    "kind": "atk",
+    "q": 5,
+    "innate": "t_juju",
+    "lv": 3,
+    "atkType": "cur",
+    "cost": 24,
+    "mult": 2.25,
+    "hits": 1,
+    "cri": 6,
+    "desc": "说到「碎」字时，声音本身就是刀。"
+  },
+  {
+    "id": "sk_jj_bind",
+    "name": "咒言·缚",
+    "kind": "atk",
+    "q": 5,
+    "innate": "t_juju",
+    "lv": 5,
+    "atkType": "cur",
+    "cost": 30,
+    "mult": 1.45,
+    "hits": 1,
+    "cri": 4,
+    "eff": {
+      "weak": 0.4
+    },
+    "desc": "把对方的咒力压住一截——他喊不出声，就使不出力。"
+  },
+  {
+    "id": "sk_jj_burst",
+    "name": "咒言·爆",
+    "kind": "atk",
+    "q": 6,
+    "innate": "t_juju",
+    "lv": 7,
+    "atkType": "cur",
+    "cost": 44,
+    "mult": 3.3,
+    "hits": 1,
+    "cri": 10,
+    "eff": {
+      "recoil": 0.08
+    },
+    "desc": "把整句咒言一口气喊出去。喉咙会渗血，但对面会先碎。"
+  },
+  {
+    "id": "dom_juju",
+    "name": "领域展开·万言无声",
+    "kind": "atk",
+    "q": 7,
+    "innate": "t_juju",
+    "lv": 8,
+    "domain": true,
+    "domKind": "command",
+    "atkType": "cur",
+    "cost": 120,
+    "mult": 3.6,
+    "hits": 2,
+    "cri": 14,
+    "eff": {
+      "stun": 2,
+      "weak": 0.35
+    },
+    "desc": "在一个没有声音的领域里，所有说过的话同时生效。"
+  },
+  {
+    "id": "sk_ts_dog",
+    "name": "玉犬",
+    "kind": "atk",
+    "cls": "a",
+    "q": 4,
+    "innate": "t_jukai",
+    "lv": 1,
+    "atkType": "cur",
+    "cost": 14,
+    "mult": 1.55,
+    "hits": 1,
+    "cri": 4,
+    "desc": "影子裂开，两条狗先冲出去。"
+  },
+  {
+    "id": "sk_ts_dog2",
+    "name": "玉犬·浑",
+    "kind": "atk",
+    "cls": "a",
+    "q": 4,
+    "innate": "t_jukai",
+    "lv": 1,
+    "atkType": "cur",
+    "cost": 14,
+    "mult": 1.55,
+    "hits": 1,
+    "cri": 4,
+    "desc": "两犬合成一只。少了一张嘴，多了一身分量。"
+  },
+  {
+    "id": "sk_ts_nue",
+    "name": "鵺",
+    "kind": "atk",
+    "cls": "a",
+    "q": 4,
+    "innate": "t_jukai",
+    "lv": 1,
+    "atkType": "cur",
+    "cost": 14,
+    "mult": 1.55,
+    "hits": 1,
+    "cri": 4,
+    "eff": {
+      "drain": 0.3
+    },
+    "desc": "黑影展翅。被它擦过的地方，咒力会被抽走一截。"
+  },
+  {
+    "id": "sk_ts_snake",
+    "name": "大蛇",
+    "kind": "atk",
+    "cls": "b",
+    "q": 5,
+    "innate": "t_jukai",
+    "lv": 3,
+    "atkType": "cur",
+    "cost": 24,
+    "mult": 2.15,
+    "hits": 1,
+    "cri": 7,
+    "eff": {
+      "pierce": 0.5
+    },
+    "desc": "从影子里钻出来的东西，无视大部分防护。"
+  },
+  {
+    "id": "sk_ts_toad",
+    "name": "蝦蟇",
+    "kind": "atk",
+    "cls": "b",
+    "q": 5,
+    "innate": "t_jukai",
+    "lv": 3,
+    "atkType": "cur",
+    "cost": 24,
+    "mult": 2.15,
+    "hits": 1,
+    "cri": 7,
+    "eff": {
+      "stun": 1
+    },
+    "desc": "蟾蜍的舌头比人快。缠住了，就动不了。"
+  },
+  {
+    "id": "sk_ts_rabbit",
+    "name": "脱兔",
+    "kind": "atk",
+    "cls": "b",
+    "q": 5,
+    "innate": "t_jukai",
+    "lv": 3,
+    "atkType": "cur",
+    "cost": 24,
+    "mult": 2.15,
+    "hits": 1,
+    "cri": 7,
+    "desc": "一窝兔子四处乱窜，你不必管它咬的是哪儿。"
+  },
+  {
+    "id": "sk_ts_eleph",
+    "name": "満象",
+    "kind": "atk",
+    "cls": "c",
+    "q": 5,
+    "innate": "t_jukai",
+    "lv": 5,
+    "atkType": "cur",
+    "cost": 34,
+    "mult": 2.85,
+    "hits": 1,
+    "cri": 10,
+    "desc": "影子站起来，比屋顶还高。"
+  },
+  {
+    "id": "sk_ts_bull",
+    "name": "貫牛",
+    "kind": "atk",
+    "cls": "c",
+    "q": 5,
+    "innate": "t_jukai",
+    "lv": 5,
+    "atkType": "cur",
+    "cost": 34,
+    "mult": 2.85,
+    "hits": 1,
+    "cri": 10,
+    "eff": {
+      "pull": 0.2
+    },
+    "desc": "牛低着头冲过来。撞上之前，你已经被压住了。"
+  },
+  {
+    "id": "sk_ts_wolf",
+    "name": "影狼",
+    "kind": "atk",
+    "cls": "c",
+    "q": 5,
+    "innate": "t_jukai",
+    "lv": 5,
+    "atkType": "cur",
+    "cost": 34,
+    "mult": 2.85,
+    "hits": 1,
+    "cri": 10,
+    "desc": "狼咬住的地方，会留下一个记号。"
+  },
+  {
+    "id": "sk_ts_maho",
+    "name": "魔虚罗",
+    "kind": "atk",
+    "cls": "m",
+    "q": 7,
+    "innate": "t_jukai",
+    "lv": 7,
+    "atkType": "cur",
+    "cost": 56,
+    "mult": 3.6,
+    "hits": 1,
+    "cri": 10,
+    "eff": {
+      "adapt": true
+    },
+    "desc": "它第一次挨打时会记住，第二次打它就不好使了。"
+  },
+  {
+    "id": "dom_jukai",
+    "name": "领域展开·嵌合暗翳庭",
+    "kind": "atk",
+    "q": 7,
+    "innate": "t_jukai",
+    "lv": 8,
+    "domain": true,
+    "domKind": "shadowSwarm",
+    "atkType": "cur",
+    "cost": 140,
+    "mult": 4.4,
+    "hits": 3,
+    "cri": 12,
+    "eff": {
+      "drain": 0.2
+    },
+    "desc": "脚下全成了影子。影子里伸出来的东西，比影子多。"
+  },
+  {
+    "id": "sk_mui_touch",
+    "name": "无为转变",
+    "kind": "atk",
+    "q": 5,
+    "innate": "t_mui",
+    "lv": 1,
+    "atkType": "cur",
+    "cost": 16,
+    "mult": 1.45,
+    "hits": 1,
+    "cri": 4,
+    "eff": {
+      "defDown": 0.25
+    },
+    "desc": "手贴上对方，然后改变他「本来该是什么形状」。"
+  },
+  {
+    "id": "sk_mui_self",
+    "name": "改造自躯",
+    "kind": "nei",
+    "q": 5,
+    "innate": "t_mui",
+    "lv": 3,
+    "nei": {
+      "def": 9,
+      "hp": 60,
+      "heal": 0.02
+    },
+    "desc": "把自己也改一改：更硬、更快、更不容易死。"
+  },
+  {
+    "id": "sk_mui_swarm",
+    "name": "改造人",
+    "kind": "atk",
+    "q": 5,
+    "innate": "t_mui",
+    "lv": 5,
+    "atkType": "cur",
+    "cost": 30,
+    "mult": 2.4,
+    "hits": 3,
+    "cri": 6,
+    "desc": "你脚下的改造人一起抬头。"
+  },
+  {
+    "id": "sk_mui_soul",
+    "name": "灵魂触碰",
+    "kind": "atk",
+    "q": 6,
+    "innate": "t_mui",
+    "lv": 7,
+    "atkType": "cur",
+    "cost": 48,
+    "mult": 3.4,
+    "hits": 1,
+    "cri": 10,
+    "eff": {
+      "trueDamage": 0.35
+    },
+    "desc": "直接摸灵魂。肉体再硬，也没有意义。"
+  },
+  {
+    "id": "dom_mui",
+    "name": "领域展开·自闭圆顿裹",
+    "kind": "atk",
+    "q": 7,
+    "innate": "t_mui",
+    "lv": 8,
+    "domain": true,
+    "domKind": "soulTrue",
+    "atkType": "cur",
+    "cost": 130,
+    "mult": 4.2,
+    "hits": 2,
+    "cri": 14,
+    "eff": {
+      "trueDamage": 0.3,
+      "defDown": 0.3
+    },
+    "desc": "一个谁都跑不掉的圆。在里面，只有你能决定「什么形状」。"
+  },
+  {
+    "id": "sk_bl_blade",
+    "name": "血刃",
+    "kind": "atk",
+    "q": 4,
+    "innate": "t_blood",
+    "lv": 1,
+    "atkType": "cur",
+    "cost": 12,
+    "mult": 1.7,
+    "hits": 1,
+    "cri": 4,
+    "desc": "把血从指尖抽出来，压成一条锋。"
+  },
+  {
+    "id": "sk_bl_venom",
+    "name": "飞血毒",
+    "kind": "atk",
+    "q": 5,
+    "innate": "t_blood",
+    "lv": 3,
+    "atkType": "cur",
+    "cost": 22,
+    "mult": 1.55,
+    "hits": 1,
+    "cri": 6,
+    "eff": {
+      "dot": 0.06
+    },
+    "desc": "血里掺了毒，落到皮肤上就开始烂。"
+  },
+  {
+    "id": "sk_bl_armor",
+    "name": "血铠",
+    "kind": "nei",
+    "q": 5,
+    "innate": "t_blood",
+    "lv": 5,
+    "nei": {
+      "def": 14,
+      "hp": 90
+    },
+    "desc": "把血凝在体表，硬得像铁，但那是你自己的血。"
+  },
+  {
+    "id": "sk_bl_manip",
+    "name": "操血",
+    "kind": "atk",
+    "q": 6,
+    "innate": "t_blood",
+    "lv": 7,
+    "atkType": "cur",
+    "cost": 40,
+    "mult": 3.05,
+    "hits": 1,
+    "cri": 10,
+    "eff": {
+      "lifesteal": 0.3
+    },
+    "desc": "血往哪儿流，由你说了算——包括对方身体里的。"
+  },
+  {
+    "id": "dom_blood",
+    "name": "领域展开·血海无涯",
+    "kind": "atk",
+    "q": 7,
+    "innate": "t_blood",
+    "lv": 8,
+    "domain": true,
+    "domKind": "bloodPrice",
+    "atkType": "cur",
+    "cost": 120,
+    "mult": 4,
+    "hits": 2,
+    "cri": 12,
+    "eff": {
+      "lifesteal": 0.25
+    },
+    "desc": "一脚踩下去，全是血。血底下有东西在动。"
+  },
+  {
+    "id": "sk_mv_dismantle",
+    "name": "解",
+    "kind": "atk",
+    "q": 5,
+    "innate": "t_malevolent",
+    "lv": 1,
+    "atkType": "phy",
+    "cost": 12,
+    "mult": 1.85,
+    "hits": 2,
+    "cri": 6,
+    "eff": {
+      "slash": 1
+    },
+    "desc": "「解」——无形的斩击飞出去。切口很平，血要过一会儿才出来。"
+  },
+  {
+    "id": "sk_mv_cleave",
+    "name": "捌",
+    "kind": "atk",
+    "q": 6,
+    "innate": "t_malevolent",
+    "lv": 3,
+    "atkType": "phy",
+    "cost": 26,
+    "mult": 2.7,
+    "hits": 1,
+    "cri": 8,
+    "eff": {
+      "pierce": 0.6,
+      "slash": 1
+    },
+    "desc": "「捌」——照着对方的硬度调整的一刀。它越硬，这一刀越合身。"
+  },
+  {
+    "id": "sk_mv_flame",
+    "name": "開",
+    "kind": "atk",
+    "q": 6,
+    "innate": "t_malevolent",
+    "lv": 5,
+    "atkType": "cur",
+    "cost": 40,
+    "mult": 3.1,
+    "hits": 1,
+    "cri": 10,
+    "eff": {
+      "pierce": 0.3,
+      "dot": 0.08
+    },
+    "desc": "把咒力压成一枚箭。松手之后，剩下的就不是你的了。"
+  },
+  {
+    "id": "sk_mv_web",
+    "name": "蛛絲",
+    "kind": "qing",
+    "q": 5,
+    "innate": "t_malevolent",
+    "lv": 7,
+    "qing": {
+      "dodge": 22,
+      "crit": 8,
+      "phyAtk": 14
+    },
+    "desc": "看不见的丝铺在四周。谁撞上来，谁先断。"
+  },
+  {
+    "id": "dom_malevolent",
+    "name": "领域展开·伏魔御厨子",
+    "kind": "atk",
+    "q": 7,
+    "innate": "t_malevolent",
+    "lv": 8,
+    "domain": true,
+    "domKind": "openBarrier",
+    "atkType": "phy",
+    "cost": 140,
+    "mult": 3.4,
+    "hits": 4,
+    "cri": 14,
+    "eff": {
+      "pierce": 0.45,
+      "slash": 1
+    },
+    "desc": "不设结界，把整个领域摊开。范围内的东西，会被反复地切开，直到没有可以再切的地方。"
+  },
+  {
+    "id": "sk_rt_point",
+    "name": "二七分点",
+    "kind": "atk",
+    "q": 5,
+    "innate": "t_ratio",
+    "lv": 1,
+    "atkType": "phy",
+    "cost": 14,
+    "mult": 1.9,
+    "hits": 1,
+    "cri": 14,
+    "desc": "把对方身上量成十份，只打第七份。"
+  },
+  {
+    "id": "sk_rt_break",
+    "name": "三七断点",
+    "kind": "atk",
+    "q": 5,
+    "innate": "t_ratio",
+    "lv": 3,
+    "atkType": "phy",
+    "cost": 26,
+    "mult": 2.45,
+    "hits": 1,
+    "cri": 16,
+    "eff": {
+      "pierce": 0.4
+    },
+    "desc": "点找得准，防护就是纸。"
+  },
+  {
+    "id": "sk_rt_weak",
+    "name": "弱点识破",
+    "kind": "nei",
+    "q": 5,
+    "innate": "t_ratio",
+    "lv": 5,
+    "nei": {
+      "def": 6,
+      "hp": 40
+    },
+    "desc": "站得久了，你会看见每个东西身上那条最短的线。"
+  },
+  {
+    "id": "sk_rt_time",
+    "name": "时间外劳动",
+    "kind": "atk",
+    "q": 6,
+    "innate": "t_ratio",
+    "lv": 7,
+    "atkType": "phy",
+    "cost": 44,
+    "mult": 3.35,
+    "hits": 1,
+    "cri": 20,
+    "desc": "「今天已经下班了。」——所以他可以没有顾忌地用力。"
+  },
+  {
+    "id": "dom_ratio",
+    "name": "领域展开·七三律",
+    "kind": "atk",
+    "q": 7,
+    "innate": "t_ratio",
+    "lv": 8,
+    "domain": true,
+    "domKind": "weakPoint",
+    "atkType": "phy",
+    "cost": 130,
+    "mult": 4.1,
+    "hits": 3,
+    "cri": 22,
+    "eff": {
+      "pierce": 0.5
+    },
+    "desc": "领域里所有东西都被量成十份。第七份在哪儿，只有你知道。"
+  },
+  {
+    "id": "sk_pp_puppet",
+    "name": "咒骸出击",
+    "kind": "atk",
+    "q": 4,
+    "innate": "t_puppet",
+    "lv": 1,
+    "atkType": "cur",
+    "cost": 12,
+    "mult": 1.7,
+    "hits": 2,
+    "cri": 3,
+    "desc": "背后的咒骸先动。你只需要抬一下手指。"
+  },
+  {
+    "id": "sk_pp_gun",
+    "name": "操术·连射",
+    "kind": "atk",
+    "q": 5,
+    "innate": "t_puppet",
+    "lv": 3,
+    "atkType": "cur",
+    "cost": 24,
+    "mult": 1.1,
+    "hits": 5,
+    "cri": 5,
+    "desc": "不是枪，但打起来比枪密。"
+  },
+  {
+    "id": "sk_pp_shield",
+    "name": "咒骸护壁",
+    "kind": "nei",
+    "q": 5,
+    "innate": "t_puppet",
+    "lv": 5,
+    "nei": {
+      "def": 16,
+      "hp": 70
+    },
+    "desc": "三具咒骸叠在身前，替你挨。"
+  },
+  {
+    "id": "sk_pp_burst",
+    "name": "自爆咒骸",
+    "kind": "atk",
+    "q": 6,
+    "innate": "t_puppet",
+    "lv": 7,
+    "atkType": "cur",
+    "cost": 38,
+    "mult": 3.6,
+    "hits": 1,
+    "cri": 10,
+    "eff": {
+      "trueDamage": 0.3
+    },
+    "desc": "它自己走过去，然后没有回来。"
+  },
+  {
+    "id": "dom_puppet",
+    "name": "领域展开·百骸机神",
+    "kind": "atk",
+    "q": 7,
+    "innate": "t_puppet",
+    "lv": 8,
+    "domain": true,
+    "domKind": "turretShield",
+    "atkType": "cur",
+    "cost": 130,
+    "mult": 1.5,
+    "hits": 6,
+    "cri": 10,
+    "eff": {
+      "defDown": 0.25
+    },
+    "desc": "整个领域里站满了你。每一个都在动，每一个都会疼。"
+  },
+  {
+    "id": "sk_cs_spear",
+    "name": "构筑·枪",
+    "kind": "atk",
+    "q": 4,
+    "innate": "t_const",
+    "lv": 1,
+    "atkType": "phy",
+    "cost": 12,
+    "mult": 1.75,
+    "hits": 1,
+    "cri": 5,
+    "desc": "把咒力压成一支枪。它存在的时间不长，但够用。"
+  },
+  {
+    "id": "sk_cs_wall",
+    "name": "构筑·壁",
+    "kind": "nei",
+    "q": 5,
+    "innate": "t_const",
+    "lv": 3,
+    "nei": {
+      "def": 18,
+      "hp": 80
+    },
+    "desc": "一层、两层、三层，每一层都比上一层薄。"
+  },
+  {
+    "id": "sk_cs_net",
+    "name": "构筑·网",
+    "kind": "atk",
+    "q": 5,
+    "innate": "t_const",
+    "lv": 5,
+    "atkType": "phy",
+    "cost": 26,
+    "mult": 2.2,
+    "hits": 2,
+    "cri": 6,
+    "eff": {
+      "weak": 0.35
+    },
+    "desc": "网不住命，能网住手。"
+  },
+  {
+    "id": "sk_cs_colossus",
+    "name": "构筑·巨像",
+    "kind": "atk",
+    "q": 6,
+    "innate": "t_const",
+    "lv": 7,
+    "atkType": "phy",
+    "cost": 46,
+    "mult": 3.5,
+    "hits": 1,
+    "cri": 8,
+    "eff": {
+      "pierce": 0.35
+    },
+    "desc": "把能想到的最重的东西，一次做出来。"
+  },
+  {
+    "id": "dom_const",
+    "name": "领域展开·千锤百炼",
+    "kind": "atk",
+    "q": 7,
+    "innate": "t_const",
+    "lv": 8,
+    "domain": true,
+    "domKind": "craftRandom",
+    "atkType": "phy",
+    "cost": 130,
+    "mult": 3.3,
+    "hits": 3,
+    "cri": 12,
+    "eff": {
+      "pierce": 0.35,
+      "defDown": 0.2
+    },
+    "desc": "领域里落下的东西，都是你想出来的。想到什么，就有什么砸下来。"
+  },
+  {
+    "id": "sk_bg_swap",
+    "name": "换位",
+    "kind": "atk",
+    "q": 4,
+    "innate": "t_boogie",
+    "lv": 1,
+    "atkType": "cur",
+    "cost": 16,
+    "mult": 1.5,
+    "hits": 1,
+    "cri": 4,
+    "eff": {
+      "stun": 1
+    },
+    "desc": "把对手挪到你刚站的地方。他会有一瞬找不到你。"
+  },
+  {
+    "id": "sk_bg_link",
+    "name": "连携",
+    "kind": "atk",
+    "q": 5,
+    "innate": "t_boogie",
+    "lv": 3,
+    "atkType": "cur",
+    "cost": 26,
+    "mult": 2.3,
+    "hits": 2,
+    "cri": 6,
+    "desc": "两次出手之间把自己换过去，于是两下变成了一下。"
+  },
+  {
+    "id": "sk_bg_chaos",
+    "name": "乱阵",
+    "kind": "atk",
+    "q": 6,
+    "innate": "t_boogie",
+    "lv": 5,
+    "atkType": "cur",
+    "cost": 32,
+    "mult": 2.1,
+    "hits": 3,
+    "cri": 8,
+    "eff": {
+      "weak": 0.3
+    },
+    "desc": "把整片场地的位置重新排一遍。"
+  },
+  {
+    "id": "sk_bg_twin",
+    "name": "双子换位",
+    "kind": "qing",
+    "q": 6,
+    "innate": "t_boogie",
+    "lv": 7,
+    "qing": {
+      "dodge": 22,
+      "esc": 0.55,
+      "ceCtl": 0.05
+    },
+    "desc": "只要还有一个「可换的对象」，你就永远不会被围住。"
+  },
+  {
+    "id": "dom_boogie",
+    "name": "领域展开·天手力",
+    "kind": "atk",
+    "q": 7,
+    "innate": "t_boogie",
+    "lv": 8,
+    "domain": true,
+    "domKind": "position",
+    "atkType": "cur",
+    "cost": 120,
+    "mult": 3.8,
+    "hits": 2,
+    "cri": 16,
+    "eff": {
+      "stun": 2,
+      "defDown": 0.15
+    },
+    "desc": "领域之内，谁站在哪里由你决定。"
+  },
+  {
+    "id": "sk_pj_grid",
+    "name": "二十四格",
+    "kind": "atk",
+    "q": 4,
+    "innate": "t_projection",
+    "lv": 1,
+    "atkType": "phy",
+    "cost": 12,
+    "mult": 1.7,
+    "hits": 1,
+    "cri": 5,
+    "desc": "把一秒切成二十四格，一格一格地推进。"
+  },
+  {
+    "id": "sk_pj_accel",
+    "name": "加速",
+    "kind": "qing",
+    "q": 5,
+    "innate": "t_projection",
+    "lv": 3,
+    "qing": {
+      "dodge": 14,
+      "phyAtk": 12,
+      "crit": 4
+    },
+    "desc": "动作比对方的预判快半格。"
+  },
+  {
+    "id": "sk_pj_after",
+    "name": "残像",
+    "kind": "qing",
+    "q": 5,
+    "innate": "t_projection",
+    "lv": 5,
+    "qing": {
+      "dodge": 20,
+      "esc": 0.5
+    },
+    "desc": "你还在原地，别人看到的那个「你」已经走了。"
+  },
+  {
+    "id": "sk_pj_frame",
+    "name": "帧击",
+    "kind": "atk",
+    "q": 6,
+    "innate": "t_projection",
+    "lv": 7,
+    "atkType": "phy",
+    "cost": 40,
+    "mult": 3.4,
+    "hits": 2,
+    "cri": 14,
+    "eff": {
+      "pierce": 0.3
+    },
+    "desc": "专挑对方动作接不上的那一帧打。"
+  },
+  {
+    "id": "dom_projection",
+    "name": "领域展开·时胞月宫殿",
+    "kind": "atk",
+    "q": 7,
+    "innate": "t_projection",
+    "lv": 8,
+    "domain": true,
+    "domKind": "frameLock",
+    "atkType": "phy",
+    "cost": 125,
+    "mult": 3.6,
+    "hits": 3,
+    "cri": 16,
+    "eff": {
+      "stun": 1,
+      "pierce": 0.25
+    },
+    "desc": "领域里所有人的动作都被定格，只有你还在走。"
+  },
+  {
+    "id": "sk_mm_borrow",
+    "name": "借术",
+    "kind": "atk",
+    "q": 5,
+    "innate": "t_mimic",
+    "lv": 1,
+    "atkType": "cur",
+    "cost": 14,
+    "mult": 1.6,
+    "hits": 1,
+    "cri": 6,
+    "desc": "打出一次你「见过」的术式。来源不重要，用得出来就行。"
+  },
+  {
+    "id": "sk_mm_dual",
+    "name": "双持",
+    "kind": "atk",
+    "q": 5,
+    "innate": "t_mimic",
+    "lv": 3,
+    "atkType": "cur",
+    "cost": 24,
+    "mult": 2.1,
+    "hits": 2,
+    "cri": 8,
+    "desc": "同时用两门借来的术式。"
+  },
+  {
+    "id": "sk_mm_trio",
+    "name": "三重奏",
+    "kind": "atk",
+    "q": 6,
+    "innate": "t_mimic",
+    "lv": 5,
+    "atkType": "cur",
+    "cost": 34,
+    "mult": 2.4,
+    "hits": 3,
+    "cri": 10,
+    "desc": "三门一起放。撑不撑得住，是你自己的事。"
+  },
+  {
+    "id": "sk_mm_rika",
+    "name": "里香",
+    "kind": "atk",
+    "q": 7,
+    "innate": "t_mimic",
+    "lv": 7,
+    "atkType": "cur",
+    "cost": 52,
+    "mult": 3.9,
+    "hits": 1,
+    "cri": 15,
+    "eff": {
+      "lifesteal": 0.15
+    },
+    "desc": "模仿来的技能威力更狠，并按剩余次数临时加咒力上限。"
+  },
+  {
+    "id": "dom_mimic",
+    "name": "领域展开·真赝相爱",
+    "kind": "atk",
+    "q": 7,
+    "innate": "t_mimic",
+    "lv": 8,
+    "domain": true,
+    "domKind": "warehouse",
+    "atkType": "cur",
+    "cost": 135,
+    "mult": 4.4,
+    "hits": 2,
+    "cri": 18,
+    "eff": {
+      "weak": 0.35
+    },
+    "desc": "领域里所有见过的术式都摆在那儿，你可以一件件拿起来用。"
+  },
+  {
+    "id": "sk_hk_dice",
+    "name": "掷骰",
+    "kind": "atk",
+    "q": 4,
+    "innate": "t_hakari",
+    "lv": 1,
+    "atkType": "phy",
+    "cost": 10,
+    "mult": 1.5,
+    "hits": 1,
+    "cri": 8,
+    "desc": "点数决定这一下有多重。"
+  },
+  {
+    "id": "sk_hk_bet",
+    "name": "押注",
+    "kind": "atk",
+    "q": 5,
+    "innate": "t_hakari",
+    "lv": 3,
+    "atkType": "phy",
+    "cost": 22,
+    "mult": 2.4,
+    "hits": 1,
+    "cri": 12,
+    "eff": {
+      "recoil": 0.08
+    },
+    "desc": "押上去，赢面翻倍，代价也翻倍。"
+  },
+  {
+    "id": "sk_hk_jackpot",
+    "name": "中大奖",
+    "kind": "atk",
+    "q": 6,
+    "innate": "t_hakari",
+    "lv": 5,
+    "atkType": "phy",
+    "cost": 38,
+    "mult": 3.6,
+    "hits": 1,
+    "cri": 20,
+    "desc": "那一格停下来了。"
+  },
+  {
+    "id": "sk_hk_allin",
+    "name": "全押",
+    "kind": "atk",
+    "q": 7,
+    "innate": "t_hakari",
+    "lv": 7,
+    "atkType": "phy",
+    "cost": 60,
+    "mult": 4.1,
+    "hits": 1,
+    "cri": 22,
+    "eff": {
+      "recoil": 0.15
+    },
+    "desc": "全部押上。要么打完，要么被反打。"
+  },
+  {
+    "id": "dom_hakari",
+    "name": "领域展开·坐杀博徒",
+    "kind": "atk",
+    "q": 7,
+    "innate": "t_hakari",
+    "lv": 8,
+    "domain": true,
+    "domKind": "slotJackpot",
+    "atkType": "phy",
+    "cost": 130,
+    "mult": 3.9,
+    "hits": 2,
+    "cri": 20,
+    "eff": {
+      "pierce": 0.3
+    },
+    "desc": "领域里掷骰变成可控：点数由你决定。"
+  },
+  {
+    "id": "sk_csm_tame",
+    "name": "收服",
+    "kind": "atk",
+    "q": 4,
+    "innate": "t_csm",
+    "lv": 1,
+    "atkType": "cur",
+    "cost": 16,
+    "mult": 1.5,
+    "hits": 1,
+    "cri": 4,
+    "eff": {
+      "stun": 1
+    },
+    "desc": "打到它服了为止，再把它收进手里。"
+  },
+  {
+    "id": "sk_csm_drive",
+    "name": "驱使",
+    "kind": "atk",
+    "q": 5,
+    "innate": "t_csm",
+    "lv": 3,
+    "atkType": "cur",
+    "cost": 26,
+    "mult": 2.2,
+    "hits": 2,
+    "cri": 6,
+    "desc": "放出去的那几只，会替你先咬一口。"
+  },
+  {
+    "id": "sk_csm_fuse",
+    "name": "融合",
+    "kind": "nei",
+    "q": 5,
+    "innate": "t_csm",
+    "lv": 5,
+    "nei": {
+      "curMax": 0.12,
+      "curAtk": 14,
+      "def": 8
+    },
+    "desc": "把几只咒灵压成一只，压在身边。"
+  },
+  {
+    "id": "sk_csm_vortex",
+    "name": "极之番·涡",
+    "kind": "atk",
+    "q": 6,
+    "innate": "t_csm",
+    "lv": 7,
+    "atkType": "cur",
+    "cost": 54,
+    "mult": 4,
+    "hits": 2,
+    "cri": 14,
+    "eff": {
+      "drain": 0.3
+    },
+    "desc": "把所有收来的东西一次全放出去。"
+  },
+  {
+    "id": "dom_csm",
+    "name": "领域展开·咒灵操术·全",
+    "kind": "atk",
+    "q": 7,
+    "innate": "t_csm",
+    "lv": 8,
+    "domain": true,
+    "domKind": "debuffSwarm",
+    "atkType": "cur",
+    "cost": 140,
+    "mult": 4.2,
+    "hits": 3,
+    "cri": 16,
+    "eff": {
+      "weak": 0.3,
+      "stun": 1
+    },
+    "desc": "领域里，所有被你收服的咒灵同时出现。"
+  }
+]

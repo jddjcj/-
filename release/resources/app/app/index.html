@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- 界面骨架：各页的容器与按钮。 -->
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; img-src 'self' data: file:; media-src 'self' file: blob: data:;">
+<title>咒术闲录</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+
+   
+  <header id="topbar">
+    <div class="brand" id="nameplate" title="点一点试试">
+      <span class="seal">录</span>
+      <span class="brandtext">
+        <b>咒术闲录</b>
+        <i id="playerName">无名客</i>
+      </span>
+    </div>
+
+    <div class="sky">
+      <span id="moon" class="celestial" title="望月">月</span>
+      <span id="lantern" class="celestial" title="提灯">灯</span>
+      <span id="clock" class="clock">第 1 日 · 子时 · 00:00</span>
+    </div>
+
+    <div class="topright">
+      <div class="musicbox" id="musicBox">
+        <button class="tbtn" id="btnMusic" data-tip="音乐：自定义曲目 —— 把音频丢进 userdata\music\，丢多少首就能听多少首；可上一首 / 下一首、调音量。">乐</button>
+        <div class="musicpop hidden" id="musicPop">
+          <div class="mrow"><b>背景音乐</b><button class="mini2" id="mPrev" data-tip="上一首">&#9664;</button><button class="mini2" id="mToggle">播放</button><button class="mini2" id="mNext" data-tip="下一首">&#9654;</button></div>
+          <div class="mnow" id="mNow"></div>
+          <div class="mtrks" id="musicTracks"></div>
+          <div class="mrow"><label>音量</label><input type="range" id="mVol" min="0" max="100" step="1" value="50"><b id="mVolTxt">50%</b></div>
+          <div class="mhint" id="mHint"></div>
+        </div>
+      </div>
+      <button class="tbtn" id="btnIdle" data-tip="挂机：在当前场景反复迎敌、自动结算；打不过的不去碰，气血掉到 25% 会自己停。挂机不回咒力与精力。">挂机：关</button>
+      <button class="tbtn" id="btnSave" data-tip="立即把当前进度写进程序目录下的存档文件。平时也会自动保存。">存档</button>
+      <button class="tbtn" id="btnSettings" data-tip="设置：音量、字体大小、存档导出与导入。">设置</button>
+    </div>
+  </header>
+
+   
+  <aside id="side">
+    <div class="card" id="statCard">
+      <div class="realm">
+        <span id="realmName">不入流</span>
+        <span class="contrib" id="sectLabel">无门无派</span>
+      </div>
+      <div class="bar exp"><i id="barExp"></i><span id="txtExp">修为 0 / 200</span></div>
+      <div class="bar hp"><i id="barHp"></i><span id="txtHp">气血 0</span></div>
+      <div class="bar mp"><i id="barMp"></i><span id="txtMp">咒力 0</span></div>
+      <div class="bar sta"><i id="barSta"></i><span id="txtSta">精力 0</span></div>
+      <div class="attrs" id="attrs"></div>
+      <div class="money">
+        <span id="txtSilver">咒币 0</span>
+        <span id="txtContrib">贡献 0</span>
+        <span id="txtKills">胜 0</span>
+      </div>
+      <button class="wide" id="btnBreak" data-tip="修为攒够后点这里突破：修为清零、气血与咒力上限大涨，并获得 2 点技能点。">突破境界</button>
+    </div>
+
+    <nav id="nav">
+      <button data-view="room" class="on">所在</button>
+      <button data-view="map">舆图</button>
+      <button data-view="bag">行囊</button>
+      <button data-view="forge">锻冶</button>
+      <button data-view="skill">术式</button>
+      <button data-view="sect">组织</button>
+      <button data-view="codex">图鉴</button>
+      <button data-view="egg">闲趣</button>
+      <button data-view="log">见闻</button>
+      <button data-view="help">说明</button>
+    </nav>
+
+    <div class="card side-note">
+      <b>密语</b>
+      <div class="row">
+        <input id="secretInput" type="text" placeholder="想起一句话…" maxlength="24">
+        <button id="btnSecret" data-tip="密语：想起一句话就打进来念一句试试。念对了会有事情发生。">说</button>
+      </div>
+    </div>
+  </aside>
+
+   
+  <main id="main"></main>
+
+   
+  <aside id="logpane">
+    <div class="loghead">
+      <span class="logtitle">见 闻</span>
+      <button id="btnLogClear" class="mini" data-tip="清空右侧见闻流水（不影响存档）。">清</button>
+    </div>
+    <div id="logList"></div>
+  </aside>
+
+   
+  <div id="storyWrap" class="hidden">
+    <div id="storyBox">
+      <div class="storyTitle" id="storyTitle"></div>
+      <div class="storyText" id="storyText"></div>
+      <div class="storyChoices" id="storyChoices"></div>
+    </div>
+  </div>
+
+   
+  <div id="modalWrap" class="hidden">
+    <div id="modalBox">
+      <div class="modalTitle" id="modalTitle"></div>
+      <div class="modalBody" id="modalBody"></div>
+      <div class="modalFoot" id="modalFoot"></div>
+    </div>
+  </div>
+
+  <div id="tip" class="hidden"></div>
+  <div id="toast"></div>
+</div>
+
+ 
+<script src="js/base.js"></script>
+ 
+<script src="js/imgcut.js"></script>
+<script src="js/imgcustom.js"></script>
+ 
+<script src="js/custom.js"></script>
+<script src="js/custom-apply.js"></script>
+<script src="js/charcreate.js"></script>
+<script src="js/combat.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/createui.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/room.js"></script>
+</body>
+</html>

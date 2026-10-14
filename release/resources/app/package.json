@@ -1,0 +1,16 @@
+{
+  "name": "zhoushu-xianlu",
+  "productName": "咒术闲录",
+  "version": "1.0.0",
+  "description": "咒术闲录 · 放置类单机（离线桌面版 · 原创内容 · 无 PvP · 世界观取材《咒术回战》）",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "selftest": "electron tools/selftest.js",
+    "build": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/build_portable.ps1"
+  },
+  "devDependencies": {
+    "electron": "^44.7.0"
+  }
+}

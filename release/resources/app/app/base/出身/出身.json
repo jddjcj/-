@@ -1,0 +1,466 @@
+[
+  {
+    "id": "o_common",
+    "name": "普通人家",
+    "tag": "凡俗",
+    "slots": 1,
+    "ceCap": 0.8,
+    "noSelect": true,
+    "growth": {
+      "insight": 1,
+      "root": 1,
+      "cur": 1,
+      "body": 1
+    },
+    "init": {
+      "curMax": 0,
+      "phyAtk": 0,
+      "curAtk": 0,
+      "def": 0,
+      "hp": 0,
+      "luck": 0,
+      "face": 0,
+      "ceEff": 0,
+      "ceCtl": 0,
+      "silver": 0
+    },
+    "desc": "生在咒术界之外。没人教过你怎么用咒力，也没人告诉过你该怕什么。",
+    "flavor": "好处是：没有任何家规框着你。"
+  },
+  {
+    "id": "o_clan",
+    "name": "咒术世家",
+    "tag": "宗家",
+    "slots": 1,
+    "ceCap": 0.8,
+    "growth": {
+      "insight": 1.25,
+      "root": 1,
+      "cur": 1.15,
+      "body": 1
+    },
+    "init": {
+      "curMax": 40,
+      "phyAtk": 0,
+      "curAtk": 0,
+      "def": 0,
+      "hp": 0,
+      "luck": -5,
+      "face": 5,
+      "ceEff": 0.05,
+      "ceCtl": 0.02,
+      "silver": 600
+    },
+    "desc": "从小在符纸和结界里长大。三岁就学会把咒力收进掌心，五岁被逼着背家训。",
+    "flavor": "世家给你的是资源，也是眼睛。很多人一辈子都在躲那些眼睛。"
+  },
+  {
+    "id": "o_budo",
+    "name": "武道之家",
+    "tag": "体术",
+    "slots": 1,
+    "ceCap": 0.8,
+    "growth": {
+      "insight": 0.95,
+      "root": 1.25,
+      "cur": 1,
+      "body": 1.15
+    },
+    "init": {
+      "curMax": 0,
+      "phyAtk": 12,
+      "curAtk": 0,
+      "def": 6,
+      "hp": 60,
+      "luck": 0,
+      "face": 0,
+      "ceEff": 0,
+      "ceCtl": -0.02,
+      "silver": 0
+    },
+    "desc": "先学站桩，再学挨打。你家的规矩是：咒力不够，就用身体补。",
+    "flavor": "咒术师里最难缠的那种——你打不动他。"
+  },
+  {
+    "id": "o_temple",
+    "name": "寺社出身",
+    "tag": "咒法",
+    "slots": 1,
+    "ceCap": 0.8,
+    "growth": {
+      "insight": 1.1,
+      "root": 1,
+      "cur": 1.05,
+      "body": 0.95
+    },
+    "init": {
+      "curMax": 20,
+      "phyAtk": 0,
+      "curAtk": 0,
+      "def": 2,
+      "hp": 0,
+      "luck": 5,
+      "face": 0,
+      "ceEff": 0.08,
+      "ceCtl": 0,
+      "silver": 200
+    },
+    "desc": "诵经、扫阶、抄符。你在香火里长大，学会的第一件事是「安静」。",
+    "flavor": "咒力效率天生比人高——省下来的，都是命。"
+  },
+  {
+    "id": "o_lab",
+    "name": "研究世家",
+    "tag": "解析",
+    "slots": 1,
+    "ceCap": 0.8,
+    "growth": {
+      "insight": 1.15,
+      "root": 0.95,
+      "cur": 1,
+      "body": 0.95
+    },
+    "init": {
+      "curMax": 0,
+      "phyAtk": 0,
+      "curAtk": 8,
+      "def": 0,
+      "hp": 0,
+      "luck": 0,
+      "face": 0,
+      "ceEff": 0.02,
+      "ceCtl": 0.08,
+      "silver": 400
+    },
+    "desc": "你家书房里没有神龛，只有标本和解剖图。咒力在你眼里是可测量的东西。",
+    "flavor": "你比谁都清楚：术式的强弱，一半在「怎么用」。"
+  },
+  {
+    "id": "o_street",
+    "name": "咒灵地带",
+    "tag": "野性",
+    "slots": 1,
+    "ceCap": 0.8,
+    "growth": {
+      "insight": 0.95,
+      "root": 1.15,
+      "cur": 1,
+      "body": 1.1
+    },
+    "init": {
+      "curMax": 0,
+      "phyAtk": 6,
+      "curAtk": 0,
+      "def": 4,
+      "hp": 80,
+      "luck": -10,
+      "face": 0,
+      "ceEff": 0,
+      "ceCtl": 0,
+      "silver": 0
+    },
+    "desc": "你长大的那片街区，每年都要少几个人。你活下来了，靠的是鼻子灵、腿快。",
+    "flavor": "你的直觉比术式更早告诉你：往哪边跑。"
+  },
+  {
+    "id": "o_rich",
+    "name": "富商之家",
+    "tag": "世俗",
+    "slots": 1,
+    "ceCap": 0.8,
+    "growth": {
+      "insight": 0.9,
+      "root": 1,
+      "cur": 0.95,
+      "body": 1
+    },
+    "init": {
+      "curMax": 0,
+      "phyAtk": 0,
+      "curAtk": 0,
+      "def": 0,
+      "hp": 0,
+      "luck": 15,
+      "face": 10,
+      "ceEff": 0,
+      "ceCtl": 0,
+      "silver": 3000
+    },
+    "desc": "钱能买到的东西，你家基本都买过。直到你遇见一件钱买不到的事。",
+    "flavor": "福缘与颜值都高——好运，也是一种天赋。"
+  },
+  {
+    "id": "o_ancient",
+    "name": "古代咒术师",
+    "tag": "底蕴",
+    "slots": 1,
+    "ceCap": 0.8,
+    "growth": {
+      "insight": 1.15,
+      "root": 1,
+      "cur": 1.15,
+      "body": 1
+    },
+    "init": {
+      "curMax": 120,
+      "phyAtk": 0,
+      "curAtk": 6,
+      "def": 2,
+      "hp": 0,
+      "luck": 0,
+      "face": 0,
+      "ceEff": 0.04,
+      "ceCtl": 0.04,
+      "silver": 300
+    },
+    "extra": {
+      "giftDomainAt": 8,
+      "barrier": 3,
+      "trialFree": true
+    },
+    "desc": "你不记得自己活了多久。记得的只剩几门早就没人会用的旧术式。",
+    "flavor": "咒力总量、咒效与咒操都比常人厚一些；选完生得术式后，这一系的底子直接给到很后面，结界术也先会一点。"
+  },
+  {
+    "id": "o_cursechild",
+    "name": "咒胎之子",
+    "tag": "异质",
+    "slots": 1,
+    "ceCap": 0.8,
+    "growth": {
+      "insight": 1.05,
+      "root": 0.95,
+      "cur": 1.3,
+      "body": 0.9
+    },
+    "init": {
+      "curMax": 220,
+      "phyAtk": 0,
+      "curAtk": 4,
+      "def": 0,
+      "hp": -80,
+      "luck": -5,
+      "face": 0,
+      "ceEff": 0.02,
+      "ceCtl": 0.05,
+      "silver": 0
+    },
+    "desc": "你不是被生下来的。你是被「养」出来的。",
+    "flavor": "咒力的池子极深，气血与福缘都薄。"
+  },
+  {
+    "id": "o_ronin",
+    "name": "流浪术师",
+    "tag": "流离",
+    "slots": 1,
+    "ceCap": 0.8,
+    "growth": {
+      "insight": 1,
+      "root": 1.05,
+      "cur": 1,
+      "body": 1.05
+    },
+    "init": {
+      "curMax": 0,
+      "phyAtk": 6,
+      "curAtk": 0,
+      "def": 4,
+      "hp": 40,
+      "luck": 8,
+      "face": 5,
+      "ceEff": 0,
+      "ceCtl": 0,
+      "silver": 0
+    },
+    "extra": {
+      "dodge": 8,
+      "crit": 5,
+      "search": 0.1
+    },
+    "desc": "没有师门，没有家，走到哪算哪。靠的是手快、眼准、跑得更快。",
+    "flavor": "闪避、暴击与搜寻收益都比常人高；只是身上没什么钱。"
+  },
+  {
+    "id": "o_medic",
+    "name": "反转医家",
+    "tag": "医",
+    "slots": 1,
+    "ceCap": 0.8,
+    "growth": {
+      "insight": 1.15,
+      "root": 1,
+      "cur": 1.05,
+      "body": 0.95
+    },
+    "init": {
+      "curMax": 0,
+      "phyAtk": 0,
+      "curAtk": 0,
+      "def": 2,
+      "hp": 60,
+      "luck": 5,
+      "face": 0,
+      "ceEff": 0.06,
+      "ceCtl": 0,
+      "silver": 200
+    },
+    "extra": {
+      "healPct": 0.02,
+      "skillBonus": {
+        "k_reverse": 1
+      }
+    },
+    "desc": "祖上三代都在给人接骨。轮到你，接的就不只是骨头了。",
+    "flavor": "自身回血的底子比常人厚；反转术式也先有几分火候。"
+  },
+  {
+    "id": "o_sukuna",
+    "name": "四手两面",
+    "tag": "诅咒之王",
+    "hidden": true,
+    "slots": 2,
+    "ceCap": 0.9,
+    "faceCap": 30,
+    "growth": {
+      "insight": 1.3,
+      "root": 1.3,
+      "cur": 1.3,
+      "body": 1.2
+    },
+    "init": {
+      "curMax": 120,
+      "phyAtk": 20,
+      "curAtk": 20,
+      "def": 10,
+      "hp": 150,
+      "luck": -10,
+      "face": -20,
+      "ceEff": 0.05,
+      "ceCtl": 0.05,
+      "silver": 0
+    },
+    "desc": "生来多出一双手、一张脸。旁人看你像看灾祸，你看旁人像看粮食。",
+    "flavor": "可同时持有两门生得术式；代价是颜值上限被压得很低——你不需要别人喜欢。"
+  },
+  {
+    "id": "o_sixeyes",
+    "name": "六眼",
+    "tag": "天赐",
+    "hidden": true,
+    "slots": 1,
+    "ceCap": 0.999,
+    "growth": {
+      "insight": 1.5,
+      "root": 1.15,
+      "cur": 1.3,
+      "body": 0.9
+    },
+    "init": {
+      "curMax": 200,
+      "phyAtk": 0,
+      "curAtk": 10,
+      "def": 4,
+      "hp": -40,
+      "luck": 10,
+      "face": 15,
+      "ceEff": 0.1,
+      "ceCtl": 0.1,
+      "silver": 0
+    },
+    "extra": {
+      "reverseStart": true
+    },
+    "desc": "生来就看得见咒力的流向。别人要用一生去「感觉」的东西，你一睁眼就看见了。",
+    "flavor": "咒力效率与咒力操作天生就比常人高出一截，两者能练到的上限也更高。开局即可学「反转术式」。代价：肉身天生偏弱。"
+  },
+  {
+    "id": "o_heaven",
+    "name": "天与咒缚",
+    "tag": "交换",
+    "hidden": true,
+    "slots": 1,
+    "ceCap": 0.85,
+    "swap": "body2cur",
+    "growth": {
+      "insight": 1,
+      "root": 1,
+      "cur": 1.6,
+      "body": 0.5
+    },
+    "init": {
+      "curMax": 150,
+      "phyAtk": 0,
+      "curAtk": 15,
+      "def": 10,
+      "hp": -60,
+      "luck": 0,
+      "face": 0,
+      "ceEff": 0.1,
+      "ceCtl": 0.05,
+      "silver": 0
+    },
+    "desc": "出生时，身体与咒力做了一笔交易：把肉身该得的那一份，全数折成咒力。",
+    "flavor": "根骨该给的气血与物攻，会有一大半折成咒力总量与咒力攻击；肉身长得比常人慢。"
+  },
+  {
+    "id": "o_tyrant",
+    "name": "天与暴君",
+    "tag": "交换",
+    "hidden": true,
+    "slots": 1,
+    "ceCap": 0.6,
+    "swap": "cur2body",
+    "curMaxCap": 260,
+    "growth": {
+      "insight": 0.8,
+      "root": 1.8,
+      "cur": 0.1,
+      "body": 1.8
+    },
+    "init": {
+      "curMax": -120,
+      "phyAtk": 40,
+      "curAtk": -10,
+      "def": 20,
+      "hp": 300,
+      "luck": 0,
+      "face": 5,
+      "ceEff": -0.05,
+      "ceCtl": -0.05,
+      "silver": 0
+    },
+    "desc": "你最出名的一件事，是「没有咒力」。所有人都以为你是个废物——直到你动手。",
+    "flavor": "咒力总量被压到极低，全部折成气血、物攻与防御；生得术式几乎使不出来，靠身体赢。"
+  },
+  {
+    "id": "o_blackflash",
+    "name": "黑闪王",
+    "tag": "异质",
+    "hidden": true,
+    "slots": 1,
+    "ceCap": 0.8,
+    "growth": {
+      "insight": 1.2,
+      "root": 1.2,
+      "cur": 1.05,
+      "body": 1.05
+    },
+    "init": {
+      "curMax": 60,
+      "phyAtk": 8,
+      "curAtk": 8,
+      "def": 4,
+      "hp": 40,
+      "luck": 0,
+      "face": 0,
+      "ceEff": 0.02,
+      "ceCtl": 0.02,
+      "silver": 0
+    },
+    "extra": {
+      "blackFlash": true
+    },
+    "desc": "你出手的时候，偶尔会有那么一瞬间，咒力不是从你身上过去的——是撞过去的。",
+    "flavor": "唯一能靠自身把黑闪练上去的出身；其他出身只能碰运气。"
+  }
+]

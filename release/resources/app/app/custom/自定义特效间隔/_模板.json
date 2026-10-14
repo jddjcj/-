@@ -1,0 +1,6 @@
+[
+  { "default": 300 },
+  { "match": { "skill": "k_punch" }, "ms": 180 },
+  { "match": { "innate": "t_jukai" }, "ms": 340, "frames": [120, 200] },
+  { "match": { "kind": "domain" }, "first": 300, "last": 700 }
+]

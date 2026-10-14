@@ -1,0 +1,686 @@
+{
+  "sk_mk_blue": {
+    "eff": {
+      "pull": 0.3,
+      "pierce": 0.2
+    },
+    "note": "引力：把对手拽向你，它的攻击与身手都钝一截（全场）。"
+  },
+  "sk_mk_red": {
+    "eff": {
+      "stun": 1,
+      "pull": 0.1
+    },
+    "note": "斥力：一击把人推开，对手下个回合无法行动。"
+  },
+  "sk_mk_purple": {
+    "eff": {
+      "trueDamage": 0.55,
+      "pierce": 0.55
+    },
+    "note": "虚式：苍与赫相撞之处什么都不剩，防御几乎无效。"
+  },
+  "dom_mukagen": {
+    "eff": {
+      "stun": 2,
+      "trueDamage": 0.25,
+      "nullify": 2
+    },
+    "note": "领域内一切信息过载：对手被钉住，你身前再摊开几层「无限」。"
+  },
+  "sk_jj_stop": {
+    "eff": {
+      "stun": 1,
+      "hpCost": 0.03
+    },
+    "note": "命令「别动」。以自身气血为代价。"
+  },
+  "sk_jj_break": {
+    "eff": {
+      "defDown": 0.2,
+      "hpCost": 0.05
+    },
+    "note": "命令「碎」。削去对手一层防御，代价是一点自身气血。"
+  },
+  "sk_jj_bind": {
+    "eff": {
+      "weak": 0.4,
+      "pull": 0.2,
+      "hpCost": 0.04
+    },
+    "note": "命令「缚」。压住它的咒力，并把它拽近。"
+  },
+  "sk_jj_burst": {
+    "eff": {
+      "trueDamage": 0.3,
+      "recoil": 0.08,
+      "hpCost": 0.06
+    },
+    "note": "命令「爆」。真伤，但反噬极重。"
+  },
+  "dom_juju": {
+    "eff": {
+      "stun": 2,
+      "weak": 0.35,
+      "hpCost": 0.03
+    },
+    "note": "万言无声：由你说出的每一句都成为条件。"
+  },
+  "sk_ts_dog": {
+    "eff": {
+      "summon": {
+        "name": "玉犬",
+        "slot": "tsa",
+        "shieldPct": 0.26,
+        "turns": 5,
+        "atk": {
+          "mult": 0.6,
+          "type": "phy",
+          "hits": 2
+        }
+      }
+    },
+    "note": "召出玉犬：它挡在你身前，每回合替你咬两口。"
+  },
+  "sk_ts_dog2": {
+    "eff": {
+      "summon": {
+        "name": "玉犬·浑",
+        "slot": "tsa",
+        "shieldPct": 0.42,
+        "turns": 5,
+        "atk": {
+          "mult": 1.05,
+          "type": "phy",
+          "hits": 1
+        }
+      }
+    },
+    "note": "玉犬·浑又大又沉：护盾更厚，一口更重。"
+  },
+  "sk_ts_nue": {
+    "eff": {
+      "drain": 0.3,
+      "summon": {
+        "name": "鵺",
+        "slot": "tsa",
+        "shieldPct": 0.24,
+        "turns": 5,
+        "atk": {
+          "mult": 0.62,
+          "type": "cur",
+          "hits": 1,
+          "drain": 0.25
+        }
+      }
+    },
+    "note": "鵺展翅抽走咒力，自己也留在场上。"
+  },
+  "sk_ts_snake": {
+    "eff": {
+      "pierce": 0.5,
+      "summon": {
+        "name": "大蛇",
+        "slot": "tsb",
+        "shieldPct": 0.34,
+        "turns": 4,
+        "atk": {
+          "mult": 0.95,
+          "type": "phy",
+          "hits": 1,
+          "pierce": 0.4
+        }
+      }
+    },
+    "note": "大蛇穿透防御，留在场上。"
+  },
+  "sk_ts_toad": {
+    "eff": {
+      "stun": 1,
+      "summon": {
+        "name": "蝦蟇",
+        "slot": "tsb",
+        "shieldPct": 0.36,
+        "turns": 4,
+        "atk": {
+          "mult": 0.72,
+          "type": "phy",
+          "hits": 1,
+          "stun": 1
+        }
+      }
+    },
+    "note": "蝦蟇的舌头先把你缠住，它自己也留在场上。"
+  },
+  "sk_ts_rabbit": {
+    "eff": {
+      "summon": {
+        "name": "脱兔",
+        "slot": "tsb",
+        "shieldPct": 0.28,
+        "turns": 5,
+        "atk": {
+          "mult": 0.4,
+          "type": "phy",
+          "hits": 3
+        }
+      }
+    },
+    "note": "脱兔散成一群：护盾不厚，但咬得勤。"
+  },
+  "sk_ts_eleph": {
+    "eff": {
+      "summon": {
+        "name": "満象",
+        "slot": "tsc",
+        "shieldPct": 0.52,
+        "turns": 4,
+        "atk": {
+          "mult": 1.2,
+          "type": "phy",
+          "hits": 1
+        }
+      }
+    },
+    "note": "満象像一堵墙，也像一记撞锤。"
+  },
+  "sk_ts_bull": {
+    "eff": {
+      "pull": 0.2,
+      "summon": {
+        "name": "貫牛",
+        "slot": "tsc",
+        "shieldPct": 0.44,
+        "turns": 4,
+        "atk": {
+          "mult": 1,
+          "type": "phy",
+          "hits": 1,
+          "pull": 0.15
+        }
+      }
+    },
+    "note": "貫牛先把对手压住，再撞过去。"
+  },
+  "sk_ts_wolf": {
+    "eff": {
+      "summon": {
+        "name": "影狼",
+        "slot": "tsc",
+        "shieldPct": 0.42,
+        "turns": 4,
+        "atk": {
+          "mult": 0.88,
+          "type": "cur",
+          "hits": 1,
+          "mark": 1
+        }
+      }
+    },
+    "note": "影狼咬出的记号，之后每一击都打在那里。"
+  },
+  "sk_ts_maho": {
+    "eff": {
+      "trueDamage": 0.3,
+      "adapt": true,
+      "summon": {
+        "name": "魔虚罗",
+        "slot": "tsm",
+        "shieldPct": 0.75,
+        "turns": 8,
+        "atk": {
+          "mult": 1.25,
+          "type": "phy",
+          "hits": 1,
+          "exec": 0.4
+        }
+      }
+    },
+    "note": "魔虚罗在场：它每挨一次打就会适应，之后对你更狠。"
+  },
+  "dom_jukai": {
+    "eff": {
+      "drain": 0.2,
+      "summon": {
+        "name": "嵌合暗翳庭的群影",
+        "slot": "tsd",
+        "shieldPct": 1,
+        "turns": 6,
+        "atk": {
+          "mult": 1.4,
+          "type": "phy",
+          "hits": 2
+        }
+      }
+    },
+    "note": "影庭铺开，群影同时出手。"
+  },
+  "sk_mui_touch": {
+    "eff": {
+      "defDown": 0.25,
+      "trueDamage": 0.3
+    },
+    "note": "碰到灵魂，对方的形状开始不听使唤。"
+  },
+  "sk_mui_swarm": {
+    "eff": {
+      "hpCost": 0.04
+    },
+    "note": "改造人是你自己的一部分，冲上去要你的血肉。"
+  },
+  "sk_mui_soul": {
+    "eff": {
+      "trueDamage": 0.55
+    },
+    "note": "按住灵魂——肉身怎样都挡不住。"
+  },
+  "dom_mui": {
+    "eff": {
+      "trueDamage": 0.3,
+      "defDown": 0.3
+    },
+    "note": "自闭圆顿裹：所有人的形状由你说了算。"
+  },
+  "sk_bl_blade": {
+    "eff": {
+      "hpCost": 0.04,
+      "pierce": 0.2
+    },
+    "note": "血为刃，血是要从你自己身上出的。"
+  },
+  "sk_bl_venom": {
+    "eff": {
+      "dot": 0.06,
+      "hpCost": 0.04
+    },
+    "note": "飞血入体，持续蚀人。"
+  },
+  "sk_bl_manip": {
+    "eff": {
+      "lifesteal": 0.3,
+      "hpCost": 0.05
+    },
+    "note": "操血：打出去的血，能收回来一些。"
+  },
+  "dom_blood": {
+    "eff": {
+      "lifesteal": 0.25,
+      "hpCost": 0.04,
+      "dot": 0.05
+    },
+    "note": "血海无涯：整片海都是你的血。"
+  },
+  "sk_mv_dismantle": {
+    "eff": {
+      "slash": 1,
+      "pierce": 0.4
+    },
+    "note": "解：斩痕会一层层加深。"
+  },
+  "sk_mv_cleave": {
+    "eff": {
+      "pierce": 0.6,
+      "slash": 1,
+      "exec": 0.5
+    },
+    "note": "捌：对手残血时一刀收掉。"
+  },
+  "sk_mv_flame": {
+    "eff": {
+      "pierce": 0.3,
+      "dot": 0.08,
+      "slash": 1
+    },
+    "note": "開：斩开处跟着起火。"
+  },
+  "dom_malevolent": {
+    "eff": {
+      "pierce": 0.45,
+      "slash": 1,
+      "exec": 0.3
+    },
+    "note": "伏魔御厨子：斩击从每个方向同时落下。"
+  },
+  "sk_rt_point": {
+    "eff": {
+      "mark": 1,
+      "cri": 0
+    },
+    "note": "在对手身上点出一处分点，叠得越多，之后打得越狠。"
+  },
+  "sk_rt_break": {
+    "eff": {
+      "mark": 2,
+      "pierce": 0.4
+    },
+    "note": "把分点断得更深。"
+  },
+  "sk_rt_time": {
+    "eff": {
+      "mark": 1,
+      "exec": 0.6
+    },
+    "note": "时间外劳动：对手残血时，按「分点」一次性收账。"
+  },
+  "dom_ratio": {
+    "eff": {
+      "pierce": 0.5,
+      "mark": 3
+    },
+    "note": "七三律：整个领域里，一切都被分成 7 与 3。"
+  },
+  "sk_pp_puppet": {
+    "eff": {
+      "summon": {
+        "name": "咒骸",
+        "mult": 0.7,
+        "turns": 5,
+        "type": "phy"
+      }
+    },
+    "note": "放出一具咒骸，它会留在场上替你出手。"
+  },
+  "sk_pp_gun": {
+    "eff": {
+      "summon": {
+        "name": "连射的咒骸",
+        "mult": 0.45,
+        "turns": 4,
+        "type": "phy"
+      }
+    },
+    "note": "咒骸持续在场，连射不停。"
+  },
+  "sk_pp_burst": {
+    "eff": {
+      "trueDamage": 0.3,
+      "hpCost": 0.03
+    },
+    "note": "自爆咒骸：一次性的东西，造价是它自己。"
+  },
+  "dom_puppet": {
+    "eff": {
+      "defDown": 0.25,
+      "summon": {
+        "name": "百骸机神",
+        "mult": 0.9,
+        "turns": 6,
+        "type": "phy"
+      }
+    },
+    "note": "百骸机神在后，你只管往前走。"
+  },
+  "sk_cs_spear": {
+    "eff": {
+      "pierce": 0.3
+    },
+    "note": "构筑出的枪，比真的更直。"
+  },
+  "sk_cs_net": {
+    "eff": {
+      "weak": 0.35,
+      "guard": 0.15
+    },
+    "note": "网缠住对手，同时给你留一层护罩。"
+  },
+  "sk_cs_colossus": {
+    "eff": {
+      "pierce": 0.35,
+      "guard": 0.25
+    },
+    "note": "巨像挡在你身前，替你卸掉一部分来袭。"
+  },
+  "dom_const": {
+    "eff": {
+      "pierce": 0.35,
+      "defDown": 0.2,
+      "guard": 0.3
+    },
+    "note": "千锤百炼：想造什么就造什么。"
+  },
+  "sk_bg_swap": {
+    "eff": {
+      "swap": 0.8,
+      "stun": 1
+    },
+    "note": "啪的一声，你们换了位置——它那一手落在自己身上。"
+  },
+  "sk_bg_link": {
+    "eff": {
+      "swap": 0.6
+    },
+    "note": "连携：你的位置由掌声决定。"
+  },
+  "sk_bg_chaos": {
+    "eff": {
+      "swap": 0.5,
+      "weak": 0.3
+    },
+    "note": "乱阵：谁也说不准自己下一秒在哪。"
+  },
+  "dom_boogie": {
+    "eff": {
+      "stun": 2,
+      "swap": 0.6,
+      "defDown": 0.15
+    },
+    "note": "天手力：整片领域里，位置随你搬。"
+  },
+  "sk_pj_grid": {
+    "eff": {
+      "stun": 1
+    },
+    "note": "把动作切成极细的一格一格，跟不上的人被冻住。"
+  },
+  "sk_pj_frame": {
+    "eff": {
+      "stun": 2,
+      "pierce": 0.3
+    },
+    "note": "帧击：把对手按在某一格上，好一会儿动不了。"
+  },
+  "dom_projection": {
+    "eff": {
+      "stun": 1,
+      "pierce": 0.25,
+      "mark": 1
+    },
+    "note": "时胞月宫殿：所有人的动作都被切成一格一格。"
+  },
+  "sk_mm_rika": {
+    "eff": {
+      "lifesteal": 0.15,
+      "summon": {
+        "name": "里香",
+        "mult": 1.1,
+        "turns": 5,
+        "type": "cur"
+      }
+    },
+    "note": "里香出来了。她会一直打下去。"
+  },
+  "dom_mimic": {
+    "eff": {
+      "weak": 0.35,
+      "summon": {
+        "name": "真赝之间的赝品",
+        "mult": 0.8,
+        "turns": 5,
+        "type": "cur"
+      }
+    },
+    "note": "真与假的边界在这里消失。"
+  },
+  "sk_hk_dice": {
+    "eff": {
+      "gamble": true
+    },
+    "note": "掷骰：这一击轻还是重，全看点数。"
+  },
+  "sk_hk_bet": {
+    "eff": {
+      "gamble": true,
+      "recoil": 0.08
+    },
+    "note": "押注：赢了很赚，输了反伤。"
+  },
+  "sk_hk_jackpot": {
+    "eff": {
+      "gamble": true,
+      "selfHeal": 0.3
+    },
+    "note": "中大奖：赢面很大，中了还能回一口气。"
+  },
+  "sk_hk_allin": {
+    "eff": {
+      "gamble": true,
+      "recoil": 0.15
+    },
+    "note": "全押：把命也押上去。"
+  },
+  "dom_hakari": {
+    "eff": {
+      "gamble": true,
+      "pierce": 0.3
+    },
+    "note": "坐杀博徒：整个领域就是一间赌场。"
+  },
+  "sk_csm_tame": {
+    "eff": {
+      "stun": 1
+    },
+    "note": "收服：用这一手给出最后一击，才能把它收进咒灵操术的账下。"
+  },
+  "sk_mm_borrow": {
+    "eff": {},
+    "note": "借术：用它给出最后一击，才能从对方身上记下一门术式（保留的门数与用次都有限）。"
+  },
+  "sk_csm_drive": {
+    "eff": {
+      "summon": {
+        "name": "账下的一只咒灵",
+        "slot": "csm_field",
+        "src": "csm",
+        "shieldPct": 0.34,
+        "hold": true,
+        "atk": {
+          "mult": 0.85,
+          "type": "cur",
+          "hits": 1
+        }
+      }
+    },
+    "note": "驱使：把账下的一只咒灵放出去（对阵页给的是「驱使·X」按键，一只一个键；这门术式本身不再单独出手）。它护在你身前、每回合替你出手，没有回合上限 —— 一直撑到护盾被打空（＝被打散）。散了的那一只这一场就驱使不动了，散场后从账下划掉、要重新收服；残余护盾覆盖式收进库存（回收多少就是多少）。只有镜屋是沙盘，那边不算数。"
+  },
+  "sk_csm_vortex": {
+    "eff": {
+      "drain": 0.3,
+      "weak": 0.25,
+      "bank": true
+    },
+    "note": "极之番·涡：把库存一次全放出去——这一场回收得越多，砸得越狠。"
+  },
+  "dom_csm": {
+    "eff": {
+      "weak": 0.3,
+      "stun": 1,
+      "drain": 0.15,
+      "bank": true
+    },
+    "note": "咒灵操术·全：账下所有咒灵一起动手，库存一并算进去。"
+  },
+  "sk_ky_flame": {
+    "eff": {
+      "dot": 0.07
+    },
+    "note": "炎：点着了就不会自己灭。"
+  },
+  "sk_kamo_bolt": {
+    "eff": {
+      "hpCost": 0.03,
+      "dot": 0.06
+    },
+    "note": "家传血弹，从自己身上取。"
+  },
+  "sk_zn_shadow": {
+    "eff": {
+      "stun": 1,
+      "pull": 0.2
+    },
+    "note": "影叩：影子先到，人后到。"
+  },
+  "sk_ji_purify": {
+    "eff": {
+      "defDown": 0.15,
+      "guard": 0.15
+    },
+    "note": "净：先拂开它一层，再给自己一层。"
+  },
+  "sk_hg_suture": {
+    "eff": {
+      "lifesteal": 0.2,
+      "selfHeal": 0.1
+    },
+    "note": "缝合：把它的伤合到自己身上，再缝回来。"
+  },
+  "sk_lr_shot": {
+    "eff": {
+      "pierce": 0.4
+    },
+    "note": "咒具枪击：子弹不认咒力，只认防御。"
+  },
+  "sk_mj_baton": {
+    "eff": {
+      "stun": 1,
+      "weak": 0.2
+    },
+    "note": "捕缚棍：先按住，再谈。"
+  },
+  "sk_hm_bid": {
+    "eff": {
+      "exec": 0.4
+    },
+    "note": "暗标：它撑不住的时候，价才最高。"
+  },
+  "sk_hd_edge": {
+    "eff": {
+      "pierce": 0.5,
+      "slash": 1
+    },
+    "note": "空刃：没有厚度的东西，也谈不上防住；划过的口子会一直在。"
+  },
+  "sk_hd_drain": {
+    "eff": {
+      "drain": 0.35,
+      "lifesteal": 0.15,
+      "dot": 0.05
+    },
+    "note": "噬：吃下去的部分变成你的，吃剩的在它身上烂着。"
+  },
+  "sk_hd_final": {
+    "eff": {
+      "pierce": 0.35,
+      "trueDamage": 0.35,
+      "exec": 0.4
+    },
+    "note": "无铭·终：不立誓，不取名，只落下——它撑不住的时候，落得最重。"
+  },
+  "sk_hd_veil": {
+    "eff": {
+      "nullify": 1
+    },
+    "note": "无明：看不见的东西等于不在。你身前会有一层「打不到」的余地。"
+  },
+  "sk_hd_ward": {
+    "eff": {
+      "guard": 0.25
+    },
+    "note": "反狱：把还回来的力道攒成一层壳，替你先挨一下。"
+  },
+  "sk_hd_now": {
+    "eff": {
+      "swap": 0.6
+    },
+    "note": "刹那：只教一个动作——快。快到你还没到，它已经打完了自己。"
+  }
+}

@@ -1,0 +1,332 @@
+[
+  {
+    "id": "bt_cloth",
+    "name": "布鞋",
+    "type": "boots",
+    "q": 1,
+    "price": 60,
+    "stack": 1,
+    "desc": "高专发的。走起路来没声音。",
+    "stats": {
+      "dodge": 3
+    }
+  },
+  {
+    "id": "bt_tabi",
+    "name": "咒术师足袋",
+    "type": "boots",
+    "q": 2,
+    "price": 500,
+    "stack": 1,
+    "desc": "底上缝了一层咒丝，落地时不会惊动空气。",
+    "stats": {
+      "dodge": 6,
+      "def": 2
+    }
+  },
+  {
+    "id": "bt_greave",
+    "name": "咒铁胫甲",
+    "type": "boots",
+    "q": 3,
+    "price": 2000,
+    "stack": 1,
+    "desc": "沉，但站得住。",
+    "stats": {
+      "def": 5,
+      "dodge": 4
+    }
+  },
+  {
+    "id": "bt_shadow",
+    "name": "影踏靴",
+    "type": "boots",
+    "q": 5,
+    "price": 12000,
+    "stack": 1,
+    "desc": "一脚踩进影子，再从另一边出来。",
+    "stats": {
+      "dodge": 10,
+      "esc": 0.05,
+      "ceCtl": 0.02
+    }
+  },
+  {
+    "id": "cg_bokken",
+    "name": "木刀",
+    "type": "weapon",
+    "q": 1,
+    "price": 40,
+    "stack": 1,
+    "desc": "高专演武场角落捡的。木头的，但裹了层咒力就不轻。",
+    "stats": {
+      "phyAtk": 3
+    }
+  },
+  {
+    "id": "cg_knife",
+    "name": "小刀",
+    "type": "weapon",
+    "q": 1,
+    "price": 120,
+    "stack": 1,
+    "desc": "学生也能带的短刀，刃上刻着一道浅符。",
+    "stats": {
+      "phyAtk": 5
+    }
+  },
+  {
+    "id": "cg_blade",
+    "name": "长刀",
+    "type": "weapon",
+    "q": 2,
+    "price": 600,
+    "stack": 1,
+    "desc": "刀身薄，挥起来没有声音。",
+    "stats": {
+      "phyAtk": 11,
+      "crit": 2
+    }
+  },
+  {
+    "id": "cg_staff",
+    "name": "铁棍",
+    "type": "weapon",
+    "q": 3,
+    "price": 1800,
+    "stack": 1,
+    "desc": "重。但重就是道理。",
+    "stats": {
+      "phyAtk": 18,
+      "def": 2
+    }
+  },
+  {
+    "id": "cg_chain",
+    "name": "三节棍",
+    "type": "weapon",
+    "q": 4,
+    "price": 5200,
+    "stack": 1,
+    "desc": "三节之间连着咒丝，收放由咒力决定。",
+    "stats": {
+      "phyAtk": 25,
+      "crit": 4,
+      "ceCtl": 0.02
+    }
+  },
+  {
+    "id": "cg_yuun",
+    "name": "游云",
+    "type": "weapon",
+    "q": 5,
+    "price": 16000,
+    "stack": 1,
+    "desc": "一节一节的，像飘着。使用者要先把咒力散开。",
+    "stats": {
+      "phyAtk": 34,
+      "ceEff": 0.03,
+      "crit": 3
+    }
+  },
+  {
+    "id": "cg_tenk",
+    "name": "天逆鉾",
+    "type": "weapon",
+    "q": 6,
+    "price": 52000,
+    "stack": 1,
+    "desc": "据说能把术式本身「打消」掉。",
+    "stats": {
+      "phyAtk": 46,
+      "ceEff": 0.05,
+      "phyPierce": 0.25
+    }
+  },
+  {
+    "id": "cg_umbrella",
+    "name": "油纸伞",
+    "type": "weapon",
+    "q": 3,
+    "price": 2200,
+    "stack": 1,
+    "desc": "撑开是盾，收起来是枪。",
+    "stats": {
+      "phyAtk": 14,
+      "def": 6
+    }
+  },
+  {
+    "id": "cg_fan",
+    "name": "折扇",
+    "type": "weapon",
+    "q": 4,
+    "price": 6000,
+    "stack": 1,
+    "desc": "扇面上写着两个字，没人认得。",
+    "stats": {
+      "phyAtk": 18,
+      "curAtk": 8,
+      "ceCtl": 0.03
+    }
+  },
+  {
+    "id": "cg_bow",
+    "name": "铁胎弓",
+    "type": "weapon",
+    "q": 4,
+    "price": 6800,
+    "stack": 1,
+    "desc": "把咒力裹在箭上射出去。",
+    "stats": {
+      "phyAtk": 22,
+      "curAtk": 6,
+      "crit": 5
+    }
+  },
+  {
+    "id": "ar_uniform",
+    "name": "学生制服",
+    "type": "armor",
+    "q": 1,
+    "price": 150,
+    "stack": 1,
+    "desc": "高专发的第一套。洗得发白。",
+    "stats": {
+      "def": 5,
+      "hp": 30
+    }
+  },
+  {
+    "id": "ar_uniform2",
+    "name": "咒术师制服",
+    "type": "armor",
+    "q": 2,
+    "price": 900,
+    "stack": 1,
+    "desc": "胸口绣着术式编号。",
+    "stats": {
+      "def": 12,
+      "hp": 80
+    }
+  },
+  {
+    "id": "ar_uniform3",
+    "name": "强化制服",
+    "type": "armor",
+    "q": 4,
+    "price": 4200,
+    "stack": 1,
+    "desc": "缝进了咒丝，能挡一下正面。",
+    "stats": {
+      "def": 20,
+      "hp": 150,
+      "curMax": 30
+    }
+  },
+  {
+    "id": "ar_kasaya",
+    "name": "结界袈裟",
+    "type": "armor",
+    "q": 5,
+    "price": 15000,
+    "stack": 1,
+    "desc": "织入简易领域的袈裟，张开时能挡下一击。",
+    "stats": {
+      "def": 28,
+      "hp": 220,
+      "curMax": 50
+    }
+  },
+  {
+    "id": "ar_jacket",
+    "name": "特级制服",
+    "type": "armor",
+    "q": 6,
+    "price": 48000,
+    "stack": 1,
+    "desc": "只有特级才配发。缝线本身就是术式。",
+    "stats": {
+      "def": 38,
+      "hp": 320,
+      "curMax": 80,
+      "ceEff": 0.03
+    }
+  },
+  {
+    "id": "ch_talisman",
+    "name": "简易领域符",
+    "type": "charm",
+    "q": 2,
+    "price": 400,
+    "stack": 1,
+    "desc": "画着半个圆。用得好能挡下领域的压迫。",
+    "stats": {
+      "def": 7,
+      "dodge": 4
+    }
+  },
+  {
+    "id": "ch_suzu",
+    "name": "咒铃",
+    "type": "charm",
+    "q": 3,
+    "price": 1400,
+    "stack": 1,
+    "desc": "摇起来很轻，能提醒你咒力的流向。",
+    "stats": {
+      "ceEff": 0.02,
+      "dodge": 6
+    }
+  },
+  {
+    "id": "ch_bind",
+    "name": "缚咒颈环",
+    "type": "charm",
+    "q": 4,
+    "price": 3600,
+    "stack": 1,
+    "desc": "压在喉咙上的束缚，让咒言的威力更实。",
+    "stats": {
+      "curAtk": 12,
+      "ceCtl": 0.02
+    }
+  },
+  {
+    "id": "ch_ring_jade",
+    "name": "咒玉环",
+    "type": "charm",
+    "q": 5,
+    "price": 9000,
+    "stack": 1,
+    "desc": "把多余的咒力存在里面，用得上时再取。",
+    "stats": {
+      "curMax": 90
+    }
+  },
+  {
+    "id": "ch_omamori",
+    "name": "御守",
+    "type": "charm",
+    "q": 3,
+    "price": 1200,
+    "stack": 1,
+    "desc": "谁送的已经想不起来了。里面缝着一张符。",
+    "stats": {
+      "hp": 120
+    }
+  },
+  {
+    "id": "ch_lens",
+    "name": "护目镜",
+    "type": "charm",
+    "q": 5,
+    "price": 12000,
+    "stack": 1,
+    "desc": "镜片上镀着一层咒力。看得见，就打得准。",
+    "stats": {
+      "ceCtl": 0.05,
+      "crit": 6
+    }
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "trials": [
+    {
+      "id": "tr_mukagen",
+      "innate": "t_mukagen",
+      "kind": "dodge",
+      "name": "无限之隙",
+      "n": 3,
+      "desc": "连着躲过三下来袭，一次都不能挨着 —— 无下限就是这么用的。"
+    },
+    {
+      "id": "tr_juju",
+      "innate": "t_juju",
+      "kind": "order",
+      "name": "言灵之序",
+      "n": 4,
+      "desc": "咒言讲究先后。按顺序把四个词念出来。"
+    },
+    {
+      "id": "tr_jukai",
+      "innate": "t_jukai",
+      "kind": "battle",
+      "name": "影中试炼",
+      "foe": "f_b_mahoraga_sb",
+      "desc": "先在试炼里打赢那东西 —— 打不赢自己的影子，就别指望它替你上场。"
+    },
+    {
+      "id": "tr_mui",
+      "innate": "t_mui",
+      "kind": "fetch",
+      "name": "形状之核",
+      "n": 3,
+      "desc": "在试炼里凑齐三份「形状」的样本。"
+    },
+    {
+      "id": "tr_blood",
+      "innate": "t_blood",
+      "kind": "fetch",
+      "name": "血样三份",
+      "n": 3,
+      "desc": "找到三份血样。赤血操术从数得清的血开始。"
+    },
+    {
+      "id": "tr_malevolent",
+      "innate": "t_malevolent",
+      "kind": "order",
+      "name": "五层斩痕",
+      "n": 5,
+      "desc": "限定回合内叠满五层斩痕 —— 五刀，一刀都不能空。"
+    },
+    {
+      "id": "tr_ratio",
+      "innate": "t_ratio",
+      "kind": "order",
+      "name": "第七分点",
+      "n": 4,
+      "desc": "把对象量成十份，按顺序点中该切的四个点。"
+    },
+    {
+      "id": "tr_puppet",
+      "innate": "t_puppet",
+      "kind": "mine",
+      "name": "线头相认",
+      "desc": "五乘五的线团里埋着五处死结，一处都别碰。"
+    },
+    {
+      "id": "tr_const",
+      "innate": "t_const",
+      "kind": "mine",
+      "name": "咒力地雷",
+      "desc": "五乘五的场地上埋着咒力地雷，排干净它们。"
+    },
+    {
+      "id": "tr_boogie",
+      "innate": "t_boogie",
+      "kind": "battle",
+      "name": "两手一拍",
+      "foe": "f_sj_hunhun",
+      "desc": "换位是手快的事。打赢这一场，手就够快了。"
+    },
+    {
+      "id": "tr_projection",
+      "innate": "t_projection",
+      "kind": "battle",
+      "name": "二十四格",
+      "foe": "f_b_todo",
+      "desc": "把一秒切二十四份，先接住对方的二十四份。"
+    },
+    {
+      "id": "tr_mimic",
+      "innate": "t_mimic",
+      "kind": "order",
+      "name": "借来的舞",
+      "n": 3,
+      "desc": "只用借来的东西打完 —— 按顺序复现三手。"
+    },
+    {
+      "id": "tr_hakari",
+      "innate": "t_hakari",
+      "kind": "order",
+      "name": "连中三元",
+      "n": 3,
+      "desc": "连着赌中三次。押注的顺序，就是命。"
+    },
+    {
+      "id": "tr_csm",
+      "innate": "t_csm",
+      "kind": "battle",
+      "name": "咒灵操术试炼",
+      "foe": "f_fo_qunling",
+      "desc": "收服，再驱使。先把这一群咒灵打服。"
+    }
+  ],
+  "glyph": [
+    "咒",
+    "言",
+    "缚",
+    "解",
+    "捌",
+    "苍",
+    "赫",
+    "讨",
+    "界",
+    "空",
+    "守",
+    "破"
+  ]
+}

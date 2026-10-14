@@ -1,0 +1,39 @@
+{
+  "maxLv": 10,
+  "stepPct": [
+    0.005,
+    0.005,
+    0.005,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.02,
+    0.02,
+    0.02
+  ],
+  "curseCost": {
+    "silver": 3000,
+    "items": {
+      "mat_gold": 2,
+      "mat_shard": 2,
+      "mat_jade": 1
+    }
+  },
+  "carveCost": {
+    "silver": 1200,
+    "items": {
+      "mat_jade": 1,
+      "mat_silk": 2
+    }
+  },
+  "curseOrigins": [
+    "o_tyrant",
+    "o_operator"
+  ],
+  "slotsAt": [
+    3,
+    6,
+    9
+  ]
+}

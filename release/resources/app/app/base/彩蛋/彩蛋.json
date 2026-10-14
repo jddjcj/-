@@ -1,0 +1,748 @@
+[
+  {
+    "id": "e_sb_cross",
+    "name": "十字路口的拾荒",
+    "type": "search",
+    "room": "r_sb_cross",
+    "n": 20,
+    "title": "雨里的拾荒",
+    "reward": {
+      "exp": 400,
+      "silver": 120
+    },
+    "hint": "在涩谷十字路口反复翻找二十次。"
+  },
+  {
+    "id": "e_sb_alley",
+    "name": "墙根的骨头",
+    "type": "search",
+    "room": "r_sb_alley",
+    "n": 18,
+    "title": "看墙的人",
+    "reward": {
+      "exp": 600,
+      "item": "mat_bone"
+    },
+    "hint": "在后巷墙根翻找十八次。"
+  },
+  {
+    "id": "e_kt_forest",
+    "name": "结界林的草",
+    "type": "search",
+    "room": "r_kt_forest",
+    "n": 25,
+    "title": "采草的人",
+    "reward": {
+      "exp": 900,
+      "item": "mat_herb"
+    },
+    "hint": "在结界林采找二十五次。"
+  },
+  {
+    "id": "e_fo_deep",
+    "name": "深林的毛",
+    "type": "search",
+    "room": "r_fo_deep",
+    "n": 25,
+    "title": "入林者",
+    "reward": {
+      "exp": 1100,
+      "item": "mat_hair"
+    },
+    "hint": "在咒灵之森深处翻找二十五次。"
+  },
+  {
+    "id": "e_sw_basin",
+    "name": "沉淀池的白",
+    "type": "search",
+    "room": "r_sw_basin",
+    "n": 20,
+    "title": "清淤的人",
+    "reward": {
+      "exp": 1500,
+      "item": "mat_flesh"
+    },
+    "hint": "在沉淀池翻找二十次。"
+  },
+  {
+    "id": "e_se_cave",
+    "name": "海蚀洞的鳞",
+    "type": "search",
+    "room": "r_se_cave",
+    "n": 15,
+    "title": "摸鳞的人",
+    "reward": {
+      "exp": 1600,
+      "item": "mat_scale"
+    },
+    "hint": "在海蚀洞翻找十五次。"
+  },
+  {
+    "id": "e_sn_ice",
+    "name": "冰洞的玉",
+    "type": "search",
+    "room": "r_sn_ice",
+    "n": 18,
+    "title": "踏冰者",
+    "reward": {
+      "exp": 1800,
+      "item": "mat_jade"
+    },
+    "hint": "在冰洞翻找十八次。"
+  },
+  {
+    "id": "e_rl_core",
+    "name": "核心的碎片",
+    "type": "search",
+    "room": "r_rl_core",
+    "n": 12,
+    "title": "遗迹的拾荒",
+    "reward": {
+      "exp": 2400,
+      "item": "mat_shard"
+    },
+    "hint": "在领域遗迹核心翻找十二次。"
+  },
+  {
+    "id": "e_scan",
+    "name": "传单王",
+    "type": "talk",
+    "npc": "npc_scan",
+    "n": 12,
+    "title": "传单王",
+    "reward": {
+      "exp": 500,
+      "item": "mat_paper"
+    },
+    "hint": "陪涩谷发传单的人说十二回话。"
+  },
+  {
+    "id": "e_konbini",
+    "name": "夜班常客",
+    "type": "talk",
+    "npc": "npc_konbini",
+    "n": 10,
+    "title": "夜班常客",
+    "reward": {
+      "exp": 600,
+      "item": "food_onigiri"
+    },
+    "hint": "和便利店店员聊十回。"
+  },
+  {
+    "id": "e_gatekeeper",
+    "name": "报脸的人",
+    "type": "talk",
+    "npc": "npc_gatekeeper",
+    "n": 15,
+    "title": "报脸的人",
+    "reward": {
+      "exp": 700,
+      "item": "mat_tea"
+    },
+    "hint": "和门房老陈搭话十五次。"
+  },
+  {
+    "id": "e_librarian",
+    "name": "书库常客",
+    "type": "talk",
+    "npc": "npc_librarian",
+    "n": 12,
+    "title": "书库常客",
+    "reward": {
+      "exp": 800,
+      "item": "bk_curse"
+    },
+    "hint": "和书库管理员聊十二回。"
+  },
+  {
+    "id": "e_ramen",
+    "name": "面友",
+    "type": "talk",
+    "npc": "npc_ramen",
+    "n": 15,
+    "title": "面友",
+    "reward": {
+      "exp": 900,
+      "item": "food_bento"
+    },
+    "hint": "在拉面摊吃十五回。"
+  },
+  {
+    "id": "e_monk",
+    "name": "上香的人",
+    "type": "talk",
+    "npc": "npc_monk",
+    "n": 15,
+    "title": "上香的人",
+    "reward": {
+      "exp": 900,
+      "item": "ch_omamori"
+    },
+    "hint": "和神社神主聊十五回。"
+  },
+  {
+    "id": "e_info",
+    "name": "老主顾",
+    "type": "talk",
+    "npc": "npc_info",
+    "n": 20,
+    "title": "老主顾",
+    "reward": {
+      "exp": 1600,
+      "item": "mat_paper"
+    },
+    "hint": "找情报贩子打听二十回。"
+  },
+  {
+    "id": "e_roofgirl",
+    "name": "看灯的人",
+    "type": "talk",
+    "npc": "npc_roofgirl",
+    "n": 12,
+    "title": "看灯的人",
+    "reward": {
+      "exp": 1200
+    },
+    "hint": "陪楼顶的少女说十二回话。"
+  },
+  {
+    "id": "e_nurse",
+    "name": "陪夜的人",
+    "type": "talk",
+    "npc": "npc_nurse",
+    "n": 12,
+    "title": "陪夜的人",
+    "reward": {
+      "exp": 1200,
+      "item": "pill_heal"
+    },
+    "hint": "和残留的护士聊十二回。"
+  },
+  {
+    "id": "e_ghost",
+    "name": "叫魂者",
+    "type": "talk",
+    "npc": "npc_ghost",
+    "n": 13,
+    "title": "叫魂者",
+    "reward": {
+      "exp": 1400,
+      "item": "mat_hair"
+    },
+    "hint": "和天台上的影子说十三回话。"
+  },
+  {
+    "id": "e_cleaner",
+    "name": "看水的人",
+    "type": "talk",
+    "npc": "npc_cleaner",
+    "n": 20,
+    "title": "看水的人",
+    "reward": {
+      "exp": 1500,
+      "item": "mat_steel"
+    },
+    "hint": "和清淤工搭话二十次。"
+  },
+  {
+    "id": "e_ascetic",
+    "name": "问苦者",
+    "type": "talk",
+    "npc": "npc_ascetic",
+    "n": 15,
+    "title": "问苦者",
+    "reward": {
+      "exp": 1600,
+      "item": "mat_lotus"
+    },
+    "hint": "向石窟苦行僧请教十五回。"
+  },
+  {
+    "id": "e_broker",
+    "name": "识货的",
+    "type": "talk",
+    "npc": "npc_broker",
+    "n": 18,
+    "title": "识货的",
+    "reward": {
+      "exp": 1800,
+      "item": "mat_gold"
+    },
+    "hint": "和黑市掮客讨价还价十八回。"
+  },
+  {
+    "id": "e_echo",
+    "name": "回声",
+    "type": "talk",
+    "npc": "npc_echo",
+    "n": 20,
+    "title": "回声",
+    "reward": {
+      "exp": 2000,
+      "item": "mat_shard"
+    },
+    "hint": "跟回廊里的回声说二十回话。"
+  },
+  {
+    "id": "e_kid",
+    "name": "陪孩子",
+    "type": "talk",
+    "npc": "npc_kid",
+    "n": 15,
+    "title": "陪孩子",
+    "reward": {
+      "exp": 1300,
+      "item": "food_ration"
+    },
+    "hint": "陪空屋里的孩子说十五回话。"
+  },
+  {
+    "id": "e_oldfisher",
+    "name": "听潮人",
+    "type": "talk",
+    "npc": "npc_oldfisher",
+    "n": 12,
+    "title": "听潮人",
+    "reward": {
+      "exp": 1400,
+      "item": "mat_scale"
+    },
+    "hint": "和老渔民聊十二回。"
+  },
+  {
+    "id": "e_hermit",
+    "name": "林中客",
+    "type": "talk",
+    "npc": "npc_hermit",
+    "n": 12,
+    "title": "林中客",
+    "reward": {
+      "exp": 1500,
+      "item": "mat_herb"
+    },
+    "hint": "和林中小屋的隐者说十二回话。"
+  },
+  {
+    "id": "e_forge",
+    "name": "打铁人",
+    "type": "action",
+    "act": "forge",
+    "n": 25,
+    "title": "打铁人",
+    "reward": {
+      "exp": 900,
+      "item": "mat_steel"
+    },
+    "hint": "在任何地方锻打二十五回。"
+  },
+  {
+    "id": "e_gather",
+    "name": "尝百草",
+    "type": "action",
+    "act": "gather",
+    "n": 40,
+    "title": "尝百草",
+    "reward": {
+      "exp": 1500,
+      "item": "pill_heal2"
+    },
+    "hint": "采药采到四十次，舌头都麻了。"
+  },
+  {
+    "id": "e_meditate",
+    "name": "入定的人",
+    "type": "action",
+    "act": "meditate",
+    "n": 21,
+    "title": "入定的人",
+    "reward": {
+      "exp": 1100
+    },
+    "hint": "在任何地方打坐二十一次。"
+  },
+  {
+    "id": "e_fish",
+    "name": "垂钓者",
+    "type": "action",
+    "act": "fish",
+    "n": 15,
+    "title": "垂钓者",
+    "reward": {
+      "exp": 1000,
+      "item": "food_onigiri"
+    },
+    "hint": "在水边钓满十五次。"
+  },
+  {
+    "id": "e_pray",
+    "name": "记名者",
+    "type": "action",
+    "act": "pray",
+    "n": 9,
+    "title": "记名者",
+    "reward": {
+      "exp": 1300,
+      "item": "mat_ink"
+    },
+    "hint": "在任何庙里上香九次。"
+  },
+  {
+    "id": "e_read",
+    "name": "读书人",
+    "type": "action",
+    "act": "read",
+    "n": 20,
+    "title": "读书人",
+    "reward": {
+      "exp": 1200,
+      "item": "bk_flow"
+    },
+    "hint": "在任何书库读书二十次。"
+  },
+  {
+    "id": "e_work",
+    "name": "打工人",
+    "type": "action",
+    "act": "work",
+    "n": 30,
+    "title": "打工人",
+    "reward": {
+      "exp": 1000,
+      "silver": 600
+    },
+    "hint": "到处打工三十次。"
+  },
+  {
+    "id": "e_rest",
+    "name": "歇脚的人",
+    "type": "action",
+    "act": "rest",
+    "n": 12,
+    "title": "歇脚的人",
+    "reward": {
+      "exp": 900,
+      "item": "dr_sake"
+    },
+    "hint": "在任何地方休息十二回。"
+  },
+  {
+    "id": "e_drink",
+    "name": "酒中仙",
+    "type": "action",
+    "act": "drink",
+    "n": 15,
+    "title": "酒中仙",
+    "reward": {
+      "exp": 1000,
+      "item": "dr_strong"
+    },
+    "hint": "喝酒喝满十五次。"
+  },
+  {
+    "id": "e_listen",
+    "name": "听书人",
+    "type": "action",
+    "act": "listen",
+    "n": 20,
+    "title": "听书人",
+    "reward": {
+      "exp": 1300,
+      "item": "mat_tea"
+    },
+    "hint": "在各处听人说话二十回。"
+  },
+  {
+    "id": "e_lantern",
+    "name": "提灯",
+    "type": "click",
+    "target": "lantern",
+    "n": 10,
+    "title": "提灯",
+    "reward": {
+      "exp": 500,
+      "item": "ch_talisman"
+    },
+    "hint": "点一点界面右上角的那盏灯。"
+  },
+  {
+    "id": "e_moon",
+    "name": "望月",
+    "type": "click",
+    "target": "moon",
+    "n": 5,
+    "title": "望月",
+    "reward": {
+      "exp": 600
+    },
+    "hint": "夜里抬头看看月亮。"
+  },
+  {
+    "id": "e_self",
+    "name": "自恋",
+    "type": "click",
+    "target": "nameplate",
+    "n": 20,
+    "title": "自恋",
+    "reward": {
+      "exp": 400
+    },
+    "hint": "点自己的名牌二十次。"
+  },
+  {
+    "id": "e_midnight",
+    "name": "深夜的十字路口",
+    "type": "at",
+    "room": "r_sb_cross",
+    "hours": [
+      23,
+      0
+    ],
+    "n": 1,
+    "title": "深夜的十字路口",
+    "reward": {
+      "exp": 1200,
+      "item": "mat_res"
+    },
+    "hint": "子时站在涩谷十字路口。"
+  },
+  {
+    "id": "e_dawn",
+    "name": "赶早的人",
+    "type": "at",
+    "room": "r_ky_shrine",
+    "hours": [
+      5
+    ],
+    "n": 1,
+    "title": "赶早的人",
+    "reward": {
+      "exp": 1400,
+      "item": "ch_omamori"
+    },
+    "hint": "清晨五点到京都神社。"
+  },
+  {
+    "id": "e_realm3",
+    "name": "三级咒术师",
+    "type": "realm",
+    "n": 3,
+    "title": "三级咒术师",
+    "reward": {
+      "exp": 1500
+    },
+    "hint": "境界修到「三级」。"
+  },
+  {
+    "id": "e_realm6",
+    "name": "准特级",
+    "type": "realm",
+    "n": 6,
+    "title": "准特级",
+    "reward": {
+      "exp": 6000
+    },
+    "hint": "境界修到「准特级」。"
+  },
+  {
+    "id": "e_realm9",
+    "name": "天与觉醒",
+    "type": "realm",
+    "n": 9,
+    "title": "天与觉醒",
+    "reward": {
+      "exp": 20000,
+      "item": "pill_full"
+    },
+    "hint": "境界修到「天与觉醒」。"
+  },
+  {
+    "id": "e_silver1",
+    "name": "小富",
+    "type": "silver",
+    "n": 10000,
+    "title": "小富",
+    "reward": {
+      "exp": 500
+    },
+    "hint": "攒够一万咒币。"
+  },
+  {
+    "id": "e_silver2",
+    "name": "会算账的人",
+    "type": "silver",
+    "n": 200000,
+    "title": "会算账的人",
+    "reward": {
+      "exp": 5000,
+      "item": "mat_gold"
+    },
+    "hint": "攒够二十万咒币。"
+  },
+  {
+    "id": "e_crit",
+    "name": "打到点子上",
+    "type": "crit",
+    "n": 50,
+    "title": "打到点子上",
+    "reward": {
+      "exp": 1500
+    },
+    "hint": "打出五十次暴击。"
+  },
+  {
+    "id": "e_win",
+    "name": "连胜三十",
+    "type": "win",
+    "n": 30,
+    "title": "连胜三十",
+    "reward": {
+      "exp": 2500,
+      "item": "cg_knife"
+    },
+    "hint": "连胜三十场。"
+  },
+  {
+    "id": "e_lose",
+    "name": "屡败屡战",
+    "type": "lose",
+    "n": 10,
+    "title": "屡败屡战",
+    "reward": {
+      "exp": 1200
+    },
+    "hint": "被打倒十次还站起来。"
+  },
+  {
+    "id": "e_bag",
+    "name": "博物",
+    "type": "bag",
+    "n": 25,
+    "title": "博物",
+    "reward": {
+      "exp": 3000
+    },
+    "hint": "背包里同时有二十五种不同的东西。"
+  },
+  {
+    "id": "e_idle",
+    "name": "一炷香",
+    "type": "idle",
+    "room": "r_rl_corridor",
+    "n": 3600,
+    "title": "一炷香",
+    "reward": {
+      "exp": 1000
+    },
+    "hint": "在遗迹回廊里什么都不做，站够一炷香。"
+  },
+  {
+    "id": "e_items",
+    "name": "三友",
+    "type": "items",
+    "items": [
+      "mat_ink",
+      "mat_paper",
+      "mat_silk"
+    ],
+    "title": "三友",
+    "reward": {
+      "exp": 2500
+    },
+    "hint": "咒墨、灵符纸、咒丝，三样同时在身上。"
+  },
+  {
+    "id": "e_s_mikoto",
+    "name": "唯我独尊",
+    "type": "secret",
+    "word": "天上天下唯我独尊",
+    "title": "唯我独尊",
+    "reward": {
+      "exp": 2000,
+      "item": "ch_bind"
+    },
+    "hint": "在某处输入密语。"
+  },
+  {
+    "id": "e_s_jun",
+    "name": "术式顺转",
+    "type": "secret",
+    "word": "术式顺转",
+    "title": "顺转",
+    "reward": {
+      "exp": 1200,
+      "item": "mat_res"
+    },
+    "hint": "在某处输入密语。"
+  },
+  {
+    "id": "e_s_gyaku",
+    "name": "术式反转",
+    "type": "secret",
+    "word": "术式反转",
+    "title": "反转",
+    "reward": {
+      "exp": 1200,
+      "item": "pill_heal2"
+    },
+    "hint": "在某处输入密语。"
+  },
+  {
+    "id": "e_s_ryoiki",
+    "name": "领域展开",
+    "type": "secret",
+    "word": "领域展开",
+    "title": "领域",
+    "reward": {
+      "exp": 3000
+    },
+    "hint": "在某处输入密语。"
+  },
+  {
+    "id": "e_s_fukuma",
+    "name": "伏魔御厨子",
+    "type": "secret",
+    "word": "伏魔御厨子",
+    "title": "开炉",
+    "reward": {
+      "exp": 4000,
+      "silver": 800
+    },
+    "hint": "在某处输入密语。"
+  },
+  {
+    "id": "e_s_mugen",
+    "name": "无下限",
+    "type": "secret",
+    "word": "无下限",
+    "title": "无穷",
+    "reward": {
+      "exp": 4000
+    },
+    "hint": "在某处输入密语。"
+  },
+  {
+    "id": "e_s_jh",
+    "name": "咒术闲录",
+    "type": "secret",
+    "word": "咒术闲录",
+    "title": "闲人一个",
+    "reward": {
+      "exp": 1000,
+      "silver": 800
+    },
+    "hint": "在某处输入密语。"
+  },
+  {
+    "id": "e_s_black",
+    "name": "黒閃",
+    "type": "secret",
+    "word": "黒閃",
+    "title": "黒閃",
+    "reward": {
+      "exp": 2600,
+      "item": "pill_rage"
+    },
+    "hint": "在某处输入密语。"
+  }
+]

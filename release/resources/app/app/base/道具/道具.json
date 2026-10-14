@@ -1,0 +1,588 @@
+[
+  {
+    "id": "mat_res",
+    "name": "咒力残渣",
+    "type": "mat",
+    "q": 1,
+    "price": 6,
+    "stack": 99,
+    "desc": "咒灵散去后留下的一点渣。摸上去像凉的灰。"
+  },
+  {
+    "id": "mat_core",
+    "name": "咒胎核心",
+    "type": "mat",
+    "q": 4,
+    "price": 120,
+    "stack": 99,
+    "desc": "咒胎的中心。握久了，掌心会发麻。"
+  },
+  {
+    "id": "mat_bone",
+    "name": "咒骨",
+    "type": "mat",
+    "q": 3,
+    "price": 60,
+    "stack": 99,
+    "desc": "硬得不合常理的一段骨头。"
+  },
+  {
+    "id": "mat_flesh",
+    "name": "咒胎肉",
+    "type": "mat",
+    "q": 2,
+    "price": 32,
+    "stack": 99,
+    "desc": "从咒胎身上割下来的。还在轻轻地跳。"
+  },
+  {
+    "id": "mat_bamboo",
+    "name": "老竹",
+    "type": "mat",
+    "q": 1,
+    "price": 12,
+    "stack": 99,
+    "desc": "晒了两年的竹子，比铁还韧。"
+  },
+  {
+    "id": "mat_hair",
+    "name": "咒灵毛发",
+    "type": "mat",
+    "q": 2,
+    "price": 24,
+    "stack": 99,
+    "desc": "剪不断，烧不着。"
+  },
+  {
+    "id": "mat_venom",
+    "name": "咒毒囊",
+    "type": "mat",
+    "q": 3,
+    "price": 70,
+    "stack": 99,
+    "desc": "破了会溅出来，别用手捏。"
+  },
+  {
+    "id": "mat_steel",
+    "name": "咒铁",
+    "type": "mat",
+    "q": 2,
+    "price": 30,
+    "stack": 99,
+    "desc": "浸过咒力的铁，比寻常铁沉。"
+  },
+  {
+    "id": "mat_gold",
+    "name": "咒金",
+    "type": "mat",
+    "q": 5,
+    "price": 400,
+    "stack": 99,
+    "desc": "做咒具的骨。一寸咒金，十寸命。"
+  },
+  {
+    "id": "mat_shard",
+    "name": "咒具碎片",
+    "type": "mat",
+    "q": 4,
+    "price": 150,
+    "stack": 99,
+    "desc": "断掉的咒具残片，边缘还留着术式的痕迹。"
+  },
+  {
+    "id": "mat_paper",
+    "name": "灵符纸",
+    "type": "mat",
+    "q": 2,
+    "price": 20,
+    "stack": 99,
+    "desc": "符纸。写坏的符会自己烧掉。"
+  },
+  {
+    "id": "mat_ink",
+    "name": "咒墨",
+    "type": "mat",
+    "q": 2,
+    "price": 26,
+    "stack": 99,
+    "desc": "掺了咒力残渣的墨，写出来的符能压住东西。"
+  },
+  {
+    "id": "mat_jade",
+    "name": "咒玉",
+    "type": "mat",
+    "q": 4,
+    "price": 200,
+    "stack": 99,
+    "desc": "能把咒力存进去的石头。"
+  },
+  {
+    "id": "mat_coin",
+    "name": "旧咒币",
+    "type": "mat",
+    "q": 2,
+    "price": 18,
+    "stack": 99,
+    "desc": "咒术界早年的通货，现在只能当护身物。"
+  },
+  {
+    "id": "mat_silk",
+    "name": "咒丝",
+    "type": "mat",
+    "q": 3,
+    "price": 55,
+    "stack": 99,
+    "desc": "织符用的线，绷紧时会轻轻颤。"
+  },
+  {
+    "id": "mat_scale",
+    "name": "咒鳞",
+    "type": "mat",
+    "q": 3,
+    "price": 48,
+    "stack": 99,
+    "desc": "从某条咒灵身上剥下来的。"
+  },
+  {
+    "id": "mat_lotus",
+    "name": "净咒莲",
+    "type": "mat",
+    "q": 5,
+    "price": 0,
+    "stack": 9,
+    "desc": "长在最冷的潭底的莲。据说能把咒力里的毒滤掉。"
+  },
+  {
+    "id": "mat_tea",
+    "name": "醒神茶",
+    "type": "mat",
+    "q": 2,
+    "price": 22,
+    "stack": 99,
+    "desc": "喝一口，咒力的回路会清楚一点。"
+  },
+  {
+    "id": "mat_herb",
+    "name": "止血草",
+    "type": "mat",
+    "q": 1,
+    "price": 8,
+    "stack": 99,
+    "desc": "路边就能采到。管用，但慢。"
+  },
+  {
+    "id": "pill_mini",
+    "name": "小咒丸",
+    "type": "pill",
+    "q": 1,
+    "price": 30,
+    "stack": 99,
+    "desc": "补充少量咒力。",
+    "effect": {
+      "cur": 60
+    }
+  },
+  {
+    "id": "pill_big",
+    "name": "大咒丸",
+    "type": "pill",
+    "q": 3,
+    "price": 200,
+    "stack": 99,
+    "desc": "补充大量咒力。",
+    "effect": {
+      "cur": 260
+    }
+  },
+  {
+    "id": "pill_heal",
+    "name": "止血符",
+    "type": "pill",
+    "q": 1,
+    "price": 40,
+    "stack": 99,
+    "desc": "贴上去，伤口会先合起来。",
+    "effect": {
+      "hp": 160
+    }
+  },
+  {
+    "id": "pill_heal2",
+    "name": "反转符",
+    "type": "pill",
+    "q": 4,
+    "price": 320,
+    "stack": 99,
+    "desc": "把咒力反向运转，硬生生把伤转回去。",
+    "effect": {
+      "hp": 700
+    }
+  },
+  {
+    "id": "pill_full",
+    "name": "反转结晶",
+    "type": "pill",
+    "q": 6,
+    "price": 1200,
+    "stack": 9,
+    "desc": "一口气把气血回满。据说只有极少数人会做。",
+    "effect": {
+      "hpFull": true,
+      "curFull": true
+    }
+  },
+  {
+    "id": "pill_calm",
+    "name": "凝神丸",
+    "type": "pill",
+    "q": 2,
+    "price": 80,
+    "stack": 99,
+    "desc": "心静下来，咒力才走得顺。",
+    "effect": {
+      "exp": 260
+    }
+  },
+  {
+    "id": "pill_train",
+    "name": "锻炼丹",
+    "type": "pill",
+    "q": 3,
+    "price": 260,
+    "stack": 99,
+    "desc": "专门用来熬身体的药。",
+    "effect": {
+      "exp": 900
+    }
+  },
+  {
+    "id": "pill_eye",
+    "name": "开眼丸",
+    "type": "pill",
+    "q": 5,
+    "price": 600,
+    "stack": 9,
+    "desc": "据说能让咒力感知更敏锐。",
+    "effect": {
+      "attr": {
+        "insight": 1
+      }
+    }
+  },
+  {
+    "id": "pill_flesh",
+    "name": "淬体丸",
+    "type": "pill",
+    "q": 5,
+    "price": 600,
+    "stack": 9,
+    "desc": "据说能让筋骨更结实。",
+    "effect": {
+      "attr": {
+        "root": 1
+      }
+    }
+  },
+  {
+    "id": "pill_bind",
+    "name": "缚咒符",
+    "type": "pill",
+    "q": 3,
+    "price": 150,
+    "stack": 99,
+    "desc": "战斗中使用：三回合内压制对方的攻击。",
+    "effect": {
+      "buff": {
+        "weak": 3
+      }
+    }
+  },
+  {
+    "id": "pill_rage",
+    "name": "咒力兴奋剂",
+    "type": "pill",
+    "q": 4,
+    "price": 220,
+    "stack": 99,
+    "desc": "战斗中使用：短期内咒力攻击提高。",
+    "effect": {
+      "buff": {
+        "curAtk": 0.35,
+        "turns": 4
+      }
+    }
+  },
+  {
+    "id": "pill_iron",
+    "name": "硬化剂",
+    "type": "pill",
+    "q": 4,
+    "price": 220,
+    "stack": 99,
+    "desc": "战斗中使用：短期内防御提高。",
+    "effect": {
+      "buff": {
+        "def": 0.5,
+        "turns": 4
+      }
+    }
+  },
+  {
+    "id": "pill_clean",
+    "name": "解毒散",
+    "type": "pill",
+    "q": 2,
+    "price": 60,
+    "stack": 99,
+    "desc": "把咒毒压下去。",
+    "effect": {
+      "hp": 60,
+      "cure": true
+    }
+  },
+  {
+    "id": "food_onigiri",
+    "name": "饭团",
+    "type": "food",
+    "q": 1,
+    "price": 10,
+    "stack": 99,
+    "desc": "凉的，但顶饱。",
+    "effect": {
+      "hp": 60
+    }
+  },
+  {
+    "id": "food_bento",
+    "name": "便当",
+    "type": "food",
+    "q": 2,
+    "price": 35,
+    "stack": 99,
+    "desc": "还热着。",
+    "effect": {
+      "hp": 180,
+      "cur": 40
+    }
+  },
+  {
+    "id": "food_ration",
+    "name": "压缩干粮",
+    "type": "food",
+    "q": 1,
+    "price": 14,
+    "stack": 99,
+    "desc": "难吃，但不会坏。",
+    "effect": {
+      "hp": 100
+    }
+  },
+  {
+    "id": "food_mint",
+    "name": "薄荷糖",
+    "type": "food",
+    "q": 1,
+    "price": 12,
+    "stack": 99,
+    "desc": "凉到后脑勺。含一颗，能再走一路。",
+    "effect": {
+      "sta": 100
+    }
+  },
+  {
+    "id": "dr_sake",
+    "name": "清酒",
+    "type": "drink",
+    "q": 2,
+    "price": 40,
+    "stack": 99,
+    "desc": "一口下去，肩膀松了。",
+    "effect": {
+      "hp": 40,
+      "cur": 80
+    }
+  },
+  {
+    "id": "dr_strong",
+    "name": "烈酒",
+    "type": "drink",
+    "q": 3,
+    "price": 90,
+    "stack": 99,
+    "desc": "喝多了会说的话比咒言还多。",
+    "effect": {
+      "hp": 60,
+      "cur": 150
+    }
+  },
+  {
+    "id": "bk_curse",
+    "name": "咒术入门讲义",
+    "type": "book",
+    "q": 1,
+    "price": 200,
+    "stack": 9,
+    "desc": "前几页被谁画满了小人。",
+    "learn": "k_blast"
+  },
+  {
+    "id": "bk_flow",
+    "name": "咒力循环讲义",
+    "type": "book",
+    "q": 2,
+    "price": 600,
+    "stack": 9,
+    "desc": "讲怎么把咒力盘成环。",
+    "learn": "k_flow"
+  },
+  {
+    "id": "bk_armor",
+    "name": "护体与硬化",
+    "type": "book",
+    "q": 2,
+    "price": 600,
+    "stack": 9,
+    "desc": "讲怎么把咒力铺在身体表面。",
+    "learn": "k_armor"
+  },
+  {
+    "id": "bk_step",
+    "name": "瞬步要诀",
+    "type": "book",
+    "q": 2,
+    "price": 600,
+    "stack": 9,
+    "desc": "「先动脚，再想。」",
+    "learn": "k_step"
+  },
+  {
+    "id": "bk_sense",
+    "name": "咒力感知",
+    "type": "book",
+    "q": 3,
+    "price": 1600,
+    "stack": 9,
+    "desc": "讲怎么「看见」咒力。",
+    "learn": "k_sense"
+  },
+  {
+    "id": "bk_weapon",
+    "name": "咒具使用法",
+    "type": "book",
+    "q": 2,
+    "price": 700,
+    "stack": 9,
+    "desc": "咒具不是刀，是术式的延长。",
+    "learn": "k_weapon"
+  },
+  {
+    "id": "bk_reverse",
+    "name": "反转术式笔记",
+    "type": "book",
+    "q": 5,
+    "price": 9000,
+    "stack": 9,
+    "desc": "字迹很潦草，像是写给自己的。",
+    "learn": "k_reverse"
+  },
+  {
+    "id": "bk_black",
+    "name": "黒閃心得",
+    "type": "book",
+    "q": 5,
+    "price": 12000,
+    "stack": 9,
+    "desc": "「别去想，去想就慢了一线。」",
+    "learn": "k_black"
+  },
+  {
+    "id": "q_note",
+    "name": "渗字的便笺",
+    "type": "quest",
+    "q": 1,
+    "price": 0,
+    "stack": 9,
+    "desc": "纸上渗着三枚并排的咒纹，像三片叶子。"
+  },
+  {
+    "id": "q_finger",
+    "name": "干枯的手指",
+    "type": "quest",
+    "q": 7,
+    "price": 0,
+    "stack": 9,
+    "desc": "看着像人指，摸上去却比铁还硬。握着它，耳边会有人说话。"
+  },
+  {
+    "id": "q_scroll",
+    "name": "半卷古术式",
+    "type": "quest",
+    "q": 4,
+    "price": 0,
+    "stack": 9,
+    "desc": "后半卷被撕走了。"
+  },
+  {
+    "id": "q_recipe",
+    "name": "半张方子",
+    "type": "quest",
+    "q": 3,
+    "price": 0,
+    "stack": 9,
+    "desc": "记着一味缺了名字的药。"
+  },
+  {
+    "id": "q_token",
+    "name": "半枚咒符",
+    "type": "quest",
+    "q": 4,
+    "price": 0,
+    "stack": 9,
+    "desc": "断口平整。上面刻着一个「门」字。"
+  },
+  {
+    "id": "q_broken",
+    "name": "断刃",
+    "type": "quest",
+    "q": 4,
+    "price": 0,
+    "stack": 9,
+    "desc": "刀身断成两截，断口光滑得像被手指点出来的。"
+  },
+  {
+    "id": "q_flute",
+    "name": "咒笛",
+    "type": "quest",
+    "q": 5,
+    "price": 0,
+    "stack": 9,
+    "desc": "玉做的一支短笛。吹响时，咒力会排成队。"
+  },
+  {
+    "id": "q_lamp",
+    "name": "走马灯",
+    "type": "quest",
+    "q": 4,
+    "price": 0,
+    "stack": 9,
+    "desc": "灯里的马一直在往北跑。"
+  },
+  {
+    "id": "q_pendant",
+    "name": "碎裂护符",
+    "type": "quest",
+    "q": 3,
+    "price": 0,
+    "stack": 9,
+    "desc": "裂成两半，拼起来严丝合缝。"
+  },
+  {
+    "id": "q_mat",
+    "name": "影线织垫",
+    "type": "quest",
+    "q": 3,
+    "price": 0,
+    "stack": 9,
+    "desc": "织得很好，中央绣着一个极小的「十」字。"
+  }
+]

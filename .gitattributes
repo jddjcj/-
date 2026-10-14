@@ -1,0 +1,5 @@
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.dll binary
+*.pak binary
+*.dat binary
+*.bin binary

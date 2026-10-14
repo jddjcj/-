@@ -1,0 +1,220 @@
+[
+  {
+    "id": "t_mukagen",
+    "name": "无下限",
+    "q": 7,
+    "element": "空间",
+    "passive": "物理攻击无法触及你：每次抵挡都要搭咒力；咒力伤害也被压得很低，练熟之后压得更狠。",
+    "desc": "把「无穷」带在身边。攻击永远到不了你身上——除非你允许。",
+    "skills": [
+      "sk_mk_limitless",
+      "sk_mk_blue",
+      "sk_mk_red",
+      "sk_mk_move",
+      "sk_mk_purple"
+    ],
+    "domain": "dom_mukagen",
+    "blockCost": 22
+  },
+  {
+    "id": "t_juju",
+    "name": "咒言",
+    "q": 6,
+    "element": "言灵",
+    "passive": "你的话会变成力。对同一个目标连着用咒言，一下比一下重。",
+    "desc": "说出口的话，会直接落在对方身上。代价是喉咙。",
+    "skills": [
+      "sk_jj_stop",
+      "sk_jj_break",
+      "sk_jj_bind",
+      "sk_jj_burst"
+    ],
+    "domain": "dom_juju"
+  },
+  {
+    "id": "t_jukai",
+    "name": "十种影法术",
+    "q": 7,
+    "element": "式神",
+    "passive": "影子与你同行：闪避比常人高，受击后有几率召出影犬反击。式神以「非常驻 buff + 护盾」形式留在场上 —— 分几类各有解锁的时候，每类只能出战一只；魔虚罗单独一类。",
+    "desc": "十种影子，十种死法。你学过的，比你以为的多。",
+    "skills": [
+      "sk_ts_dog",
+      "sk_ts_dog2",
+      "sk_ts_nue",
+      "sk_ts_snake",
+      "sk_ts_toad",
+      "sk_ts_rabbit",
+      "sk_ts_eleph",
+      "sk_ts_bull",
+      "sk_ts_wolf",
+      "sk_ts_maho"
+    ],
+    "domain": "dom_jukai"
+  },
+  {
+    "id": "t_mui",
+    "name": "无为转变",
+    "q": 7,
+    "element": "灵魂",
+    "passive": "每次命中都会侵蚀对方的形状：降低其防御。",
+    "desc": "触摸灵魂，然后改写「它该是什么样」。",
+    "skills": [
+      "sk_mui_touch",
+      "sk_mui_self",
+      "sk_mui_swarm",
+      "sk_mui_soul"
+    ],
+    "domain": "dom_mui"
+  },
+  {
+    "id": "t_blood",
+    "name": "赤血操术",
+    "q": 6,
+    "element": "血脉",
+    "passive": "以血为器：受到物理伤害时反弹一部分给对方。",
+    "desc": "血是咒力的形状之一。你的血，格外听话。",
+    "skills": [
+      "sk_bl_blade",
+      "sk_bl_venom",
+      "sk_bl_armor",
+      "sk_bl_manip"
+    ],
+    "domain": "dom_blood"
+  },
+  {
+    "id": "t_malevolent",
+    "name": "御厨子",
+    "q": 7,
+    "element": "斩击",
+    "passive": "斩痕：每次斩击命中都会在对方身上留下痕迹，痕迹越叠，它挨打越痛；物理通道的主力术式。",
+    "desc": "「解」是无形的斩击，「捌」是照着硬度调整的斩击。看不见刀，伤口却先出现。",
+    "skills": [
+      "sk_mv_dismantle",
+      "sk_mv_cleave",
+      "sk_mv_flame",
+      "sk_mv_web"
+    ],
+    "domain": "dom_malevolent"
+  },
+  {
+    "id": "t_ratio",
+    "name": "十划咒法",
+    "q": 6,
+    "element": "弱点",
+    "passive": "识破：暴击率天生比别人高；打中要害时，伤害还会再往上抬。",
+    "desc": "把对象量成十份，在第七份的地方切下去。找得准，比力气有用。",
+    "skills": [
+      "sk_rt_point",
+      "sk_rt_break",
+      "sk_rt_weak",
+      "sk_rt_time"
+    ],
+    "domain": "dom_ratio"
+  },
+  {
+    "id": "t_puppet",
+    "name": "傀儡操术",
+    "q": 6,
+    "element": "操术",
+    "passive": "咒骸护主：受到的伤害被别人替你挡下一部分；也是唯一能「隔着一层」跟人打的术式。",
+    "desc": "不必自己上前。手指动一下，身后那些东西就会替你去。",
+    "skills": [
+      "sk_pp_puppet",
+      "sk_pp_gun",
+      "sk_pp_shield",
+      "sk_pp_burst"
+    ],
+    "domain": "dom_puppet"
+  },
+  {
+    "id": "t_const",
+    "name": "构筑术式",
+    "q": 6,
+    "element": "构筑",
+    "passive": "以咒力造物：防御更高，但每次受击都要额外搭一点咒力去维持。",
+    "desc": "想到什么，就能造出什么——只是一旦停手，它就会散。",
+    "skills": [
+      "sk_cs_spear",
+      "sk_cs_wall",
+      "sk_cs_net",
+      "sk_cs_colossus"
+    ],
+    "domain": "dom_const"
+  },
+  {
+    "id": "t_boogie",
+    "name": "不义游戏",
+    "q": 7,
+    "element": "空间",
+    "passive": "换位：攻击时有几率与目标对调位置，使其本回合命中下降。",
+    "desc": "把手拍在一起，两个东西的位置就会对调。包括人和人。",
+    "skills": [
+      "sk_bg_swap",
+      "sk_bg_link",
+      "sk_bg_chaos",
+      "sk_bg_twin"
+    ],
+    "domain": "dom_boogie"
+  },
+  {
+    "id": "t_projection",
+    "name": "投射咒法",
+    "q": 6,
+    "element": "投影",
+    "passive": "把动作拆成二十四格再打出去：暴击与闪避提高。",
+    "desc": "把一秒切成二十四份。别人做完一个动作，你已经做完两个。",
+    "skills": [
+      "sk_pj_grid",
+      "sk_pj_accel",
+      "sk_pj_after",
+      "sk_pj_frame"
+    ],
+    "domain": "dom_projection"
+  },
+  {
+    "id": "t_mimic",
+    "name": "术式模仿",
+    "q": 7,
+    "element": "模仿",
+    "passive": "借术：击败敌人后能记下它的一门技能，保留的门数与可用次数都有限，用尽要重新去借。",
+    "desc": "看过的东西就能用。代价是，你得先赢一次。",
+    "skills": [
+      "sk_mm_borrow",
+      "sk_mm_dual",
+      "sk_mm_trio",
+      "sk_mm_rika"
+    ],
+    "domain": "dom_mimic"
+  },
+  {
+    "id": "t_hakari",
+    "name": "坐杀博徒",
+    "q": 6,
+    "element": "赌博",
+    "passive": "掷骰：每回合掷骰，点数决定本回合倍率与自身 buff；押注可同时放大收益与风险。",
+    "desc": "赌一把。赢了翻倍，输了也一样。",
+    "skills": [
+      "sk_hk_dice",
+      "sk_hk_bet",
+      "sk_hk_jackpot",
+      "sk_hk_allin"
+    ],
+    "domain": "dom_hakari"
+  },
+  {
+    "id": "t_csm",
+    "name": "咒灵操术",
+    "q": 7,
+    "element": "操灵",
+    "passive": "驱使收服的咒灵（账下有上限，非常驻 buff + 护盾形式，不做养成）：对阵页给的是「驱使·X」按键、一只一个键，不必先按一次「驱使」。放出去的那只护在你身前、每回合替你出手，没有回合上限 —— 一直撑到护盾被打空（＝被打散）：这一场它驱使不动了，散场后从账下划掉、要重新收服（只有镜屋是沙盘，那边不算数）。收场时把残余护盾收进库存（覆盖，不累加）。",
+    "desc": "把咒灵收进手里，再放出去。放出去的那只，会替你先挨打。",
+    "skills": [
+      "sk_csm_tame",
+      "sk_csm_drive",
+      "sk_csm_fuse",
+      "sk_csm_vortex"
+    ],
+    "domain": "dom_csm"
+  }
+]

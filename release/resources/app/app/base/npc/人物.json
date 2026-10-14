@@ -1,0 +1,2023 @@
+[
+  {
+    "id": "npc_scan",
+    "name": "发传单的人",
+    "title": "涩谷街头",
+    "scene": "sc_shibuya",
+    "room": "r_sb_cross",
+    "desc": "站在雨里发美容院的传单，自己没打伞。",
+    "talk": [
+      "拿着吧，反正也没人要。",
+      "今天下雨，人少，特别好发。",
+      "你身上……有点冷，错觉吧。"
+    ],
+    "gift": {
+      "love": [
+        "mat_paper"
+      ],
+      "like": [
+        "food_onigiri"
+      ],
+      "hate": []
+    },
+    "task": {
+      "id": "t_flyer",
+      "name": "要一份样本",
+      "item": "mat_paper",
+      "count": 5,
+      "reward": {
+        "silver": 260,
+        "item": "food_onigiri"
+      }
+    }
+  },
+  {
+    "id": "npc_driver",
+    "name": "末班车司机",
+    "title": "地铁站",
+    "scene": "sc_shibuya",
+    "room": "r_sb_station",
+    "desc": "车早收班了，他还站在站台尽头，看着轨道。",
+    "talk": [
+      "末班车早开了。",
+      "你听见了吗？下面还有一列车在跑。",
+      "别下去。真的。"
+    ],
+    "gift": {
+      "love": [
+        "dr_sake"
+      ],
+      "like": [
+        "food_bento"
+      ],
+      "hate": [
+        "mat_bone"
+      ]
+    },
+    "task": {
+      "id": "t_driver",
+      "name": "找回班表",
+      "item": "mat_paper",
+      "count": 6,
+      "reward": {
+        "silver": 400,
+        "item": "ch_talisman"
+      }
+    }
+  },
+  {
+    "id": "npc_girl",
+    "name": "迷路的女学生",
+    "title": "百货商场",
+    "scene": "sc_shibuya",
+    "room": "r_sb_mall",
+    "desc": "抱着书包坐在试衣间门口，说她和同学走散了。",
+    "talk": [
+      "他们说在三楼等我的……",
+      "刚才有个很高的影子从橱窗外面过去。",
+      "你能不能陪我到门口？"
+    ],
+    "gift": {
+      "love": [
+        "food_onigiri"
+      ],
+      "like": [
+        "mat_paper"
+      ],
+      "hate": [
+        "mat_venom"
+      ]
+    },
+    "task": {
+      "id": "t_girl",
+      "name": "找她的同学",
+      "item": "mat_res",
+      "count": 6,
+      "reward": {
+        "silver": 320,
+        "item": "pill_mini"
+      }
+    }
+  },
+  {
+    "id": "npc_beggar",
+    "name": "巷里的流浪汉",
+    "title": "后巷",
+    "scene": "sc_shibuya",
+    "room": "r_sb_alley",
+    "desc": "用报纸把全身裹得严严实实，只露出眼睛。",
+    "talk": [
+      "这条巷子比外面暖，你知道为什么吗。",
+      "以前这儿死过人，就再没凉过。",
+      "给我点吃的，我告诉你哪堵墙薄。"
+    ],
+    "gift": {
+      "love": [
+        "food_onigiri"
+      ],
+      "like": [
+        "food_ration"
+      ],
+      "hate": [
+        "pill_clean"
+      ]
+    },
+    "teach": {
+      "skill": "k_sense",
+      "aff": 60
+    }
+  },
+  {
+    "id": "npc_konbini",
+    "name": "便利店店员",
+    "title": "涩谷便利店",
+    "scene": "sc_shibuya",
+    "room": "r_sb_konbini",
+    "desc": "一直在看门口，收银台的零钱叠得整整齐齐。",
+    "talk": [
+      "欢迎光临……啊，是你。",
+      "这个点来买东西的，都不是普通客人。",
+      "临期的我帮你打了折。"
+    ],
+    "gift": {
+      "love": [
+        "mat_tea"
+      ],
+      "like": [
+        "food_bento"
+      ],
+      "hate": []
+    },
+    "task": {
+      "id": "t_konbini",
+      "name": "补一批临期货",
+      "item": "mat_coin",
+      "count": 5,
+      "reward": {
+        "silver": 300,
+        "item": "food_bento"
+      }
+    }
+  },
+  {
+    "id": "npc_gatekeeper",
+    "name": "门房老陈",
+    "title": "高专门房",
+    "scene": "sc_koutou",
+    "room": "r_kt_gate",
+    "desc": "坐在门房里织毛衣，结界的事他一句不多问。",
+    "talk": [
+      "进门先登记。",
+      "结界这两天有点松，你走路小心点。",
+      "山上的学生，来一个走一个。"
+    ],
+    "gift": {
+      "love": [
+        "mat_tea"
+      ],
+      "like": [
+        "food_ration"
+      ],
+      "hate": [
+        "dr_sake"
+      ]
+    },
+    "task": {
+      "id": "t_gate",
+      "name": "补门房的竹",
+      "item": "mat_bamboo",
+      "count": 8,
+      "reward": {
+        "silver": 420,
+        "item": "dr_sake"
+      }
+    }
+  },
+  {
+    "id": "npc_teacher",
+    "name": "高专教师",
+    "title": "术式课",
+    "scene": "sc_koutou",
+    "room": "r_kt_dojo",
+    "desc": "道场里站着，手上的教鞭是一根咒具。",
+    "talk": [
+      "术式不是招式，是你能不能把它想清楚。",
+      "先把咒力循环练熟，别的都好说。",
+      "打不过就跑，这也是课。"
+    ],
+    "gift": {
+      "love": [
+        "bk_curse"
+      ],
+      "like": [
+        "mat_paper"
+      ],
+      "hate": [
+        "dr_sake"
+      ]
+    },
+    "teach": {
+      "skill": "k_flow",
+      "aff": 65
+    }
+  },
+  {
+    "id": "npc_librarian",
+    "name": "书库管理员",
+    "title": "高专书库",
+    "scene": "sc_koutou",
+    "room": "r_kt_library",
+    "desc": "书库没有窗，她在里面待了太久，皮肤白得不正常。",
+    "talk": [
+      "这里的气味叫「旧」。",
+      "三十年前那一册被人借走了，一直没还。",
+      "书不会骗人，写书的人会。"
+    ],
+    "gift": {
+      "love": [
+        "mat_paper"
+      ],
+      "like": [
+        "mat_ink"
+      ],
+      "hate": [
+        "food_bento"
+      ]
+    },
+    "teach": {
+      "skill": "k_sense",
+      "aff": 55
+    }
+  },
+  {
+    "id": "npc_senpai",
+    "name": "三年生前辈",
+    "title": "高专宿舍",
+    "scene": "sc_koutou",
+    "room": "r_kt_dorm",
+    "desc": "脖子上挂着一副耳机，从来没见他听过。",
+    "talk": [
+      "一年级？先别急着接任务。",
+      "我去年这时候也觉得自己行。",
+      "宿舍晚上十一点断热水，记住。"
+    ],
+    "gift": {
+      "love": [
+        "dr_strong"
+      ],
+      "like": [
+        "food_bento"
+      ],
+      "hate": [
+        "pill_calm"
+      ]
+    },
+    "teach": {
+      "skill": "k_step",
+      "aff": 70
+    }
+  },
+  {
+    "id": "npc_cook",
+    "name": "食堂阿姨",
+    "title": "高专食堂",
+    "scene": "sc_koutou",
+    "room": "r_kt_dorm",
+    "desc": "一勺下去分量永远比你想要的多一点。",
+    "talk": [
+      "多吃点，练了一天了。",
+      "那帮孩子里，有个特别能吃的。",
+      "锅里还有，自己盛。"
+    ],
+    "gift": {
+      "love": [
+        "mat_herb"
+      ],
+      "like": [
+        "food_ration"
+      ],
+      "hate": []
+    },
+    "task": {
+      "id": "t_cook",
+      "name": "添两筐菜",
+      "item": "mat_herb",
+      "count": 10,
+      "reward": {
+        "silver": 480,
+        "item": "food_bento"
+      }
+    }
+  },
+  {
+    "id": "npc_player1",
+    "name": "参赛者",
+    "title": "死灭回游",
+    "scene": "sc_sendai",
+    "room": "r_sd_station",
+    "desc": "手腕上有一点规则的记号，眼神像在算账。",
+    "talk": [
+      "别靠太近，规则允许我动手。",
+      "这个结界里，只有点数是真的。",
+      "我不想打，你也别逼我。"
+    ],
+    "gift": {
+      "love": [
+        "pill_heal2"
+      ],
+      "like": [
+        "mat_coin"
+      ],
+      "hate": [
+        "mat_paper"
+      ]
+    },
+    "task": {
+      "id": "t_player",
+      "name": "换参赛凭证",
+      "item": "mat_coin",
+      "count": 8,
+      "reward": {
+        "silver": 520,
+        "item": "pill_calm"
+      }
+    }
+  },
+  {
+    "id": "npc_ramen",
+    "name": "拉面摊主",
+    "title": "仙台商店街",
+    "scene": "sc_sendai",
+    "room": "r_sd_shotengai",
+    "desc": "摊子只在夜里开，汤头熬得比白天还认真。",
+    "talk": [
+      "这条街，白天关一半，晚上开一半。",
+      "有客人吃完就没再来了。",
+      "面要趁热。"
+    ],
+    "gift": {
+      "love": [
+        "food_bento"
+      ],
+      "like": [
+        "mat_tea"
+      ],
+      "hate": [
+        "mat_venom"
+      ]
+    },
+    "task": {
+      "id": "t_ramen",
+      "name": "凑齐汤料",
+      "item": "mat_herb",
+      "count": 8,
+      "reward": {
+        "silver": 500,
+        "item": "food_bento"
+      }
+    }
+  },
+  {
+    "id": "npc_teacher_old",
+    "name": "退休教师",
+    "title": "仙台废校",
+    "scene": "sc_sendai",
+    "room": "r_sd_school",
+    "desc": "他还在黑板上写板书，写的却不是今天的课。",
+    "talk": [
+      "这间教室，以前坐满了人。",
+      "我教了三十年，最后一个人也没留下。",
+      "你要听课吗？免费的。"
+    ],
+    "gift": {
+      "love": [
+        "mat_ink"
+      ],
+      "like": [
+        "mat_paper"
+      ],
+      "hate": [
+        "dr_sake"
+      ]
+    },
+    "teach": {
+      "skill": "k_punch",
+      "aff": 50
+    }
+  },
+  {
+    "id": "npc_fisher",
+    "name": "河堤钓鱼的人",
+    "title": "仙台河堤",
+    "scene": "sc_sendai",
+    "room": "r_sd_river",
+    "desc": "桶里一条鱼也没有，他钓了一整天。",
+    "talk": [
+      "河里有东西，比鱼大。",
+      "我钓的是安静，不是鱼。",
+      "你去上游看看，水是黑的。"
+    ],
+    "gift": {
+      "love": [
+        "mat_tea"
+      ],
+      "like": [
+        "food_onigiri"
+      ],
+      "hate": [
+        "mat_bone"
+      ]
+    },
+    "task": {
+      "id": "t_fisher",
+      "name": "修渔网的线",
+      "item": "mat_silk",
+      "count": 6,
+      "reward": {
+        "silver": 460,
+        "item": "mat_scale"
+      }
+    }
+  },
+  {
+    "id": "npc_oldshop",
+    "name": "古街店主",
+    "title": "京都古街",
+    "scene": "sc_kyoto",
+    "room": "r_ky_street",
+    "desc": "店里卖旧符、旧刀鞘，还有看不出用途的旧绳子。",
+    "talk": [
+      "这条街上的东西，一半都有来历。",
+      "那半卷古书？早卖了。",
+      "你要真想买，先听我把故事讲完。"
+    ],
+    "gift": {
+      "love": [
+        "mat_jade"
+      ],
+      "like": [
+        "mat_paper"
+      ],
+      "hate": [
+        "mat_steel"
+      ]
+    },
+    "task": {
+      "id": "t_oldshop",
+      "name": "收齐旧符纸",
+      "item": "mat_paper",
+      "count": 12,
+      "reward": {
+        "silver": 900,
+        "item": "bk_sense"
+      }
+    }
+  },
+  {
+    "id": "npc_kyostudent",
+    "name": "京都校学生",
+    "title": "京都校",
+    "scene": "sc_kyoto",
+    "room": "r_ky_school",
+    "desc": "穿着京都校的制服，对东京来的学生爱答不理。",
+    "talk": [
+      "交流会年年赢的应该是我们。",
+      "东堂学长？他只会问你喜欢什么女人。",
+      "你要打就来，别废话。"
+    ],
+    "gift": {
+      "love": [
+        "mat_steel"
+      ],
+      "like": [
+        "food_bento"
+      ],
+      "hate": [
+        "mat_paper"
+      ]
+    },
+    "teach": {
+      "skill": "k_strike",
+      "aff": 60
+    }
+  },
+  {
+    "id": "npc_hiker",
+    "name": "登山客",
+    "title": "大文字山",
+    "scene": "sc_kyoto",
+    "room": "r_ky_daimonji",
+    "desc": "爬到半山腰就坐下了，说上面风太大。",
+    "talk": [
+      "今晚有点火，一年一次。",
+      "山上那点光，看着近，走过去要两小时。",
+      "你要是赶时间就别等了。"
+    ],
+    "gift": {
+      "love": [
+        "food_ration"
+      ],
+      "like": [
+        "mat_tea"
+      ],
+      "hate": []
+    },
+    "task": {
+      "id": "t_hiker",
+      "name": "带回山上的石头",
+      "item": "mat_bone",
+      "count": 7,
+      "reward": {
+        "silver": 560,
+        "item": "mat_steel"
+      }
+    }
+  },
+  {
+    "id": "npc_monk",
+    "name": "神社神主",
+    "title": "京都神社",
+    "scene": "sc_kyoto",
+    "room": "r_ky_shrine",
+    "desc": "扫院子的动作很慢，扫过的地方确实干净。",
+    "talk": [
+      "参拜要三炷香，心里要有事。",
+      "这院子里的石头，比神社还老。",
+      "你身后那位，不进来说两句？"
+    ],
+    "gift": {
+      "love": [
+        "mat_tea"
+      ],
+      "like": [
+        "mat_paper"
+      ],
+      "hate": [
+        "mat_bone"
+      ]
+    },
+    "task": {
+      "id": "t_monk",
+      "name": "抄经缺纸",
+      "item": "mat_paper",
+      "count": 14,
+      "reward": {
+        "silver": 700,
+        "item": "ch_talisman"
+      }
+    },
+    "teach": {
+      "skill": "k_armor",
+      "aff": 65
+    }
+  },
+  {
+    "id": "npc_info",
+    "name": "情报贩子",
+    "title": "新宿情报屋",
+    "scene": "sc_shinjuku",
+    "room": "r_sj_kabuki",
+    "desc": "坐在游戏厅角落，消息按条卖，从不赊账。",
+    "talk": [
+      "消息有价，你不问我就不说。",
+      "黑市的入口？那得看你认识谁。",
+      "最近有人在山里挖东西，挖的不是古董。"
+    ],
+    "gift": {
+      "love": [
+        "mat_coin"
+      ],
+      "like": [
+        "dr_sake"
+      ],
+      "hate": [
+        "mat_herb"
+      ]
+    },
+    "teach": {
+      "skill": "k_sense",
+      "aff": 70
+    }
+  },
+  {
+    "id": "npc_bartender",
+    "name": "地下街酒保",
+    "title": "新宿地下街",
+    "scene": "sc_shinjuku",
+    "room": "r_sj_underground",
+    "desc": "擦杯子的手很稳，听什么表情都不变。",
+    "talk": [
+      "这儿没有监控，所以什么都听得见。",
+      "昨晚有个人喝了三杯就走了，再没回来。",
+      "要来一杯吗，算我的。"
+    ],
+    "gift": {
+      "love": [
+        "dr_sake"
+      ],
+      "like": [
+        "dr_strong"
+      ],
+      "hate": [
+        "food_onigiri"
+      ]
+    },
+    "task": {
+      "id": "t_bar",
+      "name": "拾掇酒窖",
+      "item": "mat_coin",
+      "count": 7,
+      "reward": {
+        "silver": 600,
+        "item": "dr_strong"
+      }
+    }
+  },
+  {
+    "id": "npc_roofgirl",
+    "name": "楼顶的少女",
+    "title": "新宿楼顶",
+    "scene": "sc_shinjuku",
+    "room": "r_sj_roof",
+    "desc": "坐在栏杆上，两脚悬在外面，说你上来的路比她远。",
+    "talk": [
+      "上面看得见的东西，下面看不见。",
+      "你数过这栋楼有几层吗？我数过。",
+      "风大，站稳一点。"
+    ],
+    "gift": {
+      "love": [
+        "ch_suzu"
+      ],
+      "like": [
+        "mat_paper"
+      ],
+      "hate": [
+        "mat_venom"
+      ]
+    },
+    "task": {
+      "id": "t_roof",
+      "name": "找回风铃",
+      "item": "mat_silk",
+      "count": 8,
+      "reward": {
+        "silver": 640,
+        "item": "ch_suzu"
+      }
+    }
+  },
+  {
+    "id": "npc_nurse",
+    "name": "残留的护士",
+    "title": "废弃医院",
+    "scene": "sc_hospital",
+    "room": "r_hs_lobby",
+    "desc": "还穿着旧制服，胸牌上的名字被人刮掉了。",
+    "talk": [
+      "今天的号已经发完了。",
+      "手术室那边，灯还亮着。",
+      "你要是来看病的，我劝你走。"
+    ],
+    "gift": {
+      "love": [
+        "pill_heal"
+      ],
+      "like": [
+        "food_onigiri"
+      ],
+      "hate": [
+        "mat_flesh"
+      ]
+    },
+    "task": {
+      "id": "t_nurse",
+      "name": "找齐病历",
+      "item": "mat_paper",
+      "count": 10,
+      "reward": {
+        "silver": 700,
+        "item": "pill_heal2"
+      }
+    }
+  },
+  {
+    "id": "npc_doctor",
+    "name": "值班医生",
+    "title": "废弃医院",
+    "scene": "sc_hospital",
+    "room": "r_hs_or",
+    "desc": "站在手术台边，手在空气里做缝合的动作。",
+    "talk": [
+      "把刀递给我。",
+      "他还在麻醉，别动他。",
+      "这台手术做不完的，做不完的。"
+    ],
+    "gift": {
+      "love": [
+        "pill_clean"
+      ],
+      "like": [
+        "mat_paper"
+      ],
+      "hate": [
+        "dr_sake"
+      ]
+    },
+    "task": {
+      "id": "t_doctor",
+      "name": "找齐止血的料",
+      "item": "mat_herb",
+      "count": 12,
+      "reward": {
+        "silver": 700,
+        "item": "pill_heal"
+      }
+    }
+  },
+  {
+    "id": "npc_mort",
+    "name": "太平间管理员",
+    "title": "废弃医院",
+    "scene": "sc_hospital",
+    "room": "r_hs_morgue",
+    "desc": "一个人坐在冷柜边上，给每个抽屉编号。",
+    "talk": [
+      "编号不能乱，乱了就找不到人了。",
+      "三号柜是空的，一直是空的。",
+      "你冷不冷？我这儿多一件大衣。"
+    ],
+    "gift": {
+      "love": [
+        "ar_jacket"
+      ],
+      "like": [
+        "mat_tea"
+      ],
+      "hate": [
+        "mat_flesh"
+      ]
+    },
+    "task": {
+      "id": "t_mort",
+      "name": "登记无名者",
+      "item": "mat_paper",
+      "count": 9,
+      "reward": {
+        "silver": 620,
+        "item": "pill_clean"
+      }
+    }
+  },
+  {
+    "id": "npc_janitor",
+    "name": "校工老刘",
+    "title": "废弃学校",
+    "scene": "sc_school",
+    "room": "r_sc_class",
+    "desc": "擦了三十年黑板，退了休还回来擦。",
+    "talk": [
+      "这间教室去年还有人打扫。",
+      "窗户别开，开了就关不上。",
+      "放学了，你怎么还不走。"
+    ],
+    "gift": {
+      "love": [
+        "mat_paper"
+      ],
+      "like": [
+        "mat_tea"
+      ],
+      "hate": [
+        "mat_bone"
+      ]
+    },
+    "task": {
+      "id": "t_janitor",
+      "name": "修好课桌",
+      "item": "mat_steel",
+      "count": 6,
+      "reward": {
+        "silver": 640,
+        "item": "pill_train"
+      }
+    }
+  },
+  {
+    "id": "npc_club",
+    "name": "社团学生",
+    "title": "废弃学校",
+    "scene": "sc_school",
+    "room": "r_sc_gym",
+    "desc": "一个人在体育馆里投篮，球是瘪的。",
+    "talk": [
+      "就我一个了，随便投投。",
+      "篮筐有点歪，将就一下。",
+      "你要不要也来两个？"
+    ],
+    "gift": {
+      "love": [
+        "food_ration"
+      ],
+      "like": [
+        "food_onigiri"
+      ],
+      "hate": [
+        "pill_calm"
+      ]
+    },
+    "task": {
+      "id": "t_club",
+      "name": "训练用的护具",
+      "item": "mat_flesh",
+      "count": 8,
+      "reward": {
+        "silver": 660,
+        "item": "pill_iron"
+      }
+    },
+    "teach": {
+      "skill": "k_blast",
+      "aff": 60
+    }
+  },
+  {
+    "id": "npc_ghost",
+    "name": "天台上的影子",
+    "title": "废弃学校",
+    "scene": "sc_school",
+    "room": "r_sc_roof",
+    "desc": "背对着你站着，你说不清它有没有脚。",
+    "talk": [
+      "……你也听见放学铃了？",
+      "我一直站在这儿等人来。",
+      "别回头。"
+    ],
+    "gift": {
+      "love": [
+        "mat_ink"
+      ],
+      "like": [
+        "mat_paper"
+      ],
+      "hate": [
+        "mat_steel"
+      ]
+    }
+  },
+  {
+    "id": "npc_woodman",
+    "name": "护林人",
+    "title": "咒灵之森边缘",
+    "scene": "sc_forest",
+    "room": "r_fo_edge",
+    "desc": "一年四季穿同一件雨衣，说林子里不怎么下雨。",
+    "talk": [
+      "往里走要看脚印，别看树。",
+      "树会挪，你以为没挪。",
+      "天黑之前出来。"
+    ],
+    "gift": {
+      "love": [
+        "food_ration"
+      ],
+      "like": [
+        "mat_herb"
+      ],
+      "hate": [
+        "mat_res"
+      ]
+    },
+    "task": {
+      "id": "t_woodman",
+      "name": "清掉残枝",
+      "item": "mat_bone",
+      "count": 8,
+      "reward": {
+        "silver": 650,
+        "item": "mat_herb"
+      }
+    }
+  },
+  {
+    "id": "npc_hermit",
+    "name": "小屋的隐者",
+    "title": "林中小屋",
+    "scene": "sc_forest",
+    "room": "r_fo_hut",
+    "desc": "小屋没有电，他在黑暗里坐着，眼睛很亮。",
+    "talk": [
+      "你走到这儿，用了几天？",
+      "林子会记路，也会改路。",
+      "坐下来，先什么都别说。"
+    ],
+    "gift": {
+      "love": [
+        "mat_tea"
+      ],
+      "like": [
+        "mat_ink"
+      ],
+      "hate": [
+        "dr_strong"
+      ]
+    },
+    "teach": {
+      "skill": "k_vow",
+      "aff": 75
+    }
+  },
+  {
+    "id": "npc_cleaner",
+    "name": "清淤工",
+    "title": "水道入口",
+    "scene": "sc_sewer",
+    "room": "r_sw_entrance",
+    "desc": "泵车停在旁边，他人不上去，只在下水道口坐着。",
+    "talk": [
+      "底下有东西堵着，通不了。",
+      "我在这干了八年，只下去过三次。",
+      "水会退，声音不会退。"
+    ],
+    "gift": {
+      "love": [
+        "dr_sake"
+      ],
+      "like": [
+        "food_onigiri"
+      ],
+      "hate": [
+        "mat_flesh"
+      ]
+    },
+    "task": {
+      "id": "t_clean",
+      "name": "清走堵塞",
+      "item": "mat_bone",
+      "count": 10,
+      "reward": {
+        "silver": 760,
+        "item": "mat_steel"
+      }
+    }
+  },
+  {
+    "id": "npc_lost",
+    "name": "迷路的人",
+    "title": "水道岔道",
+    "scene": "sc_sewer",
+    "room": "r_sw_fork",
+    "desc": "手里捏着一张泡烂的地图，说自己在找出口。",
+    "talk": [
+      "这两条路我都走过。",
+      "你从哪边来的？我忘了自己从哪边来。",
+      "水声大的那一边，是你走过的。"
+    ],
+    "gift": {
+      "love": [
+        "q_lamp"
+      ],
+      "like": [
+        "mat_paper"
+      ],
+      "hate": [
+        "mat_venom"
+      ]
+    },
+    "task": {
+      "id": "t_lost",
+      "name": "带他出去",
+      "item": "mat_res",
+      "count": 10,
+      "reward": {
+        "silver": 700,
+        "item": "pill_heal"
+      }
+    }
+  },
+  {
+    "id": "npc_oldfisher",
+    "name": "老渔民",
+    "title": "渔港",
+    "scene": "sc_sea",
+    "room": "r_se_port",
+    "desc": "船早卖了，他每天还来码头坐一会儿。",
+    "talk": [
+      "今年的鱼不靠岸。",
+      "我儿子出海那年，风也是这么大。",
+      "防波堤多了块新的，你看见没有。"
+    ],
+    "gift": {
+      "love": [
+        "dr_sake"
+      ],
+      "like": [
+        "mat_scale"
+      ],
+      "hate": [
+        "mat_herb"
+      ]
+    },
+    "task": {
+      "id": "t_oldfisher",
+      "name": "补船",
+      "item": "mat_steel",
+      "count": 9,
+      "reward": {
+        "silver": 820,
+        "item": "mat_scale"
+      }
+    },
+    "teach": {
+      "skill": "k_reverse",
+      "aff": 70
+    }
+  },
+  {
+    "id": "npc_kid",
+    "name": "空屋里的孩子",
+    "title": "海边空屋",
+    "scene": "sc_sea",
+    "room": "r_se_house",
+    "desc": "用贝壳在墙上写字，写的是他不认识的字。",
+    "talk": [
+      "这些字是海教我的。",
+      "爸爸说等潮水退了就回来。",
+      "你走的时候别关灯。"
+    ],
+    "gift": {
+      "love": [
+        "ch_suzu"
+      ],
+      "like": [
+        "food_onigiri"
+      ],
+      "hate": [
+        "mat_bone"
+      ]
+    },
+    "task": {
+      "id": "t_kid",
+      "name": "找回玩具",
+      "item": "mat_coin",
+      "count": 9,
+      "reward": {
+        "silver": 700,
+        "item": "food_onigiri"
+      }
+    }
+  },
+  {
+    "id": "npc_hunter",
+    "name": "猎屋猎人",
+    "title": "雪原猎屋",
+    "scene": "sc_snow",
+    "room": "r_sn_hut",
+    "desc": "墙上一张皮都没有，枪却擦得很亮。",
+    "talk": [
+      "雪地里只有两种脚印，你的和不是你的。",
+      "别顺着脚印走，脚印会绕圈。",
+      "进屋先烤烤手。"
+    ],
+    "gift": {
+      "love": [
+        "mat_steel"
+      ],
+      "like": [
+        "dr_strong"
+      ],
+      "hate": [
+        "mat_jade"
+      ]
+    },
+    "task": {
+      "id": "t_hunter",
+      "name": "取回被叼走的枪机",
+      "item": "mat_steel",
+      "count": 6,
+      "reward": {
+        "silver": 800,
+        "item": "cg_bow"
+      }
+    }
+  },
+  {
+    "id": "npc_yuki",
+    "name": "雪原的旅人",
+    "title": "雪谷",
+    "scene": "sc_snow",
+    "room": "r_sn_valley",
+    "desc": "走得很慢，身后的脚印一转眼就被雪填平。",
+    "talk": [
+      "我是往回走的，走了一整天。",
+      "别停，停了就冷了。",
+      "前面那间屋子，别进。"
+    ],
+    "gift": {
+      "love": [
+        "food_ration"
+      ],
+      "like": [
+        "mat_tea"
+      ],
+      "hate": [
+        "mat_scale"
+      ]
+    },
+    "task": {
+      "id": "t_yuki",
+      "name": "找燃料",
+      "item": "mat_bone",
+      "count": 11,
+      "reward": {
+        "silver": 900,
+        "item": "dr_strong"
+      }
+    }
+  },
+  {
+    "id": "npc_priest",
+    "name": "山门僧",
+    "title": "灵山山门",
+    "scene": "sc_mountain",
+    "room": "r_mt_gate",
+    "desc": "守着山门，手里的扫帚从来没停过。",
+    "talk": [
+      "上山的都下去了，下去的没上来。",
+      "三炷香，一炷给山，一炷给你自己。",
+      "石阶有一万级，数不清就别数了。"
+    ],
+    "gift": {
+      "love": [
+        "mat_tea"
+      ],
+      "like": [
+        "mat_paper"
+      ],
+      "hate": [
+        "dr_sake"
+      ]
+    },
+    "task": {
+      "id": "t_priest",
+      "name": "补结界纸",
+      "item": "mat_paper",
+      "count": 16,
+      "reward": {
+        "silver": 900,
+        "item": "ch_bind"
+      }
+    },
+    "teach": {
+      "skill": "k_armor",
+      "aff": 60
+    }
+  },
+  {
+    "id": "npc_ascetic",
+    "name": "石窟苦行僧",
+    "title": "灵山石窟",
+    "scene": "sc_mountain",
+    "room": "r_mt_grotto",
+    "desc": "在洞里坐了不知道多少年，衣服和石壁长在了一起。",
+    "talk": [
+      "坐得住，就什么都好办。",
+      "山下那点事，我早忘了。",
+      "你身上的东西，比你想的重。"
+    ],
+    "gift": {
+      "love": [
+        "mat_lotus"
+      ],
+      "like": [
+        "mat_herb"
+      ],
+      "hate": [
+        "food_bento"
+      ]
+    },
+    "task": {
+      "id": "t_ascetic",
+      "name": "磨穿的石",
+      "item": "mat_bone",
+      "count": 12,
+      "reward": {
+        "silver": 980,
+        "item": "pill_calm"
+      }
+    },
+    "teach": {
+      "skill": "k_reverse",
+      "aff": 80
+    }
+  },
+  {
+    "id": "npc_broker",
+    "name": "黑市掮客",
+    "title": "黑市摊位",
+    "scene": "sc_market",
+    "room": "r_mk_stalls",
+    "desc": "不卖东西，只卖「你能买到什么」这件事。",
+    "talk": [
+      "带钱了吗？没带就下次。",
+      "这条街上的东西，一半来路不明。",
+      "拍卖场今晚有件好东西。"
+    ],
+    "gift": {
+      "love": [
+        "mat_coin"
+      ],
+      "like": [
+        "mat_jade"
+      ],
+      "hate": [
+        "mat_paper"
+      ]
+    },
+    "task": {
+      "id": "t_broker",
+      "name": "凑一批货",
+      "item": "mat_shard",
+      "count": 4,
+      "reward": {
+        "silver": 1200,
+        "item": "mat_core"
+      }
+    }
+  },
+  {
+    "id": "npc_auctioneer",
+    "name": "拍卖师",
+    "title": "黑市拍卖场",
+    "scene": "sc_market",
+    "room": "r_mk_auction",
+    "desc": "声音不大，但每个字都能让价钱往上跳一格。",
+    "talk": [
+      "起价三万，有人加吗。",
+      "这件东西的来路，我就不介绍了。",
+      "成交。恭喜这位。"
+    ],
+    "gift": {
+      "love": [
+        "ch_ring_jade"
+      ],
+      "like": [
+        "mat_gold"
+      ],
+      "hate": [
+        "mat_res"
+      ]
+    },
+    "task": {
+      "id": "t_auction",
+      "name": "攒保证金",
+      "item": "mat_jade",
+      "count": 2,
+      "reward": {
+        "silver": 1600,
+        "item": "ch_omamori"
+      }
+    }
+  },
+  {
+    "id": "npc_armsmith",
+    "name": "咒具匠人",
+    "title": "黑市暗巷",
+    "scene": "sc_market",
+    "room": "r_mk_alley",
+    "desc": "巷子里支着炉子，打的东西看不出是刀还是别的。",
+    "talk": [
+      "强化过的就别想咒具化了，记住。",
+      "材料拿来看，别拿手掂。",
+      "我只给拿得动的人打。"
+    ],
+    "gift": {
+      "love": [
+        "mat_steel"
+      ],
+      "like": [
+        "mat_shard"
+      ],
+      "hate": [
+        "mat_herb"
+      ]
+    },
+    "teach": {
+      "skill": "k_weapon",
+      "aff": 70
+    }
+  },
+  {
+    "id": "npc_echo",
+    "name": "回廊里的回声",
+    "title": "领域遗迹",
+    "scene": "sc_relic",
+    "room": "r_rl_corridor",
+    "desc": "你说话，它才说话。分不清是它学你，还是你学它。",
+    "talk": [
+      "……三十年前，这里还有四个人。",
+      "他们把领域的门开着，就没关上。",
+      "别走到核心去。"
+    ],
+    "gift": {
+      "love": [
+        "mat_shard"
+      ],
+      "like": [
+        "mat_paper"
+      ],
+      "hate": [
+        "mat_coin"
+      ]
+    },
+    "task": {
+      "id": "t_echo",
+      "name": "还它一句话",
+      "item": "mat_core",
+      "count": 3,
+      "reward": {
+        "silver": 1100,
+        "item": "mat_ink"
+      }
+    }
+  },
+  {
+    "id": "npc_neighbor",
+    "name": "楼下的邻居",
+    "title": "自宅·客厅",
+    "scene": "sc_home",
+    "room": "r_home_living",
+    "desc": "住楼下，端着一杯茶站在你门口，说夜里总听见你屋里有动静。",
+    "talk": [
+      "你这屋，晚上总有声音。",
+      "我不怕。住这栋楼的，谁没见过点东西。",
+      "茶要凉了，你倒是接着啊。",
+      "累了就睡。结界是你的，门是我的，谁都进不来。"
+    ],
+    "gift": {
+      "love": [
+        "food_onigiri"
+      ],
+      "like": [
+        "dr_sake"
+      ],
+      "hate": [
+        "mat_bone"
+      ]
+    },
+    "task": {
+      "id": "t_neighbor",
+      "name": "帮楼下搬东西",
+      "item": "mat_res",
+      "count": 4,
+      "reward": {
+        "silver": 180,
+        "item": "food_ration"
+      }
+    }
+  },
+  {
+    "id": "npc_shadow_abbot",
+    "name": "残响里的老僧",
+    "title": "遗物·核心",
+    "scene": "sc_relic",
+    "room": "r_rl_core",
+    "hide": {
+      "flag": "f_relic_core"
+    },
+    "desc": "坐在核心正下方，身形是半透明的。他说他已经在这儿坐了很多年，只是没人看得见他。",
+    "talk": [
+      "你来得晚了些，也算来得巧。",
+      "东西在这里放久了，就会长出影子来。",
+      "你看得见我，说明你身上也有一点旧的。"
+    ],
+    "gift": {
+      "love": [
+        "ch_talisman"
+      ],
+      "like": [
+        "ch_omamori",
+        "mat_paper"
+      ],
+      "hate": []
+    },
+    "teach": {
+      "skill": "sk_hd_veil",
+      "aff": 90,
+      "task": "ch8",
+      "secret": true
+    }
+  },
+  {
+    "id": "npc_top_watcher",
+    "name": "山顶的守望者",
+    "title": "山顶",
+    "scene": "sc_mountain",
+    "room": "r_mt_top",
+    "hide": {
+      "flag": "f_mt_top"
+    },
+    "desc": "就站在崖边，背对着你。风把他的衣角吹得很响，他却一点也没动。",
+    "talk": [
+      "山下的事，我听见了。",
+      "挨打不可怕，怕的是不会还。",
+      "你站上来，我就教你一样东西。"
+    ],
+    "gift": {
+      "love": [
+        "mat_bone"
+      ],
+      "like": [
+        "mat_steel",
+        "dr_sake"
+      ],
+      "hate": [
+        "mat_venom"
+      ]
+    },
+    "teach": {
+      "skill": "sk_hd_ward",
+      "aff": 90,
+      "task": "ch7",
+      "secret": true
+    }
+  },
+  {
+    "id": "npc_ice_widow",
+    "name": "冰里的女人",
+    "title": "冰洞",
+    "scene": "sc_snow",
+    "room": "r_sn_ice",
+    "hide": {
+      "flag": "f_sn_ice"
+    },
+    "desc": "冻在冰柱里，眼睛却是睁着的。你走近，冰面上就多了一道划痕。",
+    "talk": [
+      "别怕，我出不去。",
+      "你手里空着——那正好。",
+      "刀不在手上，在念头上。"
+    ],
+    "gift": {
+      "love": [
+        "mat_shard"
+      ],
+      "like": [
+        "mat_silk",
+        "ch_lens"
+      ],
+      "hate": [
+        "mat_flesh"
+      ]
+    },
+    "teach": {
+      "skill": "sk_hd_edge",
+      "aff": 85,
+      "task": "ch6",
+      "secret": true
+    }
+  },
+  {
+    "id": "npc_deep_one",
+    "name": "洞里那个",
+    "title": "海蚀洞",
+    "scene": "sc_sea",
+    "room": "r_se_cave",
+    "hide": {
+      "flag": "f_se_cave"
+    },
+    "desc": "看不出是人是咒灵，也看不出哪里是头哪里是脚。它一直在吃东西，吃什么你看不见。",
+    "talk": [
+      "饿。",
+      "你身上的东西很香。",
+      "给了我吃的，我就给你一手。"
+    ],
+    "gift": {
+      "love": [
+        "mat_flesh"
+      ],
+      "like": [
+        "mat_venom",
+        "food_bento"
+      ],
+      "hate": [
+        "mat_paper"
+      ]
+    },
+    "teach": {
+      "skill": "sk_hd_drain",
+      "aff": 85,
+      "task": "ch7",
+      "secret": true
+    }
+  },
+  {
+    "id": "npc_masked",
+    "name": "祭坛上的面具",
+    "title": "祭坛",
+    "scene": "sc_forest",
+    "room": "r_fo_altar",
+    "hide": {
+      "flag": "f_fo_altar"
+    },
+    "desc": "面具立在祭坛正中，下面没有人。你说话，它就用你的声音回你。",
+    "talk": [
+      "快一点。",
+      "再快一点。",
+      "够了。这一手你拿去。"
+    ],
+    "gift": {
+      "love": [
+        "ch_bind"
+      ],
+      "like": [
+        "mat_silk",
+        "ch_talisman"
+      ],
+      "hate": [
+        "food_bento"
+      ]
+    },
+    "teach": {
+      "skill": "sk_hd_now",
+      "aff": 90,
+      "task": "ch6",
+      "secret": true
+    }
+  },
+  {
+    "id": "npc_koan",
+    "name": "巢里的声音",
+    "title": "咒胎巢",
+    "scene": "sc_sewer",
+    "room": "r_sw_nest",
+    "hide": {
+      "flag": "f_sw_nest"
+    },
+    "desc": "声音从四面八方来，找不到出处。它问你一个问题，你答上来了，它就说：「学过，就算有过。」",
+    "talk": [
+      "你没有名字，我也没有。",
+      "名字是给活着的人用的。",
+      "拿着。反正我也不用了。"
+    ],
+    "gift": {
+      "love": [
+        "mat_core"
+      ],
+      "like": [
+        "mat_bone",
+        "mat_shard"
+      ],
+      "hate": [
+        "ch_omamori"
+      ]
+    },
+    "teach": {
+      "skill": "sk_hd_final",
+      "aff": 100,
+      "task": "ch8",
+      "secret": true
+    }
+  },
+  {
+    "id": "npc_kamo_ke",
+    "name": "加茂家·家令",
+    "title": "御三家·加茂",
+    "scene": "sc_kyoto",
+    "room": "r_ky_street",
+    "desc": "袖口永远是干的，哪怕刚从那间血样房里出来。本家的事，先过他的手。",
+    "talk": [
+      "本家的门，只认血。",
+      "当主不见客。你要见他，先让我看看你的手。",
+      "古街上别把「操血」两个字说出口。"
+    ],
+    "gift": {
+      "love": [
+        "mat_flesh"
+      ],
+      "like": [
+        "mat_venom"
+      ],
+      "hate": [
+        "mat_jade"
+      ]
+    },
+    "task": {
+      "id": "t_kamo_ke",
+      "name": "补一批封条",
+      "item": "mat_paper",
+      "count": 8,
+      "reward": {
+        "silver": 560,
+        "item": "mat_flesh"
+      }
+    }
+  },
+  {
+    "id": "npc_kamo_gi",
+    "name": "加茂家·藏人",
+    "title": "御三家·加茂",
+    "scene": "sc_kyoto",
+    "room": "r_ky_shrine",
+    "desc": "替本家看着一柜子血样，钥匙挂在脖子上，谁都不给看。",
+    "talk": [
+      "这些瓶子各归各家，乱了就出事。",
+      "神社的香，压得住味道。",
+      "家令说过，你不是本家的人。"
+    ],
+    "gift": {
+      "love": [
+        "mat_venom"
+      ],
+      "like": [
+        "mat_flesh"
+      ],
+      "hate": [
+        "mat_tea"
+      ]
+    },
+    "task": {
+      "id": "t_kamo_gi",
+      "name": "取一份封存的血样",
+      "item": "mat_flesh",
+      "count": 4,
+      "reward": {
+        "silver": 620,
+        "item": "pill_heal"
+      }
+    }
+  },
+  {
+    "id": "npc_kamo_syu",
+    "name": "加茂家·侍从",
+    "title": "御三家·加茂",
+    "scene": "sc_kyoto",
+    "room": "r_ky_school",
+    "desc": "站在京都校的场边替本家记数，本子上的字比人还密。",
+    "talk": [
+      "谁练得好，我记谁。",
+      "本家的规矩：赢了才配说话。",
+      "你也来试试？我替你记一笔。"
+    ],
+    "gift": {
+      "love": [
+        "mat_paper"
+      ],
+      "like": [
+        "mat_ink"
+      ],
+      "hate": [
+        "dr_sake"
+      ]
+    },
+    "teach": {
+      "skill": "k_blast",
+      "aff": 70
+    }
+  },
+  {
+    "id": "npc_kamo_so",
+    "name": "加茂家·侧室",
+    "title": "御三家·加茂",
+    "scene": "sc_kyoto",
+    "room": "r_ky_daimonji",
+    "desc": "一个人爬到半山，说是来看火，其实是躲本家的那顿晚饭。",
+    "talk": [
+      "我不写在本家的正字上。",
+      "山上点火那天，本家会来很多人。",
+      "术式传不传得下来，看命。"
+    ],
+    "gift": {
+      "love": [
+        "mat_tea"
+      ],
+      "like": [
+        "food_onigiri"
+      ],
+      "hate": [
+        "mat_bone"
+      ]
+    }
+  },
+  {
+    "id": "npc_zenin_gi",
+    "name": "禅院家·式部",
+    "title": "御三家·禅院",
+    "scene": "sc_kyoto",
+    "room": "r_ky_school",
+    "desc": "在京都校替本家挑人，看的是根骨，不是脸。",
+    "talk": [
+      "站直了，我看看你的根骨。",
+      "本家不要花架子。",
+      "你手上没有茧，练得不够。"
+    ],
+    "gift": {
+      "love": [
+        "mat_bone"
+      ],
+      "like": [
+        "mat_steel"
+      ],
+      "hate": [
+        "pill_calm"
+      ]
+    },
+    "task": {
+      "id": "t_zenin_gi",
+      "name": "清点咒具",
+      "item": "mat_steel",
+      "count": 6,
+      "reward": {
+        "silver": 580,
+        "item": "mat_bone"
+      }
+    }
+  },
+  {
+    "id": "npc_zenin_shu",
+    "name": "禅院家·藏人",
+    "title": "御三家·禅院",
+    "scene": "sc_kyoto",
+    "room": "r_ky_daimonji",
+    "desc": "抱着一卷式神名册，翻得边角都起了毛。",
+    "talk": [
+      "名册上有的，才算本家养过的。",
+      "式神认人不认家。",
+      "这一页被撕了，没人说为什么。"
+    ],
+    "gift": {
+      "love": [
+        "mat_paper"
+      ],
+      "like": [
+        "mat_ink"
+      ],
+      "hate": [
+        "dr_sake"
+      ]
+    },
+    "task": {
+      "id": "t_zenin_shu",
+      "name": "补一册名册",
+      "item": "mat_paper",
+      "count": 10,
+      "reward": {
+        "silver": 540,
+        "item": "mat_ink"
+      }
+    }
+  },
+  {
+    "id": "npc_zenin_mon",
+    "name": "禅院家·门生",
+    "title": "御三家·禅院",
+    "scene": "sc_kyoto",
+    "room": "r_ky_street",
+    "desc": "年纪不大，指节上全是练出来的旧伤。",
+    "talk": [
+      "本家的人，走路都比别人直。",
+      "我练了三年，还是进不了正院。",
+      "打赢我，我认你。"
+    ],
+    "gift": {
+      "love": [
+        "food_onigiri"
+      ],
+      "like": [
+        "mat_steel"
+      ],
+      "hate": [
+        "mat_paper"
+      ]
+    }
+  },
+  {
+    "id": "npc_zenin_syu",
+    "name": "禅院家·侍从",
+    "title": "御三家·禅院",
+    "scene": "sc_kyoto",
+    "room": "r_ky_shrine",
+    "desc": "替本家在神社看着一仓咒具，白天也点着灯。",
+    "talk": [
+      "仓里的东西，一件都不能少。",
+      "本家的账，从来不写在纸上。",
+      "别碰那件——它认主。"
+    ],
+    "gift": {
+      "love": [
+        "mat_steel"
+      ],
+      "like": [
+        "mat_bone"
+      ],
+      "hate": [
+        "mat_venom"
+      ]
+    },
+    "task": {
+      "id": "t_zenin_syu",
+      "name": "看住这一仓",
+      "item": "mat_steel",
+      "count": 8,
+      "reward": {
+        "silver": 600,
+        "item": "mat_steel"
+      }
+    }
+  },
+  {
+    "id": "npc_gojo_gi",
+    "name": "五条家·执事",
+    "title": "御三家·五条",
+    "scene": "sc_kyoto",
+    "room": "r_ky_school",
+    "desc": "本家的事都由他打理，只有一样他管不了。",
+    "talk": [
+      "本家现在很安静。",
+      "你要见当主，得等他自己回来。",
+      "山上点火的时候，他在看。"
+    ],
+    "gift": {
+      "love": [
+        "mat_jade"
+      ],
+      "like": [
+        "mat_paper"
+      ],
+      "hate": [
+        "mat_flesh"
+      ]
+    },
+    "task": {
+      "id": "t_gojo_gi",
+      "name": "巡一次结界",
+      "item": "mat_jade",
+      "count": 5,
+      "reward": {
+        "silver": 700,
+        "item": "pill_eye"
+      }
+    }
+  },
+  {
+    "id": "npc_gojo_syu",
+    "name": "五条家·侍从",
+    "title": "御三家·五条",
+    "scene": "sc_kyoto",
+    "room": "r_ky_daimonji",
+    "desc": "跟在本家人身后，走得比谁都稳。",
+    "talk": [
+      "我只送到这里。",
+      "家里的规矩：看，不要说。",
+      "六眼的事，别问我。"
+    ],
+    "gift": {
+      "love": [
+        "mat_tea"
+      ],
+      "like": [
+        "food_ration"
+      ],
+      "hate": [
+        "mat_venom"
+      ]
+    },
+    "teach": {
+      "skill": "k_step",
+      "aff": 70
+    }
+  },
+  {
+    "id": "npc_gojo_ki",
+    "name": "五条家·门生",
+    "title": "御三家·五条",
+    "scene": "sc_kyoto",
+    "room": "r_ky_street",
+    "desc": "穿着本家的纹样，年纪不大，眼神很亮。",
+    "talk": [
+      "你也是术师？",
+      "本家这一代，能用的只有一个。",
+      "我想变得像他那样。"
+    ],
+    "gift": {
+      "love": [
+        "mat_ink"
+      ],
+      "like": [
+        "food_onigiri"
+      ],
+      "hate": [
+        "mat_bone"
+      ]
+    },
+    "task": {
+      "id": "t_gojo_ki",
+      "name": "跑一趟腿",
+      "item": "mat_paper",
+      "count": 6,
+      "reward": {
+        "silver": 420,
+        "item": "food_onigiri"
+      }
+    }
+  },
+  {
+    "id": "npc_gojo_shu",
+    "name": "五条家·藏人",
+    "title": "御三家·五条",
+    "scene": "sc_kyoto",
+    "room": "r_ky_shrine",
+    "desc": "守着本家寄存在神社的一柜文书，钥匙从不离手。",
+    "talk": [
+      "文书是死的，规矩是活的。",
+      "本家给神社的香火钱，年年都到。",
+      "上一卷，被人先取走了。"
+    ],
+    "gift": {
+      "love": [
+        "mat_ink"
+      ],
+      "like": [
+        "mat_paper"
+      ],
+      "hate": [
+        "pill_rage"
+      ]
+    },
+    "task": {
+      "id": "t_gojo_shu",
+      "name": "抄一卷旧文书",
+      "item": "mat_ink",
+      "count": 6,
+      "reward": {
+        "silver": 520,
+        "item": "mat_paper"
+      }
+    }
+  },
+  {
+    "id": "npc_nd_fisher",
+    "name": "老渔夫约恩",
+    "title": "渡口酒馆",
+    "scene": "sc_nd_port",
+    "room": "r_nd_tavern",
+    "desc": "手指关节粗大，握杯子的姿势像握着桨。",
+    "talk": [
+      "船下水那天，我就知道这水不对。",
+      "你从南边来？南边现在还有人敢走夜路？",
+      "别往湖心去。冰看着厚，那是骗人的。"
+    ],
+    "gift": {
+      "love": [
+        "dr_sake"
+      ],
+      "like": [
+        "food_ration"
+      ],
+      "hate": [
+        "mat_flesh"
+      ]
+    },
+    "task": {
+      "id": "t_nd_net",
+      "name": "补一张网",
+      "item": "mat_scale",
+      "count": 5,
+      "reward": {
+        "silver": 420,
+        "item": "mat_silk"
+      }
+    }
+  },
+  {
+    "id": "npc_tengen",
+    "name": "天元",
+    "title": "仙台·废校",
+    "scene": "sc_sendai",
+    "room": "r_sd_school",
+    "hide": {
+      "search": 10
+    },
+    "desc": "坐在教室最后一排，像一尊很久没人擦过的像。他不抬头，也不问你从哪来。",
+    "talk": [
+      "结界不是墙，是「这样也可以」的一句话。",
+      "你站在这里，是因为我允许你站在这里。",
+      "想学？先把你自己那一系练到火候。",
+      "同化是不会被察觉的。你看不见我，只是因为你还不需要看见我。"
+    ],
+    "gift": {
+      "love": [
+        "mat_paper"
+      ],
+      "like": [
+        "mat_ink",
+        "food_mint"
+      ],
+      "hate": []
+    },
+    "teach": {
+      "skill": "k_barrier",
+      "aff": 0,
+      "innateLv": 5
+    }
+  }
+]

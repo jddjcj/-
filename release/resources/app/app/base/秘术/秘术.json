@@ -1,0 +1,388 @@
+[
+  {
+    "id": "sk_kt_barrier",
+    "name": "帐",
+    "kind": "nei",
+    "q": 3,
+    "sect": "s_koutou",
+    "nei": {
+      "def": 6,
+      "curMax": 0.06
+    },
+    "desc": "把一片地圈起来，外面的人看不见里面。东京校最先教的一手。"
+  },
+  {
+    "id": "sk_kt_regulate",
+    "name": "咒力调控",
+    "kind": "qing",
+    "q": 3,
+    "sect": "s_koutou",
+    "qing": {
+      "ceCtl": 0.05,
+      "crit": 4
+    },
+    "desc": "既不浪费，也不吝啬。把每一分咒力都用在该用的地方。"
+  },
+  {
+    "id": "sk_ky_flame",
+    "name": "炎",
+    "kind": "atk",
+    "q": 3,
+    "sect": "s_kyoto",
+    "atkType": "cur",
+    "cost": 16,
+    "mult": 2.05,
+    "hits": 1,
+    "cri": 5,
+    "desc": "京都古法里的一支火。烧的是咒力，不是柴。"
+  },
+  {
+    "id": "sk_ky_ward",
+    "name": "祓禊",
+    "kind": "nei",
+    "q": 3,
+    "sect": "s_kyoto",
+    "nei": {
+      "ceEff": 0.04,
+      "def": 5
+    },
+    "desc": "用水与盐把身上的晦气洗掉。洗得干净，咒力走得也顺。"
+  },
+  {
+    "id": "sk_kamo_bolt",
+    "name": "血弹",
+    "kind": "atk",
+    "q": 4,
+    "sect": "s_kamo",
+    "atkType": "phy",
+    "cost": 14,
+    "mult": 1.95,
+    "hits": 1,
+    "cri": 6,
+    "eff": {
+      "dot": 0.06
+    },
+    "desc": "把血弹出去，扎进对方身上。伤口不会合，只会渗。"
+  },
+  {
+    "id": "sk_kamo_seal",
+    "name": "家纹结界",
+    "kind": "nei",
+    "q": 4,
+    "sect": "s_kamo",
+    "nei": {
+      "hp": 90,
+      "def": 6
+    },
+    "desc": "加茂家的家纹一立起来，血就不往外流了。"
+  },
+  {
+    "id": "sk_zn_shadow",
+    "name": "影叩",
+    "kind": "atk",
+    "q": 4,
+    "sect": "s_zenin",
+    "atkType": "phy",
+    "cost": 10,
+    "mult": 1.85,
+    "hits": 1,
+    "cri": 5,
+    "desc": "踩住对方的影子，再照着影子打下去。"
+  },
+  {
+    "id": "sk_zn_gate",
+    "name": "影门",
+    "kind": "qing",
+    "q": 4,
+    "sect": "s_zenin",
+    "qing": {
+      "dodge": 12,
+      "esc": 0.35
+    },
+    "desc": "一步踏进影子里，再从另一个影子里出来。"
+  },
+  {
+    "id": "sk_gj_amp",
+    "name": "术式增幅",
+    "kind": "nei",
+    "q": 5,
+    "sect": "s_gojo",
+    "nei": {
+      "curAtk": 12,
+      "ceEff": 0.03
+    },
+    "desc": "五条家抄本里的旁注：把术式的输出再往上抬一格。"
+  },
+  {
+    "id": "sk_gj_veil",
+    "name": "帷",
+    "kind": "qing",
+    "q": 5,
+    "sect": "s_gojo",
+    "qing": {
+      "crit": 8,
+      "ceCtl": 0.04
+    },
+    "desc": "一层看不见的帷。看得见它的人，往往已经晚了一步。"
+  },
+  {
+    "id": "sk_ji_purify",
+    "name": "净",
+    "kind": "atk",
+    "q": 3,
+    "sect": "s_temple",
+    "atkType": "cur",
+    "cost": 12,
+    "mult": 1.7,
+    "hits": 1,
+    "cri": 4,
+    "eff": {
+      "defDown": 0.15
+    },
+    "desc": "把对方身上多余的咒力洗掉。洗掉了，它就薄了一层。"
+  },
+  {
+    "id": "sk_ji_rosary",
+    "name": "数珠",
+    "kind": "nei",
+    "q": 3,
+    "sect": "s_temple",
+    "nei": {
+      "curMax": 0.1,
+      "hp": 60
+    },
+    "desc": "一颗一颗捻过去。捻完一圈，咒力就厚一分。"
+  },
+  {
+    "id": "sk_hg_suture",
+    "name": "缝合",
+    "kind": "atk",
+    "q": 4,
+    "sect": "s_medical",
+    "atkType": "phy",
+    "cost": 10,
+    "mult": 1.6,
+    "hits": 1,
+    "cri": 4,
+    "eff": {
+      "lifesteal": 0.2
+    },
+    "desc": "同一根线，一头缝自己，一头缝别人。"
+  },
+  {
+    "id": "sk_hg_pulse",
+    "name": "命脉",
+    "kind": "nei",
+    "q": 5,
+    "sect": "s_medical",
+    "nei": {
+      "heal": 0.045
+    },
+    "desc": "摸到那一下，就知道血该往哪里走。"
+  },
+  {
+    "id": "sk_lr_shot",
+    "name": "咒具枪击",
+    "kind": "atk",
+    "q": 3,
+    "sect": "s_hunter",
+    "atkType": "phy",
+    "cost": 12,
+    "mult": 2.1,
+    "hits": 1,
+    "cri": 8,
+    "desc": "把咒力压进弹壳。响声不大，伤口很深。"
+  },
+  {
+    "id": "sk_lr_track",
+    "name": "猎踪",
+    "kind": "qing",
+    "q": 3,
+    "sect": "s_hunter",
+    "qing": {
+      "crit": 7,
+      "phyAtk": 8
+    },
+    "desc": "顺着残留的咒力走。它跑不远，你也不急。"
+  },
+  {
+    "id": "sk_mj_baton",
+    "name": "捕缚棍",
+    "kind": "atk",
+    "q": 2,
+    "sect": "s_police",
+    "atkType": "phy",
+    "cost": 8,
+    "mult": 1.7,
+    "hits": 1,
+    "cri": 4,
+    "eff": {
+      "stun": 1
+    },
+    "desc": "先把它按住，再谈别的。"
+  },
+  {
+    "id": "sk_mj_intel",
+    "name": "现场勘验",
+    "kind": "nei",
+    "q": 2,
+    "sect": "s_police",
+    "nei": {
+      "def": 5,
+      "ceCtl": 0.03
+    },
+    "desc": "看一眼就知道这里出过什么事，也就不容易踩进第二个坑。"
+  },
+  {
+    "id": "sk_hm_bid",
+    "name": "暗标",
+    "kind": "atk",
+    "q": 5,
+    "sect": "s_blackmarket",
+    "atkType": "cur",
+    "cost": 18,
+    "mult": 2.3,
+    "hits": 1,
+    "cri": 10,
+    "desc": "你出价，对方还价。还到最后一个价，就是它倒下的价。"
+  },
+  {
+    "id": "sk_hm_fence",
+    "name": "销赃",
+    "kind": "nei",
+    "q": 4,
+    "sect": "s_blackmarket",
+    "nei": {
+      "curMax": 0.12
+    },
+    "desc": "卖出去的东西会变成咒力回来。中间抽的成，算是学费。"
+  },
+  {
+    "id": "sk_zs_rites",
+    "name": "咒仪",
+    "kind": "atk",
+    "q": 5,
+    "sect": "s_curse",
+    "atkType": "cur",
+    "cost": 20,
+    "mult": 2.5,
+    "hits": 1,
+    "cri": 10,
+    "eff": {
+      "recoil": 0.08
+    },
+    "desc": "照着画好的图念下去。图是对的，代价也是真的。"
+  },
+  {
+    "id": "sk_zs_offer",
+    "name": "献祭",
+    "kind": "nei",
+    "q": 5,
+    "sect": "s_curse",
+    "nei": {
+      "curAtk": 15,
+      "def": 4
+    },
+    "desc": "把东西递出去，把手伸回来。伸回来的那只，比递出去的更硬。"
+  },
+  {
+    "id": "sk_hd_veil",
+    "name": "无明",
+    "kind": "nei",
+    "q": 5,
+    "secret": true,
+    "req": {
+      "insight": 85
+    },
+    "nei": {
+      "def": 9,
+      "ceEff": 0.05
+    },
+    "desc": "「你看不见它，它就真的不在。」残响回廊里那位老人这么说，也就这么教了你。"
+  },
+  {
+    "id": "sk_hd_ward",
+    "name": "反狱",
+    "kind": "nei",
+    "q": 6,
+    "secret": true,
+    "req": {
+      "root": 85
+    },
+    "nei": {
+      "hp": 140,
+      "def": 8
+    },
+    "desc": "把还回去的力道攒成一层壳。教你这手的人，一直在山顶等一个上来的人。"
+  },
+  {
+    "id": "sk_hd_edge",
+    "name": "空刃",
+    "kind": "atk",
+    "q": 6,
+    "secret": true,
+    "req": {
+      "faceMax": 20
+    },
+    "atkType": "phy",
+    "cost": 22,
+    "mult": 2.75,
+    "hits": 2,
+    "cri": 12,
+    "desc": "冰洞里的那个人把手一划，你才听见刀的声音。没有刀，只有划痕。"
+  },
+  {
+    "id": "sk_hd_drain",
+    "name": "噬",
+    "kind": "atk",
+    "q": 6,
+    "secret": true,
+    "req": {
+      "luckMax": 20
+    },
+    "atkType": "cur",
+    "cost": 24,
+    "mult": 2.2,
+    "hits": 1,
+    "cri": 8,
+    "eff": {
+      "drain": 0.35
+    },
+    "desc": "海蚀洞最深处的东西不吃鱼。它吃咒力，也把它吃掉的给你一点。"
+  },
+  {
+    "id": "sk_hd_now",
+    "name": "刹那",
+    "kind": "qing",
+    "q": 6,
+    "secret": true,
+    "req": {
+      "face": 80
+    },
+    "qing": {
+      "dodge": 14,
+      "esc": 0.4,
+      "crit": 6
+    },
+    "desc": "祭坛上那人戴着面具，只教了你一个动作：快。"
+  },
+  {
+    "id": "sk_hd_final",
+    "name": "无铭·终",
+    "kind": "atk",
+    "q": 7,
+    "secret": true,
+    "req": {
+      "realm": 7
+    },
+    "atkType": "cur",
+    "cost": 64,
+    "mult": 4.6,
+    "hits": 2,
+    "cri": 18,
+    "eff": {
+      "pierce": 0.35
+    },
+    "desc": "没有名字，也没有传人。咒胎巢里那人说：「学过就算有过。」"
+  }
+]

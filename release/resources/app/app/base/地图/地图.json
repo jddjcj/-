@@ -1,0 +1,2474 @@
+{
+  "scenes": [
+    {
+      "id": "sc_shibuya",
+      "name": "涩谷",
+      "glyph": "涩",
+      "tone": "#c98f6a",
+      "x": 61,
+      "y": 50,
+      "desc": "人最多的地方，也是咒灵最爱来的地方。",
+      "unlock": {}
+    },
+    {
+      "id": "sc_koutou",
+      "name": "咒术高专",
+      "glyph": "专",
+      "tone": "#7fa0c0",
+      "x": 31,
+      "y": 40,
+      "desc": "建在山里。结界一层套一层，外面看不见里面。",
+      "unlock": {
+        "realm": 1
+      }
+    },
+    {
+      "id": "sc_sendai",
+      "name": "仙台",
+      "glyph": "仙",
+      "tone": "#8fb08a",
+      "x": 57,
+      "y": 18,
+      "desc": "商店街的灯还亮着，但关门的店比开着的多。",
+      "unlock": {
+        "realm": 1
+      }
+    },
+    {
+      "id": "sc_kyoto",
+      "name": "京都",
+      "glyph": "京",
+      "tone": "#c0a86a",
+      "x": 22,
+      "y": 62,
+      "desc": "古街、神社、还有另一所高专。",
+      "unlock": {
+        "realm": 2
+      }
+    },
+    {
+      "id": "sc_shinjuku",
+      "name": "新宿",
+      "glyph": "宿",
+      "tone": "#a0708f",
+      "x": 53,
+      "y": 36,
+      "desc": "霓虹下面什么都有，包括不该有的。",
+      "unlock": {
+        "realm": 2
+      }
+    },
+    {
+      "id": "sc_hospital",
+      "name": "废弃医院",
+      "glyph": "院",
+      "tone": "#9aa4a8",
+      "x": 72,
+      "y": 30,
+      "desc": "停诊十年了。挂号厅的灯偶尔还会自己亮。",
+      "unlock": {
+        "realm": 2
+      }
+    },
+    {
+      "id": "sc_school",
+      "name": "废弃学校",
+      "glyph": "校",
+      "tone": "#a8a070",
+      "x": 80,
+      "y": 54,
+      "desc": "操场长了草，教室里的桌椅还摆着。",
+      "unlock": {
+        "realm": 3
+      }
+    },
+    {
+      "id": "sc_forest",
+      "name": "咒灵之森",
+      "glyph": "森",
+      "tone": "#6f9a6a",
+      "x": 37,
+      "y": 20,
+      "desc": "树很密。走进去之后，最好记得自己是往哪边走。",
+      "unlock": {
+        "realm": 3
+      }
+    },
+    {
+      "id": "sc_sewer",
+      "name": "地下水道",
+      "glyph": "水",
+      "tone": "#6a8f9a",
+      "x": 67,
+      "y": 71,
+      "desc": "水一直在响。你听不出声音是从哪一头的。",
+      "unlock": {
+        "realm": 3
+      }
+    },
+    {
+      "id": "sc_sea",
+      "name": "海边废村",
+      "glyph": "海",
+      "tone": "#6a9ab8",
+      "x": 88,
+      "y": 76,
+      "desc": "渔港空了，防波堤还在挨浪。",
+      "unlock": {
+        "realm": 4
+      }
+    },
+    {
+      "id": "sc_snow",
+      "name": "北方雪原",
+      "glyph": "雪",
+      "tone": "#9dbdd8",
+      "x": 46,
+      "y": 9,
+      "desc": "除了雪，就是雪。脚印留不了太久。",
+      "unlock": {
+        "realm": 4
+      }
+    },
+    {
+      "id": "sc_mountain",
+      "name": "灵山",
+      "glyph": "灵",
+      "tone": "#8f8fbf",
+      "x": 12,
+      "y": 26,
+      "desc": "山门外一条石阶，往上数不清有多少级。",
+      "unlock": {
+        "realm": 4
+      }
+    },
+    {
+      "id": "sc_market",
+      "name": "咒具黑市",
+      "glyph": "市",
+      "tone": "#7a7f9c",
+      "x": 90,
+      "y": 19,
+      "hidden": true,
+      "desc": "不在任何地图上。要有人带，才进得去。",
+      "unlock": {
+        "flag": "knows_market"
+      }
+    },
+    {
+      "id": "sc_relic",
+      "name": "领域遗迹",
+      "glyph": "域",
+      "tone": "#b090c0",
+      "x": 16,
+      "y": 86,
+      "hidden": true,
+      "desc": "有人在这里展开过领域，然后没能收回去。",
+      "unlock": {
+        "flag": "knows_relic"
+      }
+    },
+    {
+      "id": "sc_home",
+      "name": "自宅",
+      "glyph": "家",
+      "tone": "#b8a07a",
+      "x": 45,
+      "y": 64,
+      "desc": "你租的地方。一室一厅，门框上那道结界是自己描的。",
+      "unlock": {}
+    },
+    {
+      "id": "sc_nd_port",
+      "name": "峡湾渡口",
+      "glyph": "渡",
+      "tone": "#7fa0c0",
+      "x": 20,
+      "y": 74,
+      "region": "rg_nordic",
+      "desc": "木栈桥伸进黑水里。船靠着桩，缆绳结了冰。"
+    },
+    {
+      "id": "sc_nd_village",
+      "name": "极夜渔村",
+      "glyph": "渔",
+      "tone": "#9dbdd8",
+      "x": 44,
+      "y": 52,
+      "region": "rg_nordic",
+      "desc": "屋顶压着雪。窗里那点灯火，是这一整片黑里唯一暖的东西。"
+    },
+    {
+      "id": "sc_nd_forest",
+      "name": "冻林",
+      "glyph": "冻",
+      "tone": "#6f9a8f",
+      "x": 70,
+      "y": 30,
+      "region": "rg_nordic",
+      "desc": "树干上结着一层薄壳，碰一下就整片碎下来。"
+    },
+    {
+      "id": "sc_nd_lake",
+      "name": "冰湖",
+      "glyph": "湖",
+      "tone": "#8fb0c0",
+      "x": 62,
+      "y": 84,
+      "region": "rg_nordic",
+      "desc": "湖面冻得很实。底下有东西在慢慢地挪。"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "r_sb_cross",
+      "name": "十字路口",
+      "scene": "sc_shibuya",
+      "start": true,
+      "npc": "npc_scan",
+      "desc": "霓虹把雨照成彩色的。行人低着头快走，谁也不看谁。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_res",
+          "n": 1,
+          "text": "地上的积水里沉着一小撮咒力残渣。"
+        },
+        {
+          "w": 25,
+          "silver": 6,
+          "text": "伞下滚出几枚硬币。"
+        },
+        {
+          "w": 20,
+          "item": "food_onigiri",
+          "n": 1,
+          "text": "便利店袋子破了，掉出一个饭团。"
+        },
+        {
+          "w": 20,
+          "text": "什么都没有，只有雨。"
+        }
+      ]
+    },
+    {
+      "id": "r_sb_station",
+      "name": "地铁站",
+      "scene": "sc_shibuya",
+      "npc": "npc_driver",
+      "desc": "末班车早开走了。站台上贴着寻人启事，纸角都卷了。",
+      "actions": [
+        "listen"
+      ],
+      "search": [
+        {
+          "w": 30,
+          "item": "mat_paper",
+          "n": 1,
+          "text": "售票机旁散着几张符纸。"
+        },
+        {
+          "w": 25,
+          "item": "q_note",
+          "n": 1,
+          "text": "长椅下压着一张渗字便笺。"
+        },
+        {
+          "w": 45,
+          "text": "广播在念一段你听不懂的站名。"
+        }
+      ]
+    },
+    {
+      "id": "r_sb_mall",
+      "name": "百货商场",
+      "scene": "sc_shibuya",
+      "npc": "npc_girl",
+      "desc": "卷帘门只拉下了一半。橱窗里的模特全都面朝里站。",
+      "actions": [
+        "rest"
+      ],
+      "search": [
+        {
+          "w": 40,
+          "item": "ar_uniform",
+          "n": 1,
+          "text": "试衣间挂钩上挂着一套学生制服。"
+        },
+        {
+          "w": 60,
+          "text": "抽屉里全是空的价签。"
+        }
+      ]
+    },
+    {
+      "id": "r_sb_alley",
+      "name": "后巷",
+      "scene": "sc_shibuya",
+      "npc": "npc_beggar",
+      "desc": "垃圾桶排成一列。巷子尽头那面墙，比别处暗。",
+      "actions": [
+        "work"
+      ],
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_bone",
+          "n": 1,
+          "text": "墙根堆着一小段咒骨。"
+        },
+        {
+          "w": 25,
+          "item": "mat_venom",
+          "n": 1,
+          "text": "你从一滩黏液里捡出个毒囊。"
+        },
+        {
+          "w": 40,
+          "text": "有只猫盯着你，眼睛反光。"
+        }
+      ]
+    },
+    {
+      "id": "r_sb_konbini",
+      "name": "便利店",
+      "scene": "sc_shibuya",
+      "npc": "npc_konbini",
+      "shop": [
+        "food_onigiri",
+        "food_bento",
+        "dr_sake",
+        "pill_mini",
+        "pill_heal",
+        "mat_paper"
+      ],
+      "desc": "灯白得刺眼。收银台后的人一直在看门口。",
+      "actions": [
+        "work"
+      ],
+      "search": [
+        {
+          "w": 40,
+          "item": "food_ration",
+          "n": 1,
+          "text": "货架最下层滚出一包干粮。"
+        },
+        {
+          "w": 60,
+          "text": "都是临期的。"
+        }
+      ]
+    },
+    {
+      "id": "r_kt_gate",
+      "name": "正门",
+      "scene": "sc_koutou",
+      "start": true,
+      "npc": "npc_gatekeeper",
+      "desc": "石狮子只剩一只。门是旧的，门上的结界是新的。",
+      "actions": [
+        "listen"
+      ],
+      "search": [
+        {
+          "w": 40,
+          "item": "mat_paper",
+          "n": 1,
+          "text": "门房窗台上压着一沓登记表。"
+        },
+        {
+          "w": 30,
+          "item": "mat_res",
+          "n": 1,
+          "text": "石阶缝里渗着一小撮咒力残渣。"
+        },
+        {
+          "w": 30,
+          "text": "远处的操场传来拍球声，一下，两下。"
+        }
+      ]
+    },
+    {
+      "id": "r_kt_dojo",
+      "name": "道场",
+      "scene": "sc_koutou",
+      "npc": "npc_teacher",
+      "actions": [
+        "meditate",
+        "rest"
+      ],
+      "desc": "木地板被踩出了包浆。墙角立着几具练手的咒骸。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_ink",
+          "n": 1,
+          "text": "砚台里的墨还没干。"
+        },
+        {
+          "w": 35,
+          "item": "food_ration",
+          "n": 1,
+          "text": "垫子底下压着一包干粮。"
+        },
+        {
+          "w": 30,
+          "text": "沙袋上有一处凹陷，像被拳头砸出来的。"
+        }
+      ]
+    },
+    {
+      "id": "r_kt_library",
+      "name": "书库",
+      "scene": "sc_koutou",
+      "npc": "npc_librarian",
+      "actions": [
+        "read",
+        "listen"
+      ],
+      "desc": "没有窗，灯是暖的。架子一直排到你看不见的深处。",
+      "search": [
+        {
+          "w": 40,
+          "item": "bk_curse",
+          "n": 1,
+          "text": "第三格里夹着一册讲咒力循环的小册子。"
+        },
+        {
+          "w": 30,
+          "item": "q_scroll",
+          "n": 1,
+          "text": "一轴旧卷从最上层滑了下来。"
+        },
+        {
+          "w": 30,
+          "text": "有一格是空的，标签写着三十年前的日期。"
+        }
+      ]
+    },
+    {
+      "id": "r_kt_dorm",
+      "name": "宿舍",
+      "scene": "sc_koutou",
+      "npcs": [
+        "npc_senpai",
+        "npc_cook"
+      ],
+      "actions": [
+        "rest",
+        "work"
+      ],
+      "desc": "走廊很长，每个房间门口都贴着名字。有一个名字被撕掉了。",
+      "search": [
+        {
+          "w": 35,
+          "item": "ar_uniform",
+          "n": 1,
+          "text": "晾衣绳上挂着一套制服。"
+        },
+        {
+          "w": 25,
+          "item": "pill_calm",
+          "n": 1,
+          "text": "床头柜里放着半瓶静心药。"
+        },
+        {
+          "w": 10,
+          "item": "q_mat",
+          "n": 1,
+          "text": "最里那张床的床板底下压着一张织垫 —— 中央绣着一个极小的「十」字。"
+        },
+        {
+          "w": 40,
+          "text": "某个房间里，闹钟还在响。"
+        }
+      ]
+    },
+    {
+      "id": "r_kt_forest",
+      "name": "结界林",
+      "scene": "sc_koutou",
+      "actions": [
+        "gather",
+        "listen"
+      ],
+      "desc": "树是按八卦种的。走错一步，回头看路的走向就变了。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_herb",
+          "n": 1,
+          "text": "树根旁长着能入药的草。"
+        },
+        {
+          "w": 25,
+          "item": "mat_res",
+          "n": 1,
+          "text": "叶子上凝着一层咒力残渣。"
+        },
+        {
+          "w": 20,
+          "item": "mat_silk",
+          "n": 1,
+          "text": "枝桠间挂着一段咒丝。"
+        },
+        {
+          "w": 20,
+          "text": "你听见有人在你背后数数，数到三就停了。"
+        }
+      ]
+    },
+    {
+      "id": "r_sd_station",
+      "name": "车站",
+      "scene": "sc_sendai",
+      "start": true,
+      "npc": "npc_player1",
+      "desc": "站牌上的终点被人用马克笔涂黑了。",
+      "actions": [
+        "listen"
+      ],
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_paper",
+          "n": 1,
+          "text": "自动售票机里吐出一张写满字的票。"
+        },
+        {
+          "w": 25,
+          "item": "mat_coin",
+          "n": 1,
+          "text": "投币口下面卡着几枚硬币。"
+        },
+        {
+          "w": 40,
+          "text": "广播一整天只重复一句话。"
+        }
+      ]
+    },
+    {
+      "id": "r_sd_shotengai",
+      "name": "商店街",
+      "scene": "sc_sendai",
+      "npc": "npc_ramen",
+      "actions": [
+        "work",
+        "drink"
+      ],
+      "shop": [
+        "food_bento",
+        "food_onigiri",
+        "dr_sake",
+        "pill_heal",
+        "mat_paper",
+        "mat_herb"
+      ],
+      "desc": "卷帘门一半开着，一半关着。面摊的灯是整条街最亮的。",
+      "search": [
+        {
+          "w": 40,
+          "item": "food_bento",
+          "n": 1,
+          "text": "关门的店门口放着一份盒饭。"
+        },
+        {
+          "w": 30,
+          "item": "mat_tea",
+          "n": 1,
+          "text": "茶铺的罐子被打翻了。"
+        },
+        {
+          "w": 30,
+          "text": "有人在隔着卷帘门跟你说话，但你听不清。"
+        }
+      ]
+    },
+    {
+      "id": "r_sd_school",
+      "name": "废校",
+      "scene": "sc_sendai",
+      "actions": [
+        "read",
+        "listen"
+      ],
+      "desc": "黑板上的板书没擦，粉笔还搁在槽里。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_ink",
+          "n": 1,
+          "text": "讲台抽屉里有一瓶没干的墨。"
+        },
+        {
+          "w": 25,
+          "item": "q_recipe",
+          "n": 1,
+          "text": "课本里夹着一张配药方子。"
+        },
+        {
+          "w": 40,
+          "text": "上课铃响了。是下课铃，但没人走。"
+        }
+      ],
+      "npcs": [
+        "npc_teacher_old",
+        "npc_tengen"
+      ]
+    },
+    {
+      "id": "r_sd_river",
+      "name": "河堤",
+      "scene": "sc_sendai",
+      "npc": "npc_fisher",
+      "actions": [
+        "fish",
+        "gather"
+      ],
+      "desc": "草长得比人高。河面很平，平得不像有水流。",
+      "search": [
+        {
+          "w": 40,
+          "item": "mat_scale",
+          "n": 1,
+          "text": "岸上搁着一片比手掌大的鳞。"
+        },
+        {
+          "w": 30,
+          "item": "food_onigiri",
+          "n": 1,
+          "text": "钓鱼桶底躺着一个没拆的饭团。"
+        },
+        {
+          "w": 30,
+          "text": "水面上漂着一只鞋，顺流，但没动。"
+        }
+      ]
+    },
+    {
+      "id": "r_ky_street",
+      "name": "古街",
+      "scene": "sc_kyoto",
+      "start": true,
+      "npcs": [
+        "npc_oldshop",
+        "npc_kamo_ke",
+        "npc_zenin_mon",
+        "npc_gojo_ki"
+      ],
+      "actions": [
+        "work"
+      ],
+      "shop": [
+        "mat_paper",
+        "ch_talisman",
+        "ch_omamori",
+        "dr_sake",
+        "mat_tea",
+        "bk_sense"
+      ],
+      "desc": "石板路是新的，两边的店是旧的，看店的比店还旧。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_paper",
+          "n": 1,
+          "text": "一沓旧符纸被风掀到街角。"
+        },
+        {
+          "w": 25,
+          "item": "ch_omamori",
+          "n": 1,
+          "text": "台阶上落着一个御守。"
+        },
+        {
+          "w": 40,
+          "text": "玻璃柜里那半卷古书，昨天还在。"
+        }
+      ]
+    },
+    {
+      "id": "r_ky_school",
+      "name": "京都校",
+      "scene": "sc_kyoto",
+      "npcs": [
+        "npc_kyostudent",
+        "npc_kamo_syu",
+        "npc_zenin_gi",
+        "npc_gojo_gi"
+      ],
+      "actions": [
+        "meditate"
+      ],
+      "desc": "校舍比东京那所新，比东京那所空。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_paper",
+          "n": 1,
+          "text": "公告栏上贴着一张交流会名单。"
+        },
+        {
+          "w": 25,
+          "item": "mat_steel",
+          "n": 1,
+          "text": "器械室门口落着一小段钢。"
+        },
+        {
+          "w": 40,
+          "text": "道场里有人在练，一招一式都不是给你看的。"
+        }
+      ]
+    },
+    {
+      "id": "r_ky_daimonji",
+      "name": "大文字山",
+      "scene": "sc_kyoto",
+      "npcs": [
+        "npc_hiker",
+        "npc_kamo_so",
+        "npc_zenin_shu",
+        "npc_gojo_syu"
+      ],
+      "actions": [
+        "gather",
+        "listen"
+      ],
+      "desc": "爬到半山腰就能看见整座城。今晚山上有点火。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_herb",
+          "n": 1,
+          "text": "山路边的草丛里有药材。"
+        },
+        {
+          "w": 25,
+          "item": "mat_jade",
+          "n": 1,
+          "text": "石缝里嵌着一小块玉。"
+        },
+        {
+          "w": 40,
+          "text": "山风里带着一股烧过的味道。"
+        }
+      ]
+    },
+    {
+      "id": "r_ky_shrine",
+      "name": "神社",
+      "scene": "sc_kyoto",
+      "npcs": [
+        "npc_monk",
+        "npc_kamo_gi",
+        "npc_zenin_syu",
+        "npc_gojo_shu"
+      ],
+      "actions": [
+        "pray",
+        "rest"
+      ],
+      "desc": "鸟居只剩半边朱红。香炉的火常年不灭。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_tea",
+          "n": 1,
+          "text": "社务所的茶叶罐开着。"
+        },
+        {
+          "w": 25,
+          "item": "ch_talisman",
+          "n": 1,
+          "text": "绘马架最下面压着一张符。"
+        },
+        {
+          "w": 40,
+          "text": "你摇了一次铃。铃响过了，还在响。"
+        }
+      ]
+    },
+    {
+      "id": "r_sj_kabuki",
+      "name": "歌舞伎町",
+      "scene": "sc_shinjuku",
+      "start": true,
+      "npc": "npc_info",
+      "desc": "霓虹灯管坏了几根，剩下的照着人脸上的油光。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_coin",
+          "n": 1,
+          "text": "地上的投币式储物柜掉出几枚币。"
+        },
+        {
+          "w": 25,
+          "item": "pill_mini",
+          "n": 1,
+          "text": "自动贩卖机下面滚出一粒小药。"
+        },
+        {
+          "w": 40,
+          "text": "拉客的人绕着你走，像认识你。"
+        }
+      ]
+    },
+    {
+      "id": "r_sj_underground",
+      "name": "地下街",
+      "scene": "sc_shinjuku",
+      "npc": "npc_bartender",
+      "actions": [
+        "drink",
+        "listen"
+      ],
+      "desc": "地上很吵，地下更吵，只是地下没人喊。",
+      "search": [
+        {
+          "w": 40,
+          "item": "dr_sake",
+          "n": 1,
+          "text": "桌角搁着一瓶没开封的酒。"
+        },
+        {
+          "w": 30,
+          "item": "mat_paper",
+          "n": 1,
+          "text": "墙缝里塞着一张记满数字的纸。"
+        },
+        {
+          "w": 30,
+          "text": "有扇门写着「员工专用」，后面没有员工。"
+        }
+      ]
+    },
+    {
+      "id": "r_sj_roof",
+      "name": "楼顶",
+      "scene": "sc_shinjuku",
+      "npc": "npc_roofgirl",
+      "actions": [
+        "listen",
+        "rest"
+      ],
+      "desc": "风比街上大，声音比街上小。往下看，整条街都是亮的。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_res",
+          "n": 1,
+          "text": "水箱边上凝着咒力残渣。"
+        },
+        {
+          "w": 25,
+          "item": "ch_suzu",
+          "n": 1,
+          "text": "栏杆上系着一个小铃铛。"
+        },
+        {
+          "w": 40,
+          "text": "你数了数楼下的灯，比昨天少一盏。"
+        }
+      ]
+    },
+    {
+      "id": "r_hs_lobby",
+      "name": "挂号厅",
+      "scene": "sc_hospital",
+      "start": true,
+      "npc": "npc_nurse",
+      "desc": "一盏灯自己亮着，照着一张没人坐的椅子。",
+      "actions": [
+        "listen"
+      ],
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_paper",
+          "n": 1,
+          "text": "导诊台上压着一沓病历。"
+        },
+        {
+          "w": 25,
+          "item": "pill_heal",
+          "n": 1,
+          "text": "药房窗口滚出一板药。"
+        },
+        {
+          "w": 40,
+          "text": "叫号屏上跳出一个没人叫的号。"
+        }
+      ]
+    },
+    {
+      "id": "r_hs_or",
+      "name": "手术室",
+      "scene": "sc_hospital",
+      "npc": "npc_doctor",
+      "actions": [
+        "craft",
+        "work"
+      ],
+      "desc": "无影灯下躺着一张空台。器械盘里的东西还是热的。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_flesh",
+          "n": 1,
+          "text": "托盘里放着一小块不该在的东西。"
+        },
+        {
+          "w": 25,
+          "item": "pill_heal2",
+          "n": 1,
+          "text": "器械柜里有一支没拆的针剂。"
+        },
+        {
+          "w": 40,
+          "text": "监护仪在响，房间里的线全断着。"
+        }
+      ]
+    },
+    {
+      "id": "r_hs_morgue",
+      "name": "太平间",
+      "scene": "sc_hospital",
+      "npc": "npc_mort",
+      "actions": [
+        "listen"
+      ],
+      "desc": "冷气开到最低。每个抽屉上都贴着编号，编号是手写的。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_bone",
+          "n": 1,
+          "text": "角落有一小段干净的骨。"
+        },
+        {
+          "w": 25,
+          "item": "ar_jacket",
+          "n": 1,
+          "text": "衣帽钩上挂着一件大衣。"
+        },
+        {
+          "w": 40,
+          "text": "其中一个抽屉自己开了条缝。"
+        }
+      ]
+    },
+    {
+      "id": "r_hs_roof",
+      "name": "天台",
+      "scene": "sc_hospital",
+      "actions": [
+        "rest",
+        "listen"
+      ],
+      "desc": "水塔还在滴水。从这里能看见整条涩谷的街。",
+      "search": [
+        {
+          "w": 40,
+          "item": "mat_res",
+          "n": 1,
+          "text": "水塔阴影里沉着一撮咒力。"
+        },
+        {
+          "w": 30,
+          "item": "food_ration",
+          "n": 1,
+          "text": "锈迹斑斑的铁箱里还有一包干粮。"
+        },
+        {
+          "w": 30,
+          "text": "楼下的马路上，站着一个人，仰着头。"
+        }
+      ]
+    },
+    {
+      "id": "r_sc_class",
+      "name": "教室",
+      "scene": "sc_school",
+      "start": true,
+      "npc": "npc_janitor",
+      "actions": [
+        "read"
+      ],
+      "desc": "桌椅摆得很整齐，整齐得像有人每天来摆。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_paper",
+          "n": 1,
+          "text": "一张课桌里塞着没交的作业。"
+        },
+        {
+          "w": 25,
+          "item": "mat_ink",
+          "n": 1,
+          "text": "讲台上有半瓶墨。"
+        },
+        {
+          "w": 40,
+          "text": "第七间教室的门牌是反着钉的。"
+        }
+      ]
+    },
+    {
+      "id": "r_sc_gym",
+      "name": "体育馆",
+      "scene": "sc_school",
+      "npc": "npc_club",
+      "actions": [
+        "work"
+      ],
+      "desc": "地板翘起来几块。篮球架歪着，篮筐一直没有网。",
+      "search": [
+        {
+          "w": 40,
+          "item": "mat_steel",
+          "n": 1,
+          "text": "器材室的铁架子掉下一段钢。"
+        },
+        {
+          "w": 30,
+          "item": "food_onigiri",
+          "n": 1,
+          "text": "更衣柜里有一个饭团，还热着。"
+        },
+        {
+          "w": 30,
+          "text": "记分牌停在 47:47。"
+        }
+      ]
+    },
+    {
+      "id": "r_sc_toilet",
+      "name": "厕所",
+      "scene": "sc_school",
+      "actions": [
+        "listen"
+      ],
+      "desc": "水龙头在滴。镜子上的字是谁用手指蘸水写的。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_venom",
+          "n": 1,
+          "text": "地漏附近凝着一小团毒液。"
+        },
+        {
+          "w": 25,
+          "item": "ch_talisman",
+          "n": 1,
+          "text": "窗台上压着一张符。"
+        },
+        {
+          "w": 40,
+          "text": "有一个隔间的门从里面锁着。"
+        }
+      ]
+    },
+    {
+      "id": "r_sc_roof",
+      "name": "天台",
+      "scene": "sc_school",
+      "npc": "npc_ghost",
+      "actions": [
+        "listen",
+        "rest"
+      ],
+      "desc": "栏杆锈断了半截。从这里看，操场比学校大得多。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_ink",
+          "n": 1,
+          "text": "地上有个没写完的字。"
+        },
+        {
+          "w": 25,
+          "item": "mat_res",
+          "n": 1,
+          "text": "铁门后面凝着咒力残渣。"
+        },
+        {
+          "w": 40,
+          "text": "下课铃又响了一次。"
+        }
+      ]
+    },
+    {
+      "id": "r_fo_edge",
+      "name": "林缘",
+      "scene": "sc_forest",
+      "start": true,
+      "npc": "npc_woodman",
+      "actions": [
+        "gather"
+      ],
+      "desc": "林子的边界很整齐，整齐得像是有人修过。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_herb",
+          "n": 1,
+          "text": "林边一片能用的草。"
+        },
+        {
+          "w": 25,
+          "item": "mat_bamboo",
+          "n": 1,
+          "text": "枯竹倒在地上，还没朽。"
+        },
+        {
+          "w": 40,
+          "text": "你回头看，来时的路短了一截。"
+        }
+      ]
+    },
+    {
+      "id": "r_fo_deep",
+      "name": "深林",
+      "scene": "sc_forest",
+      "actions": [
+        "gather",
+        "listen"
+      ],
+      "desc": "光被树挡成了条纹。你分不清哪一声是自己的脚步。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_herb",
+          "n": 1,
+          "text": "树皮上长着能入药的东西。"
+        },
+        {
+          "w": 25,
+          "item": "mat_silk",
+          "n": 1,
+          "text": "蛛丝一样的东西缠在枝上。"
+        },
+        {
+          "w": 20,
+          "item": "mat_bone",
+          "n": 1,
+          "text": "落叶下面埋着一小段骨。"
+        },
+        {
+          "w": 20,
+          "text": "前面有棵树上刻着一个记号，和你身后那棵一样。"
+        }
+      ]
+    },
+    {
+      "id": "r_fo_altar",
+      "name": "祭坛",
+      "scene": "sc_forest",
+      "actions": [
+        "pray",
+        "listen"
+      ],
+      "npcs": [
+        "npc_masked"
+      ],
+      "desc": "石头垒的台子上空着一个位置，位置上有旧的痕迹。",
+      "search": [
+        {
+          "w": 12,
+          "flag": "f_fo_altar",
+          "flagText": "面具下面传来一声很轻的呼吸，不像你的。"
+        },
+        {
+          "w": 35,
+          "item": "mat_lotus",
+          "n": 1,
+          "text": "石缝里开着一朵用不上土的莲。"
+        },
+        {
+          "w": 25,
+          "item": "q_flute",
+          "n": 1,
+          "text": "祭坛下面压着一支旧笛。"
+        },
+        {
+          "w": 40,
+          "text": "你把手按在台面上，台面是温的。"
+        }
+      ]
+    },
+    {
+      "id": "r_fo_hut",
+      "name": "林中小屋",
+      "scene": "sc_forest",
+      "npc": "npc_hermit",
+      "actions": [
+        "rest",
+        "read"
+      ],
+      "desc": "屋子没有电，也没有门。里面比外面暗，却看得更清。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_ink",
+          "n": 1,
+          "text": "桌上摆着研好的墨。"
+        },
+        {
+          "w": 25,
+          "item": "bk_flow",
+          "n": 1,
+          "text": "枕下压着一册抄本。"
+        },
+        {
+          "w": 40,
+          "text": "墙上钉着一张地图，标的是这片林子，但不是这个形状。"
+        }
+      ]
+    },
+    {
+      "id": "r_sw_entrance",
+      "name": "入口",
+      "scene": "sc_sewer",
+      "start": true,
+      "npc": "npc_cleaner",
+      "actions": [
+        "work"
+      ],
+      "desc": "井盖掀在一边，梯子底下是一片黑。",
+      "search": [
+        {
+          "w": 40,
+          "item": "mat_res",
+          "n": 1,
+          "text": "井壁上挂着一层咒力残渣。"
+        },
+        {
+          "w": 30,
+          "item": "q_lamp",
+          "n": 1,
+          "text": "工具箱里有一盏还能亮的灯。"
+        },
+        {
+          "w": 30,
+          "text": "水声从很深的地方传上来，很稳。"
+        }
+      ]
+    },
+    {
+      "id": "r_sw_fork",
+      "name": "岔道",
+      "scene": "sc_sewer",
+      "npc": "npc_lost",
+      "actions": [
+        "listen"
+      ],
+      "desc": "两条管洞一样黑。墙上有人用粉笔划过箭头，划了一半。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_paper",
+          "n": 1,
+          "text": "泡烂的地图还留着半张能看。"
+        },
+        {
+          "w": 25,
+          "item": "mat_scale",
+          "n": 1,
+          "text": "水边搁着一片鳞。"
+        },
+        {
+          "w": 40,
+          "text": "左边的洞里，有人在你之前就到了。"
+        }
+      ]
+    },
+    {
+      "id": "r_sw_basin",
+      "name": "沉淀池",
+      "scene": "sc_sewer",
+      "actions": [
+        "gather",
+        "fish"
+      ],
+      "desc": "池子比看起来深。水面很静，底下一直有东西在动。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_venom",
+          "n": 1,
+          "text": "池边凝着一团毒液。"
+        },
+        {
+          "w": 25,
+          "item": "mat_flesh",
+          "n": 1,
+          "text": "捞上来一块说不清的东西。"
+        },
+        {
+          "w": 40,
+          "text": "池水映出你的样子，慢了一拍。"
+        }
+      ]
+    },
+    {
+      "id": "r_sw_nest",
+      "name": "咒胎巢",
+      "scene": "sc_sewer",
+      "actions": [
+        "listen",
+        "rest"
+      ],
+      "npcs": [
+        "npc_koan"
+      ],
+      "desc": "墙上、顶上，全是半透明的东西。都在轻轻地跳。",
+      "search": [
+        {
+          "w": 12,
+          "flag": "f_sw_nest",
+          "flagText": "无数个心跳里，有一个不属于它们，也不属于你。"
+        },
+        {
+          "w": 35,
+          "item": "mat_flesh",
+          "n": 1,
+          "text": "一颗没长成的东西落了下来。"
+        },
+        {
+          "w": 25,
+          "item": "mat_core",
+          "n": 1,
+          "text": "巢的深处埋着一枚核。"
+        },
+        {
+          "w": 40,
+          "text": "它们的心跳，慢慢变成了同一个节奏。"
+        }
+      ]
+    },
+    {
+      "id": "r_se_breakwater",
+      "name": "防波堤",
+      "scene": "sc_sea",
+      "start": true,
+      "actions": [
+        "fish",
+        "listen"
+      ],
+      "desc": "水泥块上长满了藤壶。浪打在旧痕上，那里砌过新的。",
+      "search": [
+        {
+          "w": 40,
+          "item": "mat_scale",
+          "n": 1,
+          "text": "堤缝里卡着一片鳞。"
+        },
+        {
+          "w": 30,
+          "item": "mat_res",
+          "n": 1,
+          "text": "潮线以上凝着咒力残渣。"
+        },
+        {
+          "w": 30,
+          "text": "你听见有人在堤的另一头叫你，声音不像人。"
+        }
+      ]
+    },
+    {
+      "id": "r_se_house",
+      "name": "空屋",
+      "scene": "sc_sea",
+      "npc": "npc_kid",
+      "actions": [
+        "rest",
+        "listen"
+      ],
+      "desc": "屋里的家具都还在，碗也还在，人不在。",
+      "search": [
+        {
+          "w": 35,
+          "item": "ch_suzu",
+          "n": 1,
+          "text": "窗台上放着一个小铃铛。"
+        },
+        {
+          "w": 25,
+          "item": "food_ration",
+          "n": 1,
+          "text": "米缸底还剩一包干粮。"
+        },
+        {
+          "w": 40,
+          "text": "墙上的字是用贝壳写的。"
+        }
+      ]
+    },
+    {
+      "id": "r_se_port",
+      "name": "渔港",
+      "scene": "sc_sea",
+      "npc": "npc_oldfisher",
+      "actions": [
+        "fish",
+        "work",
+        "drink"
+      ],
+      "shop": [
+        "dr_sake",
+        "food_onigiri",
+        "mat_scale",
+        "pill_heal",
+        "cg_umbrella"
+      ],
+      "desc": "船都拖上岸了，缆绳还系着。海水是灰的。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_scale",
+          "n": 1,
+          "text": "码头木板下压着几片鳞。"
+        },
+        {
+          "w": 25,
+          "item": "food_bento",
+          "n": 1,
+          "text": "船上还留着一份没动的盒饭。"
+        },
+        {
+          "w": 40,
+          "text": "离岸最近的那条船，船底是干的。"
+        }
+      ]
+    },
+    {
+      "id": "r_se_cave",
+      "name": "海蚀洞",
+      "scene": "sc_sea",
+      "actions": [
+        "gather",
+        "listen"
+      ],
+      "npcs": [
+        "npc_deep_one"
+      ],
+      "desc": "洞顶往下滴水。往里走，脚步声越来越不像你的。",
+      "search": [
+        {
+          "w": 12,
+          "flag": "f_se_cave",
+          "flagText": "最深处的水里，有个东西停了下来，不动了。"
+        },
+        {
+          "w": 35,
+          "item": "mat_jade",
+          "n": 1,
+          "text": "石缝里嵌着一小块玉。"
+        },
+        {
+          "w": 25,
+          "item": "mat_bone",
+          "n": 1,
+          "text": "沙滩上有半截白骨。"
+        },
+        {
+          "w": 40,
+          "text": "洞的最深处，水在往上冒。"
+        }
+      ]
+    },
+    {
+      "id": "r_sn_valley",
+      "name": "雪谷",
+      "scene": "sc_snow",
+      "start": true,
+      "npc": "npc_yuki",
+      "actions": [
+        "listen"
+      ],
+      "desc": "风把雪吹成一条一条的线。你的脚印，五分钟就被填平。",
+      "search": [
+        {
+          "w": 40,
+          "item": "mat_jade",
+          "n": 1,
+          "text": "雪底下埋着一小块冰玉。"
+        },
+        {
+          "w": 30,
+          "item": "food_ration",
+          "n": 1,
+          "text": "一个冻硬的干粮包。"
+        },
+        {
+          "w": 30,
+          "text": "雪面上有一串脚印，是从你身后过来的。"
+        }
+      ]
+    },
+    {
+      "id": "r_sn_hut",
+      "name": "猎屋",
+      "scene": "sc_snow",
+      "npc": "npc_hunter",
+      "actions": [
+        "rest",
+        "forge"
+      ],
+      "desc": "炉子还热着。墙上没有一张兽皮，只有钉子的痕迹。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_steel",
+          "n": 1,
+          "text": "工具箱里有一段好钢。"
+        },
+        {
+          "w": 25,
+          "item": "dr_strong",
+          "n": 1,
+          "text": "床底下滚出一瓶烈酒。"
+        },
+        {
+          "w": 40,
+          "text": "门口挂着两件大衣，一件是你的尺码。"
+        }
+      ]
+    },
+    {
+      "id": "r_sn_ice",
+      "name": "冰洞",
+      "scene": "sc_snow",
+      "actions": [
+        "gather",
+        "listen"
+      ],
+      "npcs": [
+        "npc_ice_widow"
+      ],
+      "desc": "冰是蓝的。你看见冰里面有东西，看得清，够不着。",
+      "search": [
+        {
+          "w": 12,
+          "flag": "f_sn_ice",
+          "flagText": "冰面上多了一道划痕，像是刚被人用指甲划的。"
+        },
+        {
+          "w": 35,
+          "item": "mat_jade",
+          "n": 1,
+          "text": "冰壁上凿得下一块玉。"
+        },
+        {
+          "w": 25,
+          "item": "mat_core",
+          "n": 1,
+          "text": "冰层里冻着一枚核。"
+        },
+        {
+          "w": 40,
+          "text": "冰里那个东西，换了只手撑着。"
+        }
+      ]
+    },
+    {
+      "id": "r_sn_cliff",
+      "name": "断崖",
+      "scene": "sc_snow",
+      "actions": [
+        "listen",
+        "rest"
+      ],
+      "desc": "崖下是雾，看不见底。崖边站着的东西，很久没动过。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_bone",
+          "n": 1,
+          "text": "雪里露出半截骨。"
+        },
+        {
+          "w": 25,
+          "item": "mat_shard",
+          "n": 1,
+          "text": "崖顶的石头是碎的，像被震过。"
+        },
+        {
+          "w": 40,
+          "text": "你朝下面喊了一声，回音上来的时间不对。"
+        }
+      ]
+    },
+    {
+      "id": "r_mt_gate",
+      "name": "山门",
+      "scene": "sc_mountain",
+      "start": true,
+      "npc": "npc_priest",
+      "actions": [
+        "pray",
+        "listen"
+      ],
+      "desc": "山门旧了，匾上的字认不全。石阶往上，看不到头。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_tea",
+          "n": 1,
+          "text": "门房的罐子里有茶叶。"
+        },
+        {
+          "w": 25,
+          "item": "ch_talisman",
+          "n": 1,
+          "text": "门槛下压着一张符。"
+        },
+        {
+          "w": 40,
+          "text": "钟楼上的钟，没人敲，自己晃了一下。"
+        }
+      ]
+    },
+    {
+      "id": "r_mt_stairs",
+      "name": "石阶",
+      "scene": "sc_mountain",
+      "actions": [
+        "listen",
+        "meditate"
+      ],
+      "desc": "每一百级有一处平台。平台上都放着一块坐得发亮的石头。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_herb",
+          "n": 1,
+          "text": "阶边的草能入药。"
+        },
+        {
+          "w": 25,
+          "item": "mat_lotus",
+          "n": 1,
+          "text": "石缝里开着一朵莲。"
+        },
+        {
+          "w": 40,
+          "text": "你数到第四千级，忘了数到几，也不记得要不要重来。"
+        }
+      ]
+    },
+    {
+      "id": "r_mt_grotto",
+      "name": "石窟",
+      "scene": "sc_mountain",
+      "npc": "npc_ascetic",
+      "actions": [
+        "meditate",
+        "rest"
+      ],
+      "desc": "窟里坐着一排人形的石头。你走近了才发现，不全是石头。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_lotus",
+          "n": 1,
+          "text": "石台上供着一朵干莲。"
+        },
+        {
+          "w": 25,
+          "item": "bk_reverse",
+          "n": 1,
+          "text": "石缝里塞着一册反转术式的抄本。"
+        },
+        {
+          "w": 40,
+          "text": "最里面那尊，姿势和昨天不一样。"
+        }
+      ]
+    },
+    {
+      "id": "r_mt_top",
+      "name": "山顶",
+      "scene": "sc_mountain",
+      "actions": [
+        "pray",
+        "listen",
+        "rest"
+      ],
+      "npcs": [
+        "npc_top_watcher"
+      ],
+      "desc": "顶上只有一块平地、一口井。井里没有水，也没有底。",
+      "search": [
+        {
+          "w": 12,
+          "flag": "f_mt_top",
+          "flagText": "井口边多了一个脚印，赤脚的，朝崖边去的。"
+        },
+        {
+          "w": 35,
+          "item": "mat_shard",
+          "n": 1,
+          "text": "地上散着细碎的咒力结晶。"
+        },
+        {
+          "w": 25,
+          "item": "mat_core",
+          "n": 1,
+          "text": "井沿上搁着一枚核。"
+        },
+        {
+          "w": 40,
+          "text": "你往井里看了看，井里也在看你。"
+        }
+      ]
+    },
+    {
+      "id": "r_mk_gate",
+      "name": "黑市口",
+      "scene": "sc_market",
+      "start": true,
+      "unlock": {
+        "flag": "knows_market"
+      },
+      "desc": "入口是一条不该存在的巷子。你进来时回头，巷口没了。",
+      "search": [
+        {
+          "w": 40,
+          "item": "mat_coin",
+          "n": 1,
+          "text": "地上掉着几枚来历不明的币。"
+        },
+        {
+          "w": 30,
+          "item": "mat_paper",
+          "n": 1,
+          "text": "墙上贴着一张价目表。"
+        },
+        {
+          "w": 30,
+          "text": "有个戴兜帽的人看了你一眼，又移开了。"
+        }
+      ]
+    },
+    {
+      "id": "r_mk_stalls",
+      "name": "摊位",
+      "scene": "sc_market",
+      "npc": "npc_broker",
+      "actions": [
+        "work"
+      ],
+      "shop": [
+        "cg_bokken",
+        "cg_knife",
+        "cg_chain",
+        "cg_fan",
+        "cg_staff",
+        "ch_bind",
+        "ch_lens",
+        "bt_tabi",
+        "bt_greave",
+        "mat_steel",
+        "mat_bone",
+        "mat_shard",
+        "mat_gold",
+        "mat_jade",
+        "mat_silk",
+        "mat_core",
+        "pill_big",
+        "bk_weapon",
+        "bk_armor",
+        "bt_shadow",
+        "cg_yuun",
+        "cg_tenk"
+      ],
+      "desc": "摊位一个挨一个，卖的东西没有一个摆出来。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_shard",
+          "n": 1,
+          "text": "摊主脚边落着一块咒力结晶。"
+        },
+        {
+          "w": 25,
+          "item": "cg_knife",
+          "n": 1,
+          "text": "布卷里裹着一把旧刀。"
+        },
+        {
+          "w": 40,
+          "text": "有人在你耳边报了个价，你回头没人。"
+        }
+      ]
+    },
+    {
+      "id": "r_mk_auction",
+      "name": "拍卖场",
+      "scene": "sc_market",
+      "npc": "npc_auctioneer",
+      "actions": [
+        "listen"
+      ],
+      "desc": "台阶一圈圈往上，中间的高台上什么也没有，就是这儿的规矩。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_gold",
+          "n": 1,
+          "text": "座位缝里卡着一小块金。"
+        },
+        {
+          "w": 25,
+          "item": "q_token",
+          "n": 1,
+          "text": "椅背后面掉着一枚筹码。"
+        },
+        {
+          "w": 40,
+          "text": "今晚的拍品，编号是昨天那个人的座位号。"
+        }
+      ]
+    },
+    {
+      "id": "r_mk_alley",
+      "name": "暗巷",
+      "scene": "sc_market",
+      "npc": "npc_armsmith",
+      "actions": [
+        "forge",
+        "craft"
+      ],
+      "desc": "炉子是活的，巷子是死的。打铁声一停，整条街都静。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_steel",
+          "n": 1,
+          "text": "炉边的料堆里挑得出好钢。"
+        },
+        {
+          "w": 25,
+          "item": "mat_shard",
+          "n": 1,
+          "text": "淬火的水缸底下沉着一块结晶。"
+        },
+        {
+          "w": 40,
+          "text": "墙上挂着一件半成品，形状像刀，也像别的。"
+        }
+      ]
+    },
+    {
+      "id": "r_rl_entry",
+      "name": "入口",
+      "scene": "sc_relic",
+      "start": true,
+      "unlock": {
+        "flag": "knows_relic"
+      },
+      "desc": "一道门框立在那儿，门早就没了。跨过去，风就停了。",
+      "search": [
+        {
+          "w": 40,
+          "item": "mat_shard",
+          "n": 1,
+          "text": "门框上嵌着细碎的结晶。"
+        },
+        {
+          "w": 30,
+          "item": "mat_paper",
+          "n": 1,
+          "text": "地上散着几张写过字的纸。"
+        },
+        {
+          "w": 30,
+          "text": "你迈进门框，身后的雨声一下就没了。"
+        }
+      ]
+    },
+    {
+      "id": "r_rl_corridor",
+      "name": "回廊",
+      "scene": "sc_relic",
+      "npc": "npc_echo",
+      "actions": [
+        "listen",
+        "meditate"
+      ],
+      "desc": "回廊一直往里去，拐过的弯都长得一样，但你确实在往深处走。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_shard",
+          "n": 1,
+          "text": "墙角落里堆着结晶的碎片。"
+        },
+        {
+          "w": 25,
+          "item": "q_scroll",
+          "n": 1,
+          "text": "壁龛里放着一卷没有署名的书。"
+        },
+        {
+          "w": 40,
+          "text": "你的脚步声比你先到了前面。"
+        }
+      ]
+    },
+    {
+      "id": "r_rl_core",
+      "name": "核心",
+      "scene": "sc_relic",
+      "actions": [
+        "pray",
+        "listen",
+        "rest"
+      ],
+      "npcs": [
+        "npc_shadow_abbot"
+      ],
+      "desc": "一个圆形的空地，头顶是黑的，脚下是水的。空地正中，站着一场雨。",
+      "search": [
+        {
+          "w": 12,
+          "flag": "f_relic_core",
+          "flagText": "核心的水面下浮起一张脸，看你一眼就沉了回去。"
+        },
+        {
+          "w": 35,
+          "item": "mat_core",
+          "n": 1,
+          "text": "空地中央埋着一枚核心。"
+        },
+        {
+          "w": 25,
+          "item": "q_finger",
+          "n": 1,
+          "text": "水底沉着一小截不该在的东西。"
+        },
+        {
+          "w": 40,
+          "text": "你抬手，雨停了一息，又下起来。"
+        }
+      ]
+    },
+    {
+      "id": "r_home_living",
+      "name": "客厅",
+      "scene": "sc_home",
+      "start": true,
+      "npc": "npc_neighbor",
+      "desc": "一张矮桌，两个坐垫，墙角堆着没拆的纸箱。门框上的结界是自己描的，歪了一点。",
+      "actions": [
+        "rest",
+        "meditate",
+        "listen"
+      ],
+      "search": [
+        {
+          "w": 35,
+          "item": "food_ration",
+          "n": 1,
+          "text": "纸箱里翻出一包压缩口粮。"
+        },
+        {
+          "w": 25,
+          "item": "mat_paper",
+          "n": 1,
+          "text": "矮桌底下压着几张画废的符纸。"
+        },
+        {
+          "w": 40,
+          "text": "除了雨声，什么也没有。"
+        }
+      ]
+    },
+    {
+      "id": "r_home_bed",
+      "name": "卧房",
+      "scene": "sc_home",
+      "actions": [
+        "rest",
+        "meditate"
+      ],
+      "desc": "床垫直接铺在地上。窗帘拉得死紧，缝里透进来一点街灯。",
+      "search": [
+        {
+          "w": 40,
+          "text": "枕头底下什么也没有。"
+        },
+        {
+          "w": 30,
+          "item": "pill_mini",
+          "n": 1,
+          "text": "床底滚出来一颗备用的药丸。"
+        },
+        {
+          "w": 30,
+          "text": "你坐了一会儿，听着自己的呼吸。"
+        }
+      ]
+    },
+    {
+      "id": "r_home_study",
+      "name": "书斋",
+      "scene": "sc_home",
+      "actions": [
+        "read",
+        "meditate",
+        "craft"
+      ],
+      "desc": "一张旧书桌，一盏台灯。墙上钉着自己画的地图，上面十几个红圈。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_ink",
+          "n": 1,
+          "text": "墨盒底下还剩一点墨。"
+        },
+        {
+          "w": 25,
+          "item": "mat_paper",
+          "n": 1,
+          "text": "抽屉里有一叠没用过的纸。"
+        },
+        {
+          "w": 40,
+          "text": "地图上的红圈，又多了两个。"
+        }
+      ]
+    },
+    {
+      "id": "r_home_vault",
+      "name": "术式工坊 · 试验商店",
+      "scene": "sc_home",
+      "devOnly": true,
+      "actions": [
+        "craft",
+        "forge",
+        "brew"
+      ],
+      "shop": [
+        "__ALL__"
+      ],
+      "sell": true,
+      "desc": "本来是储物间，现在砧板、炉子、货架挤在一处：既是工坊，也是铺子。只有某种特殊出身的人推得开这扇门——货架上什么都有，连没做过的东西也在，且分文不取。",
+      "search": [
+        {
+          "w": 30,
+          "item": "mat_gold",
+          "n": 1,
+          "text": "货架缝里卡着一小块咒金。"
+        },
+        {
+          "w": 30,
+          "item": "mat_jade",
+          "n": 1,
+          "text": "角落里滚出来一枚咒玉。"
+        },
+        {
+          "w": 40,
+          "text": "你把手伸向最里面那格，摸到的东西会变。"
+        }
+      ]
+    },
+    {
+      "id": "r_home_yard",
+      "name": "后院",
+      "scene": "sc_home",
+      "actions": [
+        "gather",
+        "rest",
+        "pray"
+      ],
+      "desc": "一小块水泥地，两盆活不长的植物，一根晾衣绳。抬头能看见别人家的窗。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_res",
+          "n": 1,
+          "text": "花盆底下积了一小撮咒力残渣。"
+        },
+        {
+          "w": 30,
+          "silver": 8,
+          "text": "晾衣绳上挂着一条忘了收的裤子，兜里有几枚硬币。"
+        },
+        {
+          "w": 35,
+          "text": "风从楼缝里钻下来，带着别人家的饭味。"
+        }
+      ]
+    },
+    {
+      "id": "r_nd_dock",
+      "name": "渡口栈桥",
+      "scene": "sc_nd_port",
+      "start": true,
+      "actions": [
+        "gather",
+        "fish"
+      ],
+      "desc": "木板冻得发脆，每踩一步都响。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_scale",
+          "n": 1,
+          "text": "桩子上挂着一片鱼鳞，比巴掌还大。"
+        },
+        {
+          "w": 30,
+          "item": "mat_herb",
+          "n": 1,
+          "text": "石头缝里的草冻成了墨绿色，掐下来还是活的。"
+        },
+        {
+          "w": 35,
+          "text": "水太黑，看不到底。你也没打算看。"
+        }
+      ]
+    },
+    {
+      "id": "r_nd_boathouse",
+      "name": "船屋",
+      "scene": "sc_nd_port",
+      "actions": [
+        "craft"
+      ],
+      "desc": "一艘翻过来的船架在两条长凳上，船底的漆剥了大半。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_steel",
+          "n": 1,
+          "text": "工具箱里翻出一枚锈死的钉。"
+        },
+        {
+          "w": 30,
+          "item": "mat_bone",
+          "n": 1,
+          "text": "船板的缝里卡着一段骨头，不是鱼的。"
+        },
+        {
+          "w": 35,
+          "text": "墙上钉着一张旧海图，边角被水泡烂了。"
+        }
+      ]
+    },
+    {
+      "id": "r_nd_tavern",
+      "name": "渡口酒馆",
+      "scene": "sc_nd_port",
+      "actions": [
+        "drink",
+        "listen"
+      ],
+      "npc": "npc_nd_fisher",
+      "desc": "炉子烧得很旺，进来的人都不说话。",
+      "search": [
+        {
+          "w": 40,
+          "item": "dr_sake",
+          "n": 1,
+          "text": "柜台底下滚出半瓶酒。"
+        },
+        {
+          "w": 30,
+          "silver": 26,
+          "text": "墙角木桶后面躺着几枚硬币。"
+        },
+        {
+          "w": 30,
+          "text": "炉火噼啪响。火苗的形状，看久了像个人。"
+        }
+      ]
+    },
+    {
+      "id": "r_nd_lane",
+      "name": "村中长街",
+      "scene": "sc_nd_village",
+      "start": true,
+      "actions": [
+        "listen"
+      ],
+      "desc": "两边是尖顶木屋，屋檐压得很低。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_paper",
+          "n": 1,
+          "text": "门缝里塞着一封信，收信人的名字被划掉了。"
+        },
+        {
+          "w": 30,
+          "silver": 18,
+          "text": "雪地里露出半枚硬币。"
+        },
+        {
+          "w": 35,
+          "text": "整条街只有你的脚步声，还有远处一下下的凿冰声。"
+        }
+      ]
+    },
+    {
+      "id": "r_nd_chapel",
+      "name": "旧礼拜堂",
+      "scene": "sc_nd_village",
+      "actions": [
+        "pray"
+      ],
+      "desc": "木梁上刻着很老的记号，不像字，倒像谁在数日子。",
+      "search": [
+        {
+          "w": 40,
+          "item": "mat_ink",
+          "n": 1,
+          "text": "圣坛底下有个干了的墨盒。"
+        },
+        {
+          "w": 25,
+          "item": "mat_jade",
+          "n": 1,
+          "text": "梁缝里嵌着一小块凉玉。"
+        },
+        {
+          "w": 35,
+          "text": "你抬头看那些记号，数到一半就忘了数到哪儿。"
+        }
+      ]
+    },
+    {
+      "id": "r_nd_hut",
+      "name": "空灶屋",
+      "scene": "sc_nd_village",
+      "actions": [
+        "brew",
+        "craft"
+      ],
+      "desc": "灶是冷的，锅还挂在钩上，锅里干干净净。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_herb",
+          "n": 1,
+          "text": "梁上垂着一串晒干的草。"
+        },
+        {
+          "w": 30,
+          "item": "food_ration",
+          "n": 1,
+          "text": "柜子里还剩一份干粮。"
+        },
+        {
+          "w": 35,
+          "text": "屋主走得急，连门都没锁。"
+        }
+      ]
+    },
+    {
+      "id": "r_nd_edge",
+      "name": "冻林边",
+      "scene": "sc_nd_forest",
+      "start": true,
+      "actions": [
+        "gather"
+      ],
+      "desc": "树一棵挨着一棵，往里走，光就暗了。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_bamboo",
+          "n": 1,
+          "text": "一段冻透的枝条，硬得像铁。"
+        },
+        {
+          "w": 30,
+          "item": "mat_bone",
+          "n": 1,
+          "text": "雪下露出一点白，是骨头。"
+        },
+        {
+          "w": 35,
+          "text": "有东西在树后看你。你回头，什么也没有。"
+        }
+      ]
+    },
+    {
+      "id": "r_nd_glade",
+      "name": "林中空地",
+      "scene": "sc_nd_forest",
+      "actions": [
+        "gather"
+      ],
+      "desc": "雪地上有一圈脚印，绕着空地走，没进去。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_res",
+          "n": 1,
+          "text": "脚印中间沉着一撮咒力残渣。"
+        },
+        {
+          "w": 30,
+          "item": "mat_jade",
+          "n": 1,
+          "text": "冰壳底下嵌着一粒冻玉。"
+        },
+        {
+          "w": 35,
+          "text": "绕圈的脚印没有出也没有进，像是原地转了很久。"
+        },
+        {
+          "w": 30,
+          "text": "那一圈脚印的尽头，雪被什么压塌了一片。你顺着塌陷望进林子最深处 —— 那里立着一个白色的影子，一动不动。",
+          "flag": "nd_rika",
+          "flagText": "冻林深处立着个白色的影子。她没动，但你知道她在看你。"
+        }
+      ]
+    },
+    {
+      "id": "r_nd_hollow",
+      "name": "树洞",
+      "scene": "sc_nd_forest",
+      "actions": [
+        "listen"
+      ],
+      "desc": "一棵空心的老树，洞口刚够一个人钻进去。",
+      "search": [
+        {
+          "w": 40,
+          "text": "壁上刻着一圈纹路，围成一环，像是块缩小的石阵。",
+          "flag": "nd_stone",
+          "flagText": "树洞内壁刻着一圈石环似的纹路 —— 这地方，从前有人来过。"
+        },
+        {
+          "w": 30,
+          "item": "mat_hair",
+          "n": 1,
+          "text": "洞里挂着一撮毛，不是动物的。"
+        },
+        {
+          "w": 30,
+          "text": "你听了一会儿，洞里的回声比外面慢半拍。"
+        }
+      ]
+    },
+    {
+      "id": "r_nd_shore",
+      "name": "冰湖岸",
+      "scene": "sc_nd_lake",
+      "start": true,
+      "actions": [
+        "fish"
+      ],
+      "desc": "岸边的冰是碎的，往里走就整块整块的。",
+      "search": [
+        {
+          "w": 35,
+          "item": "mat_scale",
+          "n": 1,
+          "text": "冰碴里冻着一片鳞。"
+        },
+        {
+          "w": 30,
+          "item": "mat_shard",
+          "n": 1,
+          "text": "脚下一滑，踩碎的东西里有一片咒晶。"
+        },
+        {
+          "w": 35,
+          "text": "冰面下有影子掠过，比你的影子大得多。"
+        }
+      ]
+    },
+    {
+      "id": "r_nd_ice",
+      "name": "湖心冰面",
+      "scene": "sc_nd_lake",
+      "actions": [
+        "listen"
+      ],
+      "desc": "湖心最厚的冰，也最透。低头能看见很深的地方。",
+      "search": [
+        {
+          "w": 35,
+          "text": "冰里有个名字，笔画是反的。你把它记了下来。",
+          "flag": "nd_name",
+          "flagText": "冰层里冻着一个名字，笔画像有人从下面往上写的。"
+        },
+        {
+          "w": 30,
+          "item": "mat_jade",
+          "n": 1,
+          "text": "冰缝里嵌着一块透亮的玉。"
+        },
+        {
+          "w": 35,
+          "text": "你在冰上站久了，听见脚下很轻的一声。"
+        }
+      ]
+    },
+    {
+      "id": "r_nd_cabin",
+      "name": "湖畔木屋",
+      "scene": "sc_nd_lake",
+      "actions": [
+        "read",
+        "rest"
+      ],
+      "desc": "屋里有张床，被子叠得整整齐齐，像是主人只是出门一趟。",
+      "search": [
+        {
+          "w": 35,
+          "item": "bk_flow",
+          "n": 1,
+          "text": "枕下压着一本翻烂了的册子。"
+        },
+        {
+          "w": 30,
+          "item": "mat_ink",
+          "n": 1,
+          "text": "桌上砚台里的墨还没干。"
+        },
+        {
+          "w": 35,
+          "text": "窗外，湖面平得像一块铁。"
+        }
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "rg_honshu",
+      "name": "本州",
+      "glyph": "本",
+      "land": "main",
+      "tone": "#c98f6a",
+      "desc": "关东到关西的一整片：雨、霓虹、古街，还有藏在人群里的咒灵。",
+      "entry": {
+        "x": 8,
+        "y": 92
+      }
+    },
+    {
+      "id": "rg_nordic",
+      "name": "北欧",
+      "glyph": "北",
+      "land": "fjord",
+      "tone": "#7fa0c0",
+      "desc": "极夜、峡湾与冻湖。这里的咒灵很久没被人打扰过了。",
+      "unlock": {
+        "realm": 3
+      },
+      "entry": {
+        "x": 10,
+        "y": 88
+      }
+    }
+  ]
+}

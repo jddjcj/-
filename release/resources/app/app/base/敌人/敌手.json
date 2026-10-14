@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "f_sb_yingtou",
+    "name": "蝇头",
+    "scene": "sc_shibuya",
+    "lvl": 0,
+    "rounds": 4,
+    "margin": 3,
+    "defF": 0.15,
+    "phyRes": 0.1,
+    "desc": "一团嗡嗡响的东西，打散了还会重聚。",
+    "loot": [
+      [
+        "mat_res",
+        0.5,
+        1
+      ],
+      [
+        "mat_coin",
+        0.3,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_sb_huangchong",
+    "name": "蝗虫咒灵",
+    "scene": "sc_shibuya",
+    "lvl": 0,
+    "rounds": 5,
+    "margin": 2.6,
+    "defF": 0.25,
+    "phyRes": 0.2,
+    "desc": "从地铁通风口爬出来，越爬越多。",
+    "loot": [
+      [
+        "mat_res",
+        0.5,
+        1
+      ],
+      [
+        "mat_bone",
+        0.3,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_sb_gaizao",
+    "name": "改造人",
+    "scene": "sc_shibuya",
+    "lvl": 1,
+    "rounds": 8,
+    "margin": 1.8,
+    "defF": 0.6,
+    "curRes": 0.2,
+    "human": true,
+    "skills": [
+      "k_punch"
+    ],
+    "desc": "人形的东西，关节缝里塞着咒力。",
+    "loot": [
+      [
+        "mat_core",
+        0.4,
+        1
+      ],
+      [
+        "mat_flesh",
+        0.3,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_jogo",
+    "name": "漏壶",
+    "scene": "sc_shibuya",
+    "lvl": 4,
+    "rounds": 12,
+    "margin": 1.15,
+    "defF": 1.05,
+    "phyRes": 0.65,
+    "dmgType": "cur",
+    "boss": true,
+    "skills": [
+      "sk_ky_flame",
+      "k_blast"
+    ],
+    "desc": "它一抬手，柏油路面就开始冒泡。",
+    "loot": [
+      [
+        "mat_shard",
+        0.5,
+        1
+      ],
+      [
+        "mat_core",
+        0.6,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_dagon",
+    "name": "陀艮",
+    "scene": "sc_shibuya",
+    "lvl": 4,
+    "rounds": 12,
+    "margin": 1.2,
+    "defF": 0.95,
+    "phyRes": 0.6,
+    "dmgType": "cur",
+    "boss": true,
+    "skills": [
+      "k_armor",
+      "k_blast"
+    ],
+    "desc": "水从它脚下漫出来，漫过脚踝还在涨。",
+    "loot": [
+      [
+        "mat_scale",
+        0.6,
+        2
+      ],
+      [
+        "mat_core",
+        0.5,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_mahito",
+    "name": "真人",
+    "scene": "sc_shibuya",
+    "lvl": 4,
+    "rounds": 11,
+    "margin": 1.2,
+    "defF": 0.85,
+    "phyRes": 0.55,
+    "dmgType": "cur",
+    "boss": true,
+    "skills": [
+      "sk_mui_touch",
+      "sk_mui_self"
+    ],
+    "desc": "他歪着头看你，像在看一块可以随便捏的泥。",
+    "loot": [
+      [
+        "mat_flesh",
+        0.6,
+        1
+      ],
+      [
+        "mat_core",
+        0.5,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_choso",
+    "name": "胀相",
+    "scene": "sc_shibuya",
+    "lvl": 4,
+    "rounds": 11,
+    "margin": 1.25,
+    "defF": 0.9,
+    "phyRes": 0.35,
+    "dmgType": "cur",
+    "boss": true,
+    "skills": [
+      "sk_bl_blade",
+      "sk_bl_armor"
+    ],
+    "desc": "血在他手边绕成一圈，像有自己的想法。",
+    "loot": [
+      [
+        "mat_flesh",
+        0.5,
+        1
+      ],
+      [
+        "mat_venom",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_uraume",
+    "name": "里梅",
+    "scene": "sc_shibuya",
+    "lvl": 5,
+    "rounds": 12,
+    "margin": 1.2,
+    "defF": 0.9,
+    "curRes": 0.6,
+    "dmgType": "cur",
+    "human": true,
+    "boss": true,
+    "dom": "dom_juju",
+    "skills": [
+      "sk_ky_flame",
+      "sk_ky_ward"
+    ],
+    "desc": "他一开口，说话的热气都结成了白霜。",
+    "loot": [
+      [
+        "mat_jade",
+        0.4,
+        1
+      ],
+      [
+        "mat_shard",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_toji",
+    "name": "伏黑甚尔",
+    "scene": "sc_shibuya",
+    "lvl": 5,
+    "rounds": 10,
+    "margin": 1.15,
+    "defF": 1.1,
+    "curRes": 1,
+    "dmgType": "phy",
+    "human": true,
+    "boss": true,
+    "skills": [
+      "k_weapon",
+      "sk_zn_shadow"
+    ],
+    "desc": "身上一丝咒力都没有。正因为没有，才不好打。",
+    "loot": [
+      [
+        "mat_steel",
+        0.5,
+        1
+      ],
+      [
+        "cg_knife",
+        0.15,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_mahoraga_sb",
+    "name": "魔虚罗",
+    "scene": "sc_shibuya",
+    "lvl": 6,
+    "rounds": 14,
+    "margin": 1.05,
+    "defF": 1.15,
+    "phyRes": 0.5,
+    "boss": true,
+    "dom": "dom_jukai",
+    "skills": [
+      "sk_rt_break",
+      "k_strike"
+    ],
+    "desc": "车轮在它头上转。你打过的招式，它看一眼就学会了。",
+    "loot": [
+      [
+        "mat_shard",
+        0.6,
+        1
+      ],
+      [
+        "mat_core",
+        0.6,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_sukuna15",
+    "name": "两面宿傩（十五指）",
+    "scene": "sc_shibuya",
+    "lvl": 7,
+    "rounds": 16,
+    "margin": 0.98,
+    "defF": 1.3,
+    "phyRes": 0.3,
+    "curRes": 0.3,
+    "boss": true,
+    "dom": "dom_malevolent",
+    "skills": [
+      "sk_mv_dismantle",
+      "sk_mv_cleave"
+    ],
+    "desc": "他站在那儿，什么都没做，整条街的咒力都在往他那边倒。",
+    "loot": [
+      [
+        "q_finger",
+        0.05,
+        1
+      ],
+      [
+        "mat_shard",
+        0.8,
+        2
+      ]
+    ]
+  },
+  {
+    "id": "f_kt_zhenhaier",
+    "name": "训练咒骸",
+    "scene": "sc_koutou",
+    "lvl": 1,
+    "rounds": 6,
+    "margin": 2.4,
+    "defF": 0.35,
+    "phyRes": 0.3,
+    "desc": "木头壳子上贴着「一年级·用」。",
+    "loot": [
+      [
+        "mat_core",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_kt_zhouhai",
+    "name": "咒骸（高专制）",
+    "scene": "sc_koutou",
+    "lvl": 1,
+    "rounds": 9,
+    "margin": 1.7,
+    "defF": 0.9,
+    "phyRes": 0.4,
+    "desc": "比人高，动作比人慢，但打不动。",
+    "loot": [
+      [
+        "mat_core",
+        0.6,
+        1
+      ],
+      [
+        "mat_steel",
+        0.3,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_kt_baozou",
+    "name": "暴走咒骸",
+    "scene": "sc_koutou",
+    "lvl": 2,
+    "rounds": 9,
+    "margin": 1.6,
+    "defF": 0.8,
+    "phyRes": 0.45,
+    "skills": [
+      "k_punch"
+    ],
+    "desc": "它还在执行三十年前那条没做完的指令。",
+    "loot": [
+      [
+        "mat_core",
+        0.7,
+        1
+      ],
+      [
+        "mat_steel",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_kt_jielin",
+    "name": "结界林之灵",
+    "scene": "sc_koutou",
+    "lvl": 2,
+    "rounds": 10,
+    "margin": 1.3,
+    "defF": 0.85,
+    "phyRes": 0.4,
+    "dmgType": "cur",
+    "boss": true,
+    "skills": [
+      "sk_kt_barrier"
+    ],
+    "desc": "树影里没有形状，但你知道它在。",
+    "loot": [
+      [
+        "mat_herb",
+        0.6,
+        1
+      ],
+      [
+        "mat_shard",
+        0.3,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_kt_zhoulin",
+    "name": "校医的咒胎",
+    "scene": "sc_koutou",
+    "lvl": 2,
+    "rounds": 11,
+    "margin": 1.25,
+    "defF": 0.8,
+    "phyRes": 0.45,
+    "dmgType": "cur",
+    "boss": true,
+    "desc": "泡在罐子里很久了，瓶子一裂它就醒。",
+    "loot": [
+      [
+        "mat_flesh",
+        0.6,
+        1
+      ],
+      [
+        "pill_heal2",
+        0.3,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_sd_jogai",
+    "name": "死灭回游参赛者",
+    "scene": "sc_sendai",
+    "lvl": 2,
+    "rounds": 7,
+    "margin": 2.2,
+    "defF": 0.45,
+    "curRes": 0.3,
+    "human": true,
+    "desc": "手腕上有一点，那是规则给的记号。",
+    "loot": [
+      [
+        "mat_coin",
+        0.5,
+        1
+      ],
+      [
+        "mat_paper",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_sd_wushi",
+    "name": "无术式咒术师",
+    "scene": "sc_sendai",
+    "lvl": 2,
+    "rounds": 7,
+    "margin": 2.3,
+    "defF": 0.4,
+    "curRes": 0.2,
+    "human": true,
+    "skills": [
+      "k_punch"
+    ],
+    "desc": "他能看见咒灵，也只能看见。",
+    "loot": [
+      [
+        "mat_paper",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_sd_hunter",
+    "name": "诅咒师猎人",
+    "scene": "sc_sendai",
+    "lvl": 3,
+    "rounds": 9,
+    "margin": 1.7,
+    "defF": 0.7,
+    "curRes": 0.45,
+    "human": true,
+    "skills": [
+      "k_strike",
+      "k_sense"
+    ],
+    "desc": "他专门收那些「本来该被处理掉」的东西。",
+    "loot": [
+      [
+        "mat_steel",
+        0.4,
+        1
+      ],
+      [
+        "mat_coin",
+        0.5,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_urasaki",
+    "name": "乌鹭亨子",
+    "scene": "sc_sendai",
+    "lvl": 5,
+    "rounds": 12,
+    "margin": 1.2,
+    "defF": 0.9,
+    "curRes": 0.55,
+    "dmgType": "cur",
+    "human": true,
+    "boss": true,
+    "desc": "脚下没有地，但站得比谁都稳。",
+    "loot": [
+      [
+        "mat_jade",
+        0.4,
+        1
+      ],
+      [
+        "mat_shard",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_ishigori",
+    "name": "石流龙",
+    "scene": "sc_sendai",
+    "lvl": 5,
+    "rounds": 12,
+    "margin": 1.15,
+    "defF": 1.1,
+    "curRes": 0.55,
+    "dmgType": "phy",
+    "human": true,
+    "boss": true,
+    "desc": "他先量了量你，然后开始量自己那一击够不够。",
+    "loot": [
+      [
+        "mat_steel",
+        0.5,
+        1
+      ],
+      [
+        "mat_shard",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_higuruma",
+    "name": "日车宽见",
+    "scene": "sc_sendai",
+    "lvl": 5,
+    "rounds": 12,
+    "margin": 1.2,
+    "defF": 0.85,
+    "curRes": 0.5,
+    "dmgType": "cur",
+    "human": true,
+    "boss": true,
+    "skills": [
+      "sk_rt_point",
+      "k_strike"
+    ],
+    "desc": "他开口宣判的时候，规则真的会站到他那边。",
+    "loot": [
+      [
+        "mat_paper",
+        0.6,
+        1
+      ],
+      [
+        "bk_curse",
+        0.15,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_yorozu",
+    "name": "万",
+    "scene": "sc_sendai",
+    "lvl": 6,
+    "rounds": 13,
+    "margin": 1.15,
+    "defF": 1,
+    "curRes": 0.6,
+    "dmgType": "cur",
+    "human": true,
+    "boss": true,
+    "skills": [
+      "sk_cs_spear",
+      "k_blast"
+    ],
+    "desc": "她造出来的东西，比真的还真。",
+    "loot": [
+      [
+        "mat_steel",
+        0.6,
+        1
+      ],
+      [
+        "mat_shard",
+        0.5,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_sukuna10",
+    "name": "十影宿傩（决战·一阶段）",
+    "scene": "sc_shinjuku",
+    "lvl": 8,
+    "rounds": 17,
+    "margin": 1,
+    "defF": 1.35,
+    "phyRes": 0.3,
+    "curRes": 0.3,
+    "boss": true,
+    "dom": "dom_malevolent",
+    "desc": "他身后站着影子。影子不止一个。",
+    "loot": [
+      [
+        "q_finger",
+        0.08,
+        1
+      ],
+      [
+        "mat_shard",
+        1,
+        2
+      ]
+    ]
+  },
+  {
+    "id": "f_ky_xuesheng",
+    "name": "京都校咒术师",
+    "scene": "sc_kyoto",
+    "lvl": 3,
+    "rounds": 8,
+    "margin": 2.1,
+    "defF": 0.55,
+    "curRes": 0.35,
+    "human": true,
+    "skills": [
+      "k_blast"
+    ],
+    "desc": "胸口别着京都校的徽。",
+    "loot": [
+      [
+        "mat_paper",
+        0.5,
+        1
+      ],
+      [
+        "mat_coin",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_ky_miwa",
+    "name": "三轮霞",
+    "scene": "sc_kyoto",
+    "lvl": 3,
+    "rounds": 9,
+    "margin": 1.8,
+    "defF": 0.6,
+    "curRes": 0.4,
+    "human": true,
+    "skills": [
+      "k_step",
+      "k_weapon"
+    ],
+    "desc": "她退后半步，把简单领域撑开。",
+    "loot": [
+      [
+        "mat_paper",
+        0.5,
+        1
+      ],
+      [
+        "mat_steel",
+        0.3,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_ky_kamo",
+    "name": "加茂宪纪",
+    "scene": "sc_kyoto",
+    "lvl": 3,
+    "rounds": 10,
+    "margin": 1.7,
+    "defF": 0.7,
+    "curRes": 0.45,
+    "dmgType": "cur",
+    "human": true,
+    "skills": [
+      "sk_kamo_bolt"
+    ],
+    "desc": "他指尖先渗出血珠，再变成一支箭。",
+    "loot": [
+      [
+        "mat_flesh",
+        0.5,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_ky_mai",
+    "name": "禅院真依",
+    "scene": "sc_kyoto",
+    "lvl": 3,
+    "rounds": 9,
+    "margin": 1.8,
+    "defF": 0.6,
+    "curRes": 0.4,
+    "human": true,
+    "skills": [
+      "sk_zn_shadow"
+    ],
+    "desc": "她拿枪的样子，像拿一件不太顺手的礼物。",
+    "loot": [
+      [
+        "mat_steel",
+        0.5,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_ky_mekamaru",
+    "name": "机械丸",
+    "scene": "sc_kyoto",
+    "lvl": 4,
+    "rounds": 10,
+    "margin": 1.5,
+    "defF": 1,
+    "phyRes": 0.35,
+    "curRes": 0.35,
+    "human": true,
+    "skills": [
+      "sk_pp_gun"
+    ],
+    "desc": "远远地操作着这台咒骸，本人不在这里。",
+    "loot": [
+      [
+        "mat_core",
+        0.6,
+        1
+      ],
+      [
+        "mat_steel",
+        0.5,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_todo",
+    "name": "东堂葵",
+    "scene": "sc_kyoto",
+    "lvl": 4,
+    "rounds": 11,
+    "margin": 1.25,
+    "defF": 0.9,
+    "curRes": 0.5,
+    "dmgType": "phy",
+    "human": true,
+    "boss": true,
+    "skills": [
+      "k_strike",
+      "k_sense"
+    ],
+    "desc": "「先说说你喜欢什么样的女人。」他认真地看着你。",
+    "loot": [
+      [
+        "bk_flow",
+        0.2,
+        1
+      ],
+      [
+        "mat_coin",
+        0.8,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_hanami",
+    "name": "花御",
+    "scene": "sc_kyoto",
+    "lvl": 4,
+    "rounds": 12,
+    "margin": 1.2,
+    "defF": 0.95,
+    "phyRes": 0.55,
+    "dmgType": "cur",
+    "boss": true,
+    "skills": [
+      "k_armor",
+      "sk_ji_purify"
+    ],
+    "desc": "它说人类不该活着，语气和树影一样平。",
+    "loot": [
+      [
+        "mat_herb",
+        0.7,
+        1
+      ],
+      [
+        "mat_shard",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_mahito_ky",
+    "name": "真人",
+    "scene": "sc_kyoto",
+    "lvl": 5,
+    "rounds": 12,
+    "margin": 1.15,
+    "defF": 0.9,
+    "phyRes": 0.55,
+    "dmgType": "cur",
+    "boss": true,
+    "skills": [
+      "sk_mui_touch",
+      "sk_mui_swarm"
+    ],
+    "desc": "他笑着把一个人的脸改成另一张。",
+    "loot": [
+      [
+        "mat_flesh",
+        0.7,
+        1
+      ],
+      [
+        "mat_core",
+        0.5,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_sj_hunhun",
+    "name": "诅咒师混混",
+    "scene": "sc_shinjuku",
+    "lvl": 2,
+    "rounds": 7,
+    "margin": 2.3,
+    "defF": 0.45,
+    "curRes": 0.3,
+    "human": true,
+    "desc": "会术式，但只会一点点。",
+    "loot": [
+      [
+        "mat_coin",
+        0.5,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_sj_qiangzhe",
+    "name": "死灭回游强者",
+    "scene": "sc_shinjuku",
+    "lvl": 4,
+    "rounds": 9,
+    "margin": 1.7,
+    "defF": 0.75,
+    "curRes": 0.45,
+    "human": true,
+    "skills": [
+      "k_strike",
+      "k_step"
+    ],
+    "desc": "规则里活到最后的那批人之一。",
+    "loot": [
+      [
+        "mat_coin",
+        0.7,
+        1
+      ],
+      [
+        "mat_paper",
+        0.5,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_geto",
+    "name": "夏油杰（旧身）",
+    "scene": "sc_shinjuku",
+    "lvl": 5,
+    "rounds": 12,
+    "margin": 1.2,
+    "defF": 0.85,
+    "curRes": 0.6,
+    "dmgType": "cur",
+    "human": true,
+    "boss": true,
+    "skills": [
+      "sk_csm_drive"
+    ],
+    "desc": "袖子一抬，黑影就从里面成排出来。",
+    "loot": [
+      [
+        "mat_shard",
+        0.5,
+        1
+      ],
+      [
+        "q_token",
+        0.2,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_kashimo",
+    "name": "鹿紫云一",
+    "scene": "sc_shinjuku",
+    "lvl": 6,
+    "rounds": 12,
+    "margin": 1.15,
+    "defF": 0.9,
+    "curRes": 0.5,
+    "dmgType": "phy",
+    "human": true,
+    "boss": true,
+    "skills": [
+      "sk_mv_dismantle",
+      "k_step"
+    ],
+    "desc": "他身上有电一样的东西在跑。",
+    "loot": [
+      [
+        "mat_core",
+        0.6,
+        1
+      ],
+      [
+        "mat_steel",
+        0.5,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_kenjaku",
+    "name": "羂索",
+    "scene": "sc_shinjuku",
+    "lvl": 6,
+    "rounds": 13,
+    "margin": 1.1,
+    "defF": 0.9,
+    "curRes": 0.65,
+    "dmgType": "cur",
+    "human": true,
+    "boss": true,
+    "dom": "dom_csm",
+    "skills": [
+      "sk_mui_swarm",
+      "sk_csm_drive"
+    ],
+    "desc": "他脑袋上那道缝，缝了不止一千年。",
+    "loot": [
+      [
+        "q_scroll",
+        0.3,
+        1
+      ],
+      [
+        "mat_shard",
+        0.6,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_higuruma2",
+    "name": "日车宽见",
+    "scene": "sc_shinjuku",
+    "lvl": 5,
+    "rounds": 12,
+    "margin": 1.2,
+    "defF": 0.85,
+    "curRes": 0.5,
+    "dmgType": "cur",
+    "human": true,
+    "boss": true,
+    "desc": "这一次他的判决书上，写的是你的名字。",
+    "loot": [
+      [
+        "mat_paper",
+        0.6,
+        1
+      ],
+      [
+        "mat_coin",
+        0.8,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_sukuna20",
+    "name": "两面宿傩（决战·二阶段）",
+    "scene": "sc_shinjuku",
+    "lvl": 9,
+    "rounds": 18,
+    "margin": 0.98,
+    "defF": 1.45,
+    "phyRes": 0.35,
+    "curRes": 0.35,
+    "boss": true,
+    "dom": "dom_malevolent",
+    "endlessDom": true,
+    "skills": [
+      "sk_mv_dismantle",
+      "sk_mv_flame",
+      "sk_mv_web"
+    ],
+    "desc": "他摊开手，一座神社的轮廓在雨里长出来。",
+    "loot": [
+      [
+        "q_finger",
+        0.1,
+        1
+      ],
+      [
+        "mat_shard",
+        1,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "f_hs_zoutai",
+    "name": "咒胎",
+    "scene": "sc_hospital",
+    "lvl": 2,
+    "rounds": 8,
+    "margin": 1.9,
+    "defF": 0.6,
+    "phyRes": 0.4,
+    "skills": [
+      "k_punch"
+    ],
+    "desc": "还在长，长成了就麻烦了。",
+    "loot": [
+      [
+        "mat_flesh",
+        0.5,
+        1
+      ],
+      [
+        "mat_core",
+        0.3,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_hs_shoukong",
+    "name": "受操控的人",
+    "scene": "sc_hospital",
+    "lvl": 2,
+    "rounds": 8,
+    "margin": 2,
+    "defF": 0.5,
+    "curRes": 0.35,
+    "human": true,
+    "desc": "眼神是空的，动作却很清楚。",
+    "loot": [
+      [
+        "mat_flesh",
+        0.4,
+        1
+      ],
+      [
+        "pill_calm",
+        0.2,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_hs_gaizao2",
+    "name": "改造人·试作",
+    "scene": "sc_hospital",
+    "lvl": 3,
+    "rounds": 9,
+    "margin": 1.7,
+    "defF": 0.8,
+    "curRes": 0.2,
+    "human": true,
+    "desc": "标签上写着编号，编号后面没有名字。",
+    "loot": [
+      [
+        "mat_core",
+        0.6,
+        1
+      ],
+      [
+        "mat_flesh",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_hs_nurse",
+    "name": "缝合的护士长",
+    "scene": "sc_hospital",
+    "lvl": 3,
+    "rounds": 11,
+    "margin": 1.25,
+    "defF": 0.9,
+    "phyRes": 0.5,
+    "dmgType": "cur",
+    "boss": true,
+    "skills": [
+      "sk_hg_suture"
+    ],
+    "desc": "她的白大褂底下全是缝线。",
+    "loot": [
+      [
+        "mat_flesh",
+        0.7,
+        1
+      ],
+      [
+        "pill_heal2",
+        0.3,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_hs_mother",
+    "name": "培育体的母亲",
+    "scene": "sc_hospital",
+    "lvl": 4,
+    "rounds": 12,
+    "margin": 1.2,
+    "defF": 0.95,
+    "phyRes": 0.55,
+    "dmgType": "cur",
+    "boss": true,
+    "skills": [
+      "sk_hg_pulse",
+      "k_punch"
+    ],
+    "desc": "地下二层的池子里，有东西认得你。",
+    "loot": [
+      [
+        "mat_flesh",
+        0.8,
+        1
+      ],
+      [
+        "mat_core",
+        0.6,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_sc_yiji",
+    "name": "一级咒灵",
+    "scene": "sc_school",
+    "lvl": 3,
+    "rounds": 9,
+    "margin": 1.9,
+    "defF": 0.7,
+    "phyRes": 0.45,
+    "skills": [
+      "k_blast"
+    ],
+    "desc": "挂在走廊天花板上，跟吊扇一起转。",
+    "loot": [
+      [
+        "mat_bone",
+        0.5,
+        1
+      ],
+      [
+        "mat_shard",
+        0.3,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_sc_jiaxiang",
+    "name": "假想咒灵",
+    "scene": "sc_school",
+    "lvl": 3,
+    "rounds": 9,
+    "margin": 1.8,
+    "defF": 0.55,
+    "phyRes": 0.35,
+    "dmgType": "cur",
+    "skills": [
+      "sk_kt_regulate",
+      "k_punch"
+    ],
+    "desc": "谁说它存在，它就更像存在一点。",
+    "loot": [
+      [
+        "mat_res",
+        0.6,
+        1
+      ],
+      [
+        "mat_paper",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_sc_banzhang",
+    "name": "第七间教室的级长",
+    "scene": "sc_school",
+    "lvl": 4,
+    "rounds": 11,
+    "margin": 1.25,
+    "defF": 0.9,
+    "phyRes": 0.5,
+    "dmgType": "cur",
+    "boss": true,
+    "desc": "点名册上多了一个名字，是今天的日期。",
+    "loot": [
+      [
+        "mat_paper",
+        0.7,
+        1
+      ],
+      [
+        "mat_bone",
+        0.5,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_sc_liuji",
+    "name": "留级生",
+    "scene": "sc_school",
+    "lvl": 4,
+    "rounds": 11,
+    "margin": 1.3,
+    "defF": 0.95,
+    "phyRes": 0.45,
+    "dmgType": "phy",
+    "boss": true,
+    "skills": [
+      "sk_zn_gate",
+      "k_weapon"
+    ],
+    "desc": "他蹲在最后一排，姿势三十年没变。",
+    "loot": [
+      [
+        "mat_bone",
+        0.6,
+        1
+      ],
+      [
+        "pill_train",
+        0.2,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_fo_qunling",
+    "name": "森之群灵",
+    "scene": "sc_forest",
+    "lvl": 3,
+    "rounds": 7,
+    "margin": 2.2,
+    "defF": 0.4,
+    "phyRes": 0.4,
+    "desc": "从树皮里挤出来，一挤就是一群。",
+    "loot": [
+      [
+        "mat_herb",
+        0.5,
+        1
+      ],
+      [
+        "mat_res",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_fo_shuling",
+    "name": "树灵",
+    "scene": "sc_forest",
+    "lvl": 3,
+    "rounds": 10,
+    "margin": 1.6,
+    "defF": 1,
+    "phyRes": 0.5,
+    "skills": [
+      "k_blast",
+      "sk_ji_rosary"
+    ],
+    "desc": "它把根扎在你脚边，慢慢收。",
+    "loot": [
+      [
+        "mat_herb",
+        0.6,
+        1
+      ],
+      [
+        "mat_silk",
+        0.3,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_fo_jitan",
+    "name": "祭坛的守护者",
+    "scene": "sc_forest",
+    "lvl": 4,
+    "rounds": 11,
+    "margin": 1.25,
+    "defF": 1,
+    "phyRes": 0.55,
+    "dmgType": "cur",
+    "boss": true,
+    "desc": "祭坛上空着的位置，本来就是留给它的。",
+    "loot": [
+      [
+        "mat_lotus",
+        0.4,
+        1
+      ],
+      [
+        "mat_shard",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_fo_juren",
+    "name": "林中巨人",
+    "scene": "sc_forest",
+    "lvl": 4,
+    "rounds": 13,
+    "margin": 1.15,
+    "defF": 1.2,
+    "phyRes": 0.6,
+    "dmgType": "phy",
+    "boss": true,
+    "skills": [
+      "k_punch",
+      "sk_ji_rosary"
+    ],
+    "desc": "它一步跨过整片林子。",
+    "loot": [
+      [
+        "mat_herb",
+        0.8,
+        1
+      ],
+      [
+        "mat_bone",
+        0.6,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_fo_huayu",
+    "name": "断枝的花御",
+    "scene": "sc_forest",
+    "lvl": 5,
+    "rounds": 12,
+    "margin": 1.2,
+    "defF": 0.95,
+    "phyRes": 0.55,
+    "dmgType": "cur",
+    "boss": true,
+    "skills": [
+      "sk_ji_purify",
+      "k_armor"
+    ],
+    "desc": "一截残枝，居然还长着花。",
+    "loot": [
+      [
+        "mat_herb",
+        0.9,
+        1
+      ],
+      [
+        "mat_shard",
+        0.5,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_sw_zoutaiqun",
+    "name": "咒胎群",
+    "scene": "sc_sewer",
+    "lvl": 3,
+    "rounds": 7,
+    "margin": 2.2,
+    "defF": 0.4,
+    "phyRes": 0.4,
+    "desc": "墙上一颗颗，都朝着同一边。",
+    "loot": [
+      [
+        "mat_flesh",
+        0.5,
+        1
+      ],
+      [
+        "mat_res",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_sw_bihu",
+    "name": "壁虎咒灵",
+    "scene": "sc_sewer",
+    "lvl": 3,
+    "rounds": 9,
+    "margin": 1.8,
+    "defF": 0.6,
+    "phyRes": 0.45,
+    "skills": [
+      "k_punch"
+    ],
+    "desc": "贴在水管上面，你看它的时候它也在看你。",
+    "loot": [
+      [
+        "mat_scale",
+        0.6,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_sw_zhuzai",
+    "name": "水道之主",
+    "scene": "sc_sewer",
+    "lvl": 4,
+    "rounds": 12,
+    "margin": 1.2,
+    "defF": 1,
+    "phyRes": 0.5,
+    "dmgType": "cur",
+    "boss": true,
+    "skills": [
+      "sk_kt_barrier",
+      "k_blast"
+    ],
+    "desc": "水面向两边分开，给什么东西让路。",
+    "loot": [
+      [
+        "mat_scale",
+        0.7,
+        1
+      ],
+      [
+        "mat_shard",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_sw_muti",
+    "name": "咒胎巢母体",
+    "scene": "sc_sewer",
+    "lvl": 5,
+    "rounds": 13,
+    "margin": 1.15,
+    "defF": 1.1,
+    "phyRes": 0.6,
+    "dmgType": "cur",
+    "boss": true,
+    "skills": [
+      "sk_hg_suture",
+      "k_punch"
+    ],
+    "desc": "沉淀池底下有个东西，比池子还大。",
+    "loot": [
+      [
+        "mat_flesh",
+        0.9,
+        1
+      ],
+      [
+        "mat_core",
+        0.6,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_se_shuizhong",
+    "name": "水中咒灵",
+    "scene": "sc_sea",
+    "lvl": 4,
+    "rounds": 7,
+    "margin": 2.2,
+    "defF": 0.4,
+    "phyRes": 0.4,
+    "skills": [
+      "sk_hd_drain"
+    ],
+    "desc": "浪退下去的时候，它没跟着退。",
+    "loot": [
+      [
+        "mat_scale",
+        0.6,
+        1
+      ],
+      [
+        "mat_res",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_se_chao",
+    "name": "潮的咒灵",
+    "scene": "sc_sea",
+    "lvl": 5,
+    "rounds": 12,
+    "margin": 1.2,
+    "defF": 0.95,
+    "phyRes": 0.55,
+    "dmgType": "cur",
+    "boss": true,
+    "skills": [
+      "sk_hd_drain",
+      "k_blast"
+    ],
+    "desc": "一股水墙立起来，定在那儿不落。",
+    "loot": [
+      [
+        "mat_scale",
+        0.8,
+        1
+      ],
+      [
+        "mat_shard",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_se_yuanling",
+    "name": "渔港的怨灵",
+    "scene": "sc_sea",
+    "lvl": 5,
+    "rounds": 12,
+    "margin": 1.25,
+    "defF": 0.9,
+    "phyRes": 0.5,
+    "dmgType": "cur",
+    "boss": true,
+    "skills": [
+      "k_vow",
+      "sk_ji_purify"
+    ],
+    "desc": "船早沉了，船上的人还在等出港。",
+    "loot": [
+      [
+        "mat_bone",
+        0.7,
+        1
+      ],
+      [
+        "mat_coin",
+        0.5,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_sn_bing",
+    "name": "冰咒灵",
+    "scene": "sc_snow",
+    "lvl": 4,
+    "rounds": 7,
+    "margin": 2.2,
+    "defF": 0.45,
+    "phyRes": 0.45,
+    "skills": [
+      "k_armor",
+      "k_blast"
+    ],
+    "desc": "看起来像块冰，动了才知道不是。",
+    "loot": [
+      [
+        "mat_jade",
+        0.3,
+        1
+      ],
+      [
+        "mat_res",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_sn_xuenv",
+    "name": "雪女的咒灵",
+    "scene": "sc_snow",
+    "lvl": 5,
+    "rounds": 12,
+    "margin": 1.2,
+    "defF": 0.9,
+    "phyRes": 0.55,
+    "dmgType": "cur",
+    "boss": true,
+    "skills": [
+      "sk_hd_edge"
+    ],
+    "desc": "雪地里有人叫你名字，声音是你自己的。",
+    "loot": [
+      [
+        "mat_jade",
+        0.5,
+        1
+      ],
+      [
+        "mat_shard",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_sn_shouwang",
+    "name": "断崖的守望者",
+    "scene": "sc_snow",
+    "lvl": 5,
+    "rounds": 13,
+    "margin": 1.15,
+    "defF": 1.1,
+    "phyRes": 0.5,
+    "dmgType": "phy",
+    "boss": true,
+    "skills": [
+      "sk_hd_ward"
+    ],
+    "desc": "它在崖上站了很久，久到和崖长在一起。",
+    "loot": [
+      [
+        "mat_jade",
+        0.4,
+        1
+      ],
+      [
+        "mat_bone",
+        0.6,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_mt_jiejie",
+    "name": "结界咒灵",
+    "scene": "sc_mountain",
+    "lvl": 4,
+    "rounds": 8,
+    "margin": 2,
+    "defF": 0.6,
+    "phyRes": 0.45,
+    "dmgType": "cur",
+    "skills": [
+      "sk_kt_barrier"
+    ],
+    "desc": "石阶每一百级就有一层看不见的墙。",
+    "loot": [
+      [
+        "mat_paper",
+        0.5,
+        1
+      ],
+      [
+        "mat_res",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_mt_shanmen",
+    "name": "山门的守者",
+    "scene": "sc_mountain",
+    "lvl": 5,
+    "rounds": 12,
+    "margin": 1.2,
+    "defF": 1,
+    "phyRes": 0.5,
+    "dmgType": "cur",
+    "boss": true,
+    "skills": [
+      "k_vow",
+      "k_armor"
+    ],
+    "desc": "它守着门，但门后面早没人了。",
+    "loot": [
+      [
+        "mat_shard",
+        0.4,
+        1
+      ],
+      [
+        "ch_talisman",
+        0.3,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_mt_zuohua",
+    "name": "石窟的坐化咒灵",
+    "scene": "sc_mountain",
+    "lvl": 6,
+    "rounds": 13,
+    "margin": 1.15,
+    "defF": 1.15,
+    "phyRes": 0.6,
+    "dmgType": "cur",
+    "boss": true,
+    "skills": [
+      "sk_hd_ward",
+      "k_vow"
+    ],
+    "desc": "坐了一辈子，坐成了别的东西。",
+    "loot": [
+      [
+        "mat_lotus",
+        0.5,
+        1
+      ],
+      [
+        "mat_shard",
+        0.5,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_mk_dashou",
+    "name": "黑市打手",
+    "scene": "sc_market",
+    "lvl": 4,
+    "rounds": 8,
+    "margin": 2.1,
+    "defF": 0.7,
+    "curRes": 0.3,
+    "human": true,
+    "skills": [
+      "k_weapon",
+      "k_strike"
+    ],
+    "desc": "收了钱就办事，不问办的是什么事。",
+    "loot": [
+      [
+        "mat_coin",
+        0.6,
+        1
+      ],
+      [
+        "mat_steel",
+        0.3,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_mk_zousi",
+    "name": "走私商人",
+    "scene": "sc_market",
+    "lvl": 4,
+    "rounds": 7,
+    "margin": 2.4,
+    "defF": 0.5,
+    "curRes": 0.25,
+    "human": true,
+    "skills": [
+      "k_step",
+      "k_weapon"
+    ],
+    "desc": "一开打就往暗巷里退，身上全是好货。",
+    "loot": [
+      [
+        "mat_coin",
+        0.8,
+        1
+      ],
+      [
+        "cg_knife",
+        0.1,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_mk_hunter",
+    "name": "诅咒师猎人",
+    "scene": "sc_market",
+    "lvl": 5,
+    "rounds": 9,
+    "margin": 1.7,
+    "defF": 0.8,
+    "curRes": 0.45,
+    "human": true,
+    "skills": [
+      "k_weapon",
+      "k_sense"
+    ],
+    "desc": "他专门盯带咒具的人。",
+    "loot": [
+      [
+        "mat_steel",
+        0.5,
+        1
+      ],
+      [
+        "cg_blade",
+        0.1,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_mk_zhuangzhu",
+    "name": "黑市的庄主",
+    "scene": "sc_market",
+    "lvl": 5,
+    "rounds": 12,
+    "margin": 1.2,
+    "defF": 0.95,
+    "curRes": 0.5,
+    "dmgType": "cur",
+    "human": true,
+    "boss": true,
+    "skills": [
+      "sk_hm_bid",
+      "k_strike"
+    ],
+    "desc": "他坐的那把椅子，比摊子上所有东西都贵。",
+    "loot": [
+      [
+        "mat_coin",
+        1,
+        2
+      ],
+      [
+        "q_token",
+        0.2,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_mk_jujiang",
+    "name": "无名咒具师",
+    "scene": "sc_market",
+    "lvl": 6,
+    "rounds": 12,
+    "margin": 1.15,
+    "defF": 1,
+    "curRes": 0.45,
+    "dmgType": "phy",
+    "human": true,
+    "boss": true,
+    "skills": [
+      "sk_hm_bid",
+      "k_weapon"
+    ],
+    "desc": "他身上的每一件东西，都是他自己打的。",
+    "loot": [
+      [
+        "mat_steel",
+        0.8,
+        1
+      ],
+      [
+        "cg_chain",
+        0.12,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_rl_canzha",
+    "name": "领域残渣",
+    "scene": "sc_relic",
+    "lvl": 6,
+    "rounds": 9,
+    "margin": 1.9,
+    "defF": 0.8,
+    "phyRes": 0.5,
+    "dmgType": "cur",
+    "skills": [
+      "sk_hd_veil",
+      "k_blast"
+    ],
+    "desc": "三十年前的领域没关掉，剩下的东西还在原地重演。",
+    "loot": [
+      [
+        "mat_shard",
+        0.6,
+        1
+      ],
+      [
+        "mat_res",
+        0.5,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_rl_mahoraga",
+    "name": "魔虚罗",
+    "scene": "sc_relic",
+    "lvl": 7,
+    "rounds": 15,
+    "margin": 1.05,
+    "defF": 1.2,
+    "phyRes": 0.5,
+    "boss": true,
+    "dom": "dom_jukai",
+    "skills": [
+      "sk_rt_break",
+      "sk_rt_weak"
+    ],
+    "desc": "它把每一个人的招式都记着，一个一个还回来。",
+    "loot": [
+      [
+        "mat_shard",
+        0.7,
+        1
+      ],
+      [
+        "mat_core",
+        0.7,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_rl_kenjaku",
+    "name": "羂索（决战）",
+    "scene": "sc_relic",
+    "lvl": 8,
+    "rounds": 15,
+    "margin": 1.05,
+    "defF": 1.05,
+    "curRes": 0.65,
+    "dmgType": "cur",
+    "human": true,
+    "boss": true,
+    "dom": "dom_csm",
+    "skills": [
+      "sk_mui_soul",
+      "sk_mv_dismantle"
+    ],
+    "desc": "「这一千年，我就是在等一个能接住它的人。」",
+    "loot": [
+      [
+        "q_scroll",
+        0.4,
+        1
+      ],
+      [
+        "mat_shard",
+        0.8,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_rl_sukuna",
+    "name": "两面宿傩（终局形态）",
+    "scene": "sc_relic",
+    "lvl": 9,
+    "rounds": 18,
+    "margin": 0.98,
+    "defF": 1.5,
+    "phyRes": 0.35,
+    "curRes": 0.35,
+    "boss": true,
+    "dom": "dom_malevolent",
+    "skills": [
+      "sk_mv_dismantle",
+      "sk_mv_cleave",
+      "sk_mv_flame",
+      "sk_mv_web"
+    ],
+    "desc": "伏魔御厨子在雨里展开，你脚下那片地，已经不是这个世界了。",
+    "loot": [
+      [
+        "q_finger",
+        0.15,
+        1
+      ],
+      [
+        "mat_shard",
+        1,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "f_dummy",
+    "name": "练功木桩",
+    "scene": "sc_home",
+    "lvl": 3,
+    "rounds": 9999,
+    "margin": 9.9,
+    "defF": 0.55,
+    "dummy": true,
+    "desc": "一根裹着旧布的木头桩子，上面画着歪歪扭扭的咒纹。你打它，它不还手。",
+    "loot": []
+  },
+  {
+    "id": "f_nd_gull",
+    "name": "海鸥咒灵",
+    "scene": "sc_nd_port",
+    "lvl": 3,
+    "rounds": 7,
+    "margin": 2.3,
+    "defF": 0.45,
+    "phyRes": 0.35,
+    "skills": [
+      "k_punch"
+    ],
+    "desc": "叫声不像鸟，倒像有人学着鸟叫。",
+    "loot": [
+      [
+        "mat_scale",
+        0.4,
+        1
+      ],
+      [
+        "mat_herb",
+        0.3,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_nd_drowned",
+    "name": "溺者",
+    "scene": "sc_nd_port",
+    "lvl": 4,
+    "rounds": 9,
+    "margin": 1.85,
+    "defF": 0.6,
+    "curRes": 0.35,
+    "dmgType": "cur",
+    "skills": [
+      "k_blast"
+    ],
+    "desc": "它一直在咳水，可岸边一滴水都没有。",
+    "loot": [
+      [
+        "mat_flesh",
+        0.45,
+        1
+      ],
+      [
+        "mat_coin",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_nd_kraken",
+    "name": "峡湾之喉",
+    "scene": "sc_nd_port",
+    "lvl": 5,
+    "rounds": 12,
+    "margin": 1.4,
+    "defF": 0.9,
+    "phyRes": 0.5,
+    "boss": true,
+    "skills": [
+      "k_weapon",
+      "k_armor"
+    ],
+    "desc": "栈桥底下那团黑抬起来，比船还高。",
+    "loot": [
+      [
+        "mat_core",
+        0.55,
+        1
+      ],
+      [
+        "mat_scale",
+        0.5,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_nd_ash",
+    "name": "炉灰咒灵",
+    "scene": "sc_nd_village",
+    "lvl": 3,
+    "rounds": 8,
+    "margin": 2,
+    "defF": 0.5,
+    "skills": [
+      "k_blast"
+    ],
+    "desc": "从冷灶里爬出来，身上还带着余温。",
+    "loot": [
+      [
+        "mat_ink",
+        0.4,
+        1
+      ],
+      [
+        "mat_coin",
+        0.35,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_nd_ember",
+    "name": "残火",
+    "scene": "sc_nd_village",
+    "lvl": 4,
+    "rounds": 9,
+    "margin": 1.9,
+    "defF": 0.55,
+    "curRes": 0.4,
+    "dmgType": "cur",
+    "skills": [
+      "k_blast",
+      "k_sense"
+    ],
+    "desc": "它记得自己烧过谁，就是记不清脸。",
+    "loot": [
+      [
+        "mat_shard",
+        0.35,
+        1
+      ],
+      [
+        "mat_coin",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_nd_bark",
+    "name": "冻树皮",
+    "scene": "sc_nd_forest",
+    "lvl": 3,
+    "rounds": 9,
+    "margin": 1.95,
+    "defF": 0.75,
+    "phyRes": 0.45,
+    "skills": [
+      "k_armor"
+    ],
+    "desc": "看着是树，剥下来一层才知道里面有肉。",
+    "loot": [
+      [
+        "mat_bamboo",
+        0.45,
+        1
+      ],
+      [
+        "mat_bone",
+        0.3,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_nd_hoar",
+    "name": "霜",
+    "scene": "sc_nd_forest",
+    "lvl": 4,
+    "rounds": 8,
+    "margin": 2,
+    "defF": 0.5,
+    "curRes": 0.45,
+    "dmgType": "cur",
+    "skills": [
+      "k_step",
+      "k_strike"
+    ],
+    "desc": "它路过的地方，草叶会先白后碎。",
+    "loot": [
+      [
+        "mat_jade",
+        0.3,
+        1
+      ],
+      [
+        "mat_res",
+        0.35,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_nd_undertow",
+    "name": "暗流",
+    "scene": "sc_nd_lake",
+    "lvl": 4,
+    "rounds": 9,
+    "margin": 1.8,
+    "defF": 0.6,
+    "phyRes": 0.3,
+    "skills": [
+      "k_strike"
+    ],
+    "desc": "它不出水面，只把东西往下拉。",
+    "loot": [
+      [
+        "mat_scale",
+        0.4,
+        1
+      ],
+      [
+        "mat_coin",
+        0.4,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_nd_iceeye",
+    "name": "冰眼",
+    "scene": "sc_nd_lake",
+    "lvl": 5,
+    "rounds": 10,
+    "margin": 1.7,
+    "defF": 0.7,
+    "curRes": 0.5,
+    "dmgType": "cur",
+    "skills": [
+      "k_blast",
+      "k_sense"
+    ],
+    "desc": "冰层下面睁开的一只眼，一直看着你。",
+    "loot": [
+      [
+        "mat_jade",
+        0.35,
+        1
+      ],
+      [
+        "mat_core",
+        0.25,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_nd_rika",
+    "name": "里香",
+    "scene": "sc_nd_forest",
+    "lvl": 6,
+    "rounds": 12,
+    "margin": 1.3,
+    "defF": 1.05,
+    "curRes": 0.55,
+    "boss": true,
+    "dom": "dom_mimic",
+    "skills": [
+      "k_armor",
+      "sk_mm_rika",
+      "sk_mm_borrow"
+    ],
+    "desc": "冻林最深处立着一个白色的影子。那件衣服旧得发白，她没有脸 —— 但她一直看着你，像在等一个早就该来的人。",
+    "loot": [
+      [
+        "mat_core",
+        0.6,
+        1
+      ],
+      [
+        "mat_jade",
+        0.5,
+        1
+      ],
+      [
+        "mat_hair",
+        0.45,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_nd_frost",
+    "name": "冻湖之主",
+    "scene": "sc_nd_lake",
+    "lvl": 5,
+    "rounds": 12,
+    "margin": 1.4,
+    "defF": 0.95,
+    "curRes": 0.6,
+    "boss": true,
+    "skills": [
+      "k_blast",
+      "k_armor"
+    ],
+    "desc": "湖面裂开的声音，是它在起身。",
+    "loot": [
+      [
+        "mat_core",
+        0.6,
+        1
+      ],
+      [
+        "mat_shard",
+        0.45,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "f_b_gojo",
+    "name": "五条悟",
+    "lvl": 9,
+    "rounds": 26,
+    "margin": 1.1,
+    "defF": 1.8,
+    "phyRes": 0.45,
+    "curRes": 0.45,
+    "human": true,
+    "boss": true,
+    "dom": "dom_mukagen",
+    "domForms": [
+      "closed",
+      "open"
+    ],
+    "endlessDom": true,
+    "endlessCur": true,
+    "gentleWord": "五条悟老师我是你的学生啊",
+    "gentleSay": "你好",
+    "skills": [
+      "sk_mk_limitless",
+      "sk_mk_blue",
+      "sk_mk_red",
+      "sk_mk_move",
+      "sk_mk_purple",
+      "k_punch",
+      "k_blast",
+      "k_strike",
+      "k_vow",
+      "k_flow",
+      "k_armor",
+      "k_reverse",
+      "k_barrier",
+      "k_weapon",
+      "k_step",
+      "k_sense"
+    ],
+    "desc": "眼罩往上一推，六眼底下什么都瞒不住 —— 包括你。",
+    "loot": []
+  }
+]
